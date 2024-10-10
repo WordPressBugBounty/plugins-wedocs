@@ -3,9 +3,9 @@ Contributors: tareq1988, wedevs
 Donate link: http://wedocs.co/
 Tags: WordPress documentation plugin, WordPress docs plugin, Documentation, Knowledge base, Wiki
 Requires at least: 5.6
-Tested up to: 6.5.3
+Tested up to: 6.6.2
 Requires PHP: 7.4
-Stable tag: 2.1.7
+Stable tag: 2.1.8
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Discover weDocs, the ultimate WordPress documentation plugin. Easily create, manage, and organize content with seamless integration and a user-friendly interface.
@@ -236,6 +236,11 @@ Can’t wait to join us?
 
 
 == Changelog ==
+
+= v2.1.8 (10th Oct, 2024) =
+
+* 🛠️ [FIX] Redirect to a new design after trashing a doc.
+* 🛠️ [FIX] Handle hash router issue for the documentation page.
 
 = v2.1.7 (22th Aug, 2024) =
 
