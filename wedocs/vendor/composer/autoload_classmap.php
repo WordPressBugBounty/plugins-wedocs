@@ -34,6 +34,7 @@ return array(
     'WeDevs\\WeDocs\\Upgrader\\Upgrader' => $baseDir . '/includes/Upgrader/Upgrader.php',
     'WeDevs\\WeDocs\\Upgrader\\Upgrades\\Upgrades' => $baseDir . '/includes/Upgrader/Upgrades/Upgrades.php',
     'WeDevs\\WeDocs\\Upgrader\\Upgrades\\V_2_0_2' => $baseDir . '/includes/Upgrader/Upgrades/V_2_0_2.php',
+    'WeDevs\\WeDocs\\Upgrader\\Upgrades\\V_2_1_17' => $baseDir . '/includes/Upgrader/Upgrades/V_2_1_17.php',
     'WeDevs\\WeDocs\\Walker' => $baseDir . '/includes/Walker.php',
     'WeDevs\\WeDocs\\Widget' => $baseDir . '/includes/Widget.php',
 );

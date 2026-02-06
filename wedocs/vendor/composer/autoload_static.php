@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit0a426e8617862fe4bf0b954a737d5cd3
+class ComposerStaticInit3acee3a5a1a957c05a6e46cd38c4183b
 {
     public static $files = array (
         'bc33bdda64b68124ebec25fc6f289c9e' => __DIR__ . '/../..' . '/includes/functions.php',
@@ -53,6 +53,7 @@ class ComposerStaticInit0a426e8617862fe4bf0b954a737d5cd3
         'WeDevs\\WeDocs\\Upgrader\\Upgrader' => __DIR__ . '/../..' . '/includes/Upgrader/Upgrader.php',
         'WeDevs\\WeDocs\\Upgrader\\Upgrades\\Upgrades' => __DIR__ . '/../..' . '/includes/Upgrader/Upgrades/Upgrades.php',
         'WeDevs\\WeDocs\\Upgrader\\Upgrades\\V_2_0_2' => __DIR__ . '/../..' . '/includes/Upgrader/Upgrades/V_2_0_2.php',
+        'WeDevs\\WeDocs\\Upgrader\\Upgrades\\V_2_1_17' => __DIR__ . '/../..' . '/includes/Upgrader/Upgrades/V_2_1_17.php',
         'WeDevs\\WeDocs\\Walker' => __DIR__ . '/../..' . '/includes/Walker.php',
         'WeDevs\\WeDocs\\Widget' => __DIR__ . '/../..' . '/includes/Widget.php',
     );
@@ -60,9 +61,9 @@ class ComposerStaticInit0a426e8617862fe4bf0b954a737d5cd3
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit0a426e8617862fe4bf0b954a737d5cd3::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit0a426e8617862fe4bf0b954a737d5cd3::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit0a426e8617862fe4bf0b954a737d5cd3::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit3acee3a5a1a957c05a6e46cd38c4183b::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit3acee3a5a1a957c05a6e46cd38c4183b::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit3acee3a5a1a957c05a6e46cd38c4183b::$classMap;
 
         }, null, ClassLoader::class);
     }
