@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit3acee3a5a1a957c05a6e46cd38c4183b
+class ComposerStaticInit1ecb3eb269dddb169119e440caf90622
 {
     public static $files = array (
         'bc33bdda64b68124ebec25fc6f289c9e' => __DIR__ . '/../..' . '/includes/functions.php',
@@ -41,10 +41,17 @@ class ComposerStaticInit3acee3a5a1a957c05a6e46cd38c4183b
         'WeDevs\\WeDocs\\Appsero\\License' => __DIR__ . '/../..' . '/includes/Appsero/License.php',
         'WeDevs\\WeDocs\\Assets' => __DIR__ . '/../..' . '/includes/Assets.php',
         'WeDevs\\WeDocs\\Capability' => __DIR__ . '/../..' . '/includes/Capability.php',
+        'WeDevs\\WeDocs\\Elementor' => __DIR__ . '/../..' . '/includes/Elementor.php',
+        'WeDevs\\WeDocs\\Elementor\\Widgets\\DocsGrid' => __DIR__ . '/../..' . '/includes/Elementor/Widgets/DocsGrid.php',
+        'WeDevs\\WeDocs\\Elementor\\Widgets\\Search' => __DIR__ . '/../..' . '/includes/Elementor/Widgets/Search.php',
         'WeDevs\\WeDocs\\Frontend' => __DIR__ . '/../..' . '/includes/Frontend.php',
         'WeDevs\\WeDocs\\Installer' => __DIR__ . '/../..' . '/includes/Installer.php',
         'WeDevs\\WeDocs\\Post_Types' => __DIR__ . '/../..' . '/includes/Post_Types.php',
         'WeDevs\\WeDocs\\Shortcode' => __DIR__ . '/../..' . '/includes/Shortcode.php',
+        'WeDevs\\WeDocs\\Templates\\AbstractPageTemplate' => __DIR__ . '/../..' . '/includes/Templates/AbstractPageTemplate.php',
+        'WeDevs\\WeDocs\\Templates\\AbstractTemplate' => __DIR__ . '/../..' . '/includes/Templates/AbstractTemplate.php',
+        'WeDevs\\WeDocs\\Templates\\SingleDocTemplate' => __DIR__ . '/../..' . '/includes/Templates/SingleDocTemplate.php',
+        'WeDevs\\WeDocs\\Templates\\TemplateManager' => __DIR__ . '/../..' . '/includes/Templates/TemplateManager.php',
         'WeDevs\\WeDocs\\Theme\\Astra' => __DIR__ . '/../..' . '/includes/Theme/Astra.php',
         'WeDevs\\WeDocs\\Theme\\Twenty_Fifteen' => __DIR__ . '/../..' . '/includes/Theme/Twenty_Fifteen.php',
         'WeDevs\\WeDocs\\Theme\\Twenty_Seventeen' => __DIR__ . '/../..' . '/includes/Theme/Twenty_Seventeen.php',
@@ -61,9 +68,9 @@ class ComposerStaticInit3acee3a5a1a957c05a6e46cd38c4183b
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit3acee3a5a1a957c05a6e46cd38c4183b::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit3acee3a5a1a957c05a6e46cd38c4183b::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit3acee3a5a1a957c05a6e46cd38c4183b::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit1ecb3eb269dddb169119e440caf90622::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit1ecb3eb269dddb169119e440caf90622::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit1ecb3eb269dddb169119e440caf90622::$classMap;
 
         }, null, ClassLoader::class);
     }
