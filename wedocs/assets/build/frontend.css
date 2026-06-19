@@ -332,7 +332,7 @@ body.single.single-docs .content-area {
   clear: both;
 }
 .wedocs-single-wrap .wedocs-sidebar {
-  width: 25%;
+  width: 20%;
 }
 .wedocs-single-wrap .wedocs-sidebar h3.widget-title {
   font-weight: bold;
@@ -427,7 +427,7 @@ body.single.single-docs .content-area {
   color: #06b6d4;
 }
 .wedocs-single-wrap .wedocs-single-content {
-  width: 75%;
+  width: 80%;
   border-left: 1px solid #eee;
   padding-left: 25px;
 }
@@ -713,6 +713,23 @@ body.single.single-docs .content-area {
 .wedocs-shortcode-wrap ul.wedocs-docs-list li.wedocs-docs-single .divider {
   margin-top: 20px;
   margin-bottom: 38px;
+}
+.wedocs-shortcode-wrap ul.wedocs-docs-list li.wedocs-docs-single .wedocs-doc-link .wedocs-view-details-btn {
+  display: inline-block;
+  padding: 10px 24px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #3B82F6;
+  background: transparent;
+  border: 1px solid #3B82F6;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+}
+.wedocs-shortcode-wrap ul.wedocs-docs-list li.wedocs-docs-single .wedocs-doc-link .wedocs-view-details-btn:hover {
+  color: #fff;
+  background: #3B82F6;
 }
 .wedocs-shortcode-wrap ul.wedocs-docs-list ul.wedocs-doc-sections {
   margin: 0;
@@ -1118,18 +1135,106 @@ footer.entry-footer.wedocs-entry-footer.on .help-content .help-button #wedocs-st
     transform: rotate(359deg);
   }
 }
+.dokan-wedocs-content .dokan-panel-body {
+  line-height: 1.7;
+  color: #374151;
+}
+.dokan-wedocs-content .dokan-panel-body p {
+  margin: 0 0 1em;
+}
+.dokan-wedocs-content .dokan-panel-body h1,
+.dokan-wedocs-content .dokan-panel-body h2,
+.dokan-wedocs-content .dokan-panel-body h3,
+.dokan-wedocs-content .dokan-panel-body h4,
+.dokan-wedocs-content .dokan-panel-body h5,
+.dokan-wedocs-content .dokan-panel-body h6 {
+  font-weight: 600;
+  line-height: 1.3;
+  margin: 1.5em 0 0.5em;
+  color: #111827;
+}
+.dokan-wedocs-content .dokan-panel-body h1 {
+  font-size: 1.75em;
+}
+.dokan-wedocs-content .dokan-panel-body h2 {
+  font-size: 1.4em;
+}
+.dokan-wedocs-content .dokan-panel-body h3 {
+  font-size: 1.2em;
+}
+.dokan-wedocs-content .dokan-panel-body h4 {
+  font-size: 1.05em;
+}
+.dokan-wedocs-content .dokan-panel-body h5,
+.dokan-wedocs-content .dokan-panel-body h6 {
+  font-size: 1em;
+}
+.dokan-wedocs-content .dokan-panel-body ul,
+.dokan-wedocs-content .dokan-panel-body ol {
+  margin: 0 0 1em 1.5em;
+  padding: 0;
+}
+.dokan-wedocs-content .dokan-panel-body ul li,
+.dokan-wedocs-content .dokan-panel-body ol li {
+  margin-bottom: 0.25em;
+}
+.dokan-wedocs-content .dokan-panel-body ul {
+  list-style: disc;
+}
+.dokan-wedocs-content .dokan-panel-body ol {
+  list-style: decimal;
+}
+.dokan-wedocs-content .dokan-panel-body blockquote {
+  border-left: 4px solid #eee;
+  margin: 1em 0;
+  padding: 0.5em 1em;
+  color: #6b7280;
+  font-style: italic;
+}
+.dokan-wedocs-content .dokan-panel-body a {
+  color: #3B82F6;
+  text-decoration: underline;
+}
+.dokan-wedocs-content .dokan-panel-body strong,
+.dokan-wedocs-content .dokan-panel-body b {
+  font-weight: 600;
+  color: #111827;
+}
+.dokan-wedocs-content .dokan-panel-body code {
+  font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+  font-size: 0.875em;
+  background: #f3f4f6;
+  border: 1px solid #e5e7eb;
+  border-radius: 3px;
+  padding: 0.1em 0.35em;
+}
+.dokan-wedocs-content .dokan-panel-body hr {
+  border: none;
+  border-top: 1px solid #eee;
+  margin: 1.5em 0;
+}
+.dokan-wedocs-content .dokan-panel-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1em;
+  font-size: 0.9em;
+}
+.dokan-wedocs-content .dokan-panel-body table th,
+.dokan-wedocs-content .dokan-panel-body table td {
+  border: 1px solid #eee;
+  padding: 0.5em 0.75em;
+  text-align: left;
+}
+.dokan-wedocs-content .dokan-panel-body table th {
+  background: #f9fafb;
+  font-weight: 600;
+}
 @media screen and (max-width: 1024px) {
   .feedback-content .wedocs-feedback-wrap {
     line-height: 46px;
   }
   .feedback-content .wedocs-feedback-wrap .vote-link-wrap {
     display: block;
-  }
-  .wedocs-hide-mobile {
-    display: none !important;
-  }
-  #wedocs-single-doc-search-modal .doc-search-container {
-    padding: 23vh 5vw;
   }
 }
 @media screen and (max-width: 768px) {
@@ -1176,7 +1281,7 @@ footer.entry-footer.wedocs-entry-footer.on .help-content .help-button #wedocs-st
     margin: 0;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 425px) {
   .wedocs-hide-mobile {
     display: none;
   }

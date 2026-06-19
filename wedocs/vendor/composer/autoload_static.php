@@ -4,21 +4,21 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit728429da91f673835f456f9c3df4e915
+class ComposerStaticInit116350e1527c41e68b0c663fd18e52db
 {
     public static $files = array (
         'bc33bdda64b68124ebec25fc6f289c9e' => __DIR__ . '/../..' . '/includes/functions.php',
     );
 
     public static $prefixLengthsPsr4 = array (
-        'W' => 
+        'W' =>
         array (
             'WeDevs\\WeDocs\\' => 14,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'WeDevs\\WeDocs\\' => 
+        'WeDevs\\WeDocs\\' =>
         array (
             0 => __DIR__ . '/../..' . '/includes',
         ),
@@ -41,6 +41,7 @@ class ComposerStaticInit728429da91f673835f456f9c3df4e915
         'WeDevs\\WeDocs\\Appsero\\License' => __DIR__ . '/../..' . '/includes/Appsero/License.php',
         'WeDevs\\WeDocs\\Assets' => __DIR__ . '/../..' . '/includes/Assets.php',
         'WeDevs\\WeDocs\\Capability' => __DIR__ . '/../..' . '/includes/Capability.php',
+        'WeDevs\\WeDocs\\Dokan\\VendorDashboard' => __DIR__ . '/../..' . '/includes/Dokan/VendorDashboard.php',
         'WeDevs\\WeDocs\\Elementor' => __DIR__ . '/../..' . '/includes/Elementor.php',
         'WeDevs\\WeDocs\\Elementor\\Widgets\\DocsGrid' => __DIR__ . '/../..' . '/includes/Elementor/Widgets/DocsGrid.php',
         'WeDevs\\WeDocs\\Elementor\\Widgets\\Search' => __DIR__ . '/../..' . '/includes/Elementor/Widgets/Search.php',
@@ -63,14 +64,15 @@ class ComposerStaticInit728429da91f673835f456f9c3df4e915
         'WeDevs\\WeDocs\\Upgrader\\Upgrades\\V_2_1_17' => __DIR__ . '/../..' . '/includes/Upgrader/Upgrades/V_2_1_17.php',
         'WeDevs\\WeDocs\\Walker' => __DIR__ . '/../..' . '/includes/Walker.php',
         'WeDevs\\WeDocs\\Widget' => __DIR__ . '/../..' . '/includes/Widget.php',
+        'Wedevs\\WeDocs\\Admin\\Promotion' => __DIR__ . '/../..' . '/includes/Admin/Promotion.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit728429da91f673835f456f9c3df4e915::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit728429da91f673835f456f9c3df4e915::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit728429da91f673835f456f9c3df4e915::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit116350e1527c41e68b0c663fd18e52db::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit116350e1527c41e68b0c663fd18e52db::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit116350e1527c41e68b0c663fd18e52db::$classMap;
 
         }, null, ClassLoader::class);
     }

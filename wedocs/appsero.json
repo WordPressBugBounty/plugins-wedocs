@@ -1,0 +1,32 @@
+{
+  "exclude": [
+    ".gitignore",
+    ".editorconfig",
+    ".php_cs",
+    ".phpcs.xml.dist",
+    ".svnignore",
+    ".travis.yml",
+    ".bablerc.js",
+    ".prettierrc",
+    "postcss.config.js",
+    "tailwind.config.js",
+    "webpack.config.js",
+    "LICENSE",
+    "readme.md",
+    "appsero.json",
+    "composer.json",
+    "composer.lock",
+    "package.json",
+    "package-lock.json",
+    "phpunit.xml.dist",
+    "bin",
+    "tests",
+    "src",
+    ".wordpress-org",
+    ".github",
+    ".distignore",
+    ".eslintrc",
+    ".claude",
+    "FILTERS.md"
+  ]
+}
