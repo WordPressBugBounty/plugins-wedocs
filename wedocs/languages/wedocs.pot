@@ -2,14 +2,14 @@
 # This file is distributed under the GPL2.
 msgid ""
 msgstr ""
-"Project-Id-Version: weDocs 2.3.0\n"
+"Project-Id-Version: weDocs 2.3.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wedocs-plugin\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-06-19T09:35:34+00:00\n"
+"POT-Creation-Date: 2026-06-29T04:42:55+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: wedocs\n"
@@ -205,8 +205,8 @@ msgstr ""
 msgid "No results found. Try different keywords."
 msgstr ""
 
-#: assets/build/blocks/Sidebar/render.php:336
-#: src/blocks/Sidebar/render.php:336
+#: assets/build/blocks/Sidebar/render.php:392
+#: src/blocks/Sidebar/render.php:392
 #: assets/build/block.js:1
 #: assets/build/blocks/Sidebar/index.js:1
 #: src/blocks/Sidebar/components/SidebarContainer.js:21
@@ -317,20 +317,29 @@ msgstr ""
 msgid "Migration"
 msgstr ""
 
-#: includes/Admin/Migrate.php:61
+#: includes/Admin/Migrate.php:65
+#: includes/Ajax.php:389
+msgid "Security verification failed."
+msgstr ""
+
+#: includes/Admin/Migrate.php:72
+msgid "You are not allowed to perform this action."
+msgstr ""
+
+#: includes/Admin/Migrate.php:91
 msgid "BetterDocs not exists."
 msgstr ""
 
-#: includes/Admin/Migrate.php:71
-#: includes/Admin/Migrate.php:81
+#: includes/Admin/Migrate.php:101
+#: includes/Admin/Migrate.php:111
 msgid "Migration done."
 msgstr ""
 
-#: includes/Admin/Migrate.php:89
+#: includes/Admin/Migrate.php:119
 msgid "Migration not available at this moment."
 msgstr ""
 
-#: includes/Admin/Migrate.php:184
+#: includes/Admin/Migrate.php:214
 #: assets/build/index.js:7
 #: src/components/Migrations/Modals/MigrationContentMappingModal.js:11
 msgid "Untitled Docs"
@@ -374,10 +383,6 @@ msgstr ""
 
 #: includes/Ajax.php:233
 msgid "Thanks for your feedback."
-msgstr ""
-
-#: includes/Ajax.php:389
-msgid "Security verification failed."
 msgstr ""
 
 #: includes/Ajax.php:400
@@ -6651,7 +6656,7 @@ msgid "Restrict editing for admin only"
 msgstr ""
 
 #: assets/build/index.js:1
-#: src/components/DocActions.js:116
+#: src/components/DocActions.js:118
 #: src/components/DocListing/ArticleChildrens.js:147
 #: src/components/DocListing/DocSections.js:189
 #: src/components/DocListing/ListingHeader.js:44
@@ -6797,49 +6802,49 @@ msgid "Update and Publish"
 msgstr ""
 
 #: assets/build/index.js:1
-#: src/components/DocActions.js:105
+#: src/components/DocActions.js:107
 #: src/components/DocListing/ArticleChildrens.js:126
 #: src/components/DocListing/SectionArticles.js:210
 msgid "Quick Edit"
 msgstr ""
 
 #: assets/build/index.js:1
-#: src/components/DocActions.js:125
+#: src/components/DocActions.js:127
 msgid "View"
 msgstr ""
 
 #: assets/build/index.js:1
-#: src/components/DocActions.js:49
+#: src/components/DocActions.js:51
 msgid "Removed from vendor docs"
 msgstr ""
 
 #: assets/build/index.js:1
-#: src/components/DocActions.js:50
+#: src/components/DocActions.js:52
 msgid "Marked as vendor doc"
 msgstr ""
 
 #: assets/build/index.js:1
-#: src/components/DocActions.js:134
+#: src/components/DocActions.js:136
 msgid "Unmark as vendor doc"
 msgstr ""
 
 #: assets/build/index.js:1
-#: src/components/DocActions.js:134
+#: src/components/DocActions.js:136
 msgid "Mark as vendor doc"
 msgstr ""
 
 #: assets/build/index.js:1
-#: src/components/DocActions.js:142
+#: src/components/DocActions.js:144
 msgid "Publish Now"
 msgstr ""
 
 #: assets/build/index.js:1
-#: src/components/DocActions.js:142
+#: src/components/DocActions.js:144
 msgid "Switch to Draft"
 msgstr ""
 
 #: assets/build/index.js:1
-#: src/components/DocActions.js:159
+#: src/components/DocActions.js:161
 #: src/components/DocListing/DocSections.js:241
 msgid "Delete"
 msgstr ""
@@ -7376,7 +7381,7 @@ msgstr ""
 #: assets/build/index.js:1
 #: assets/build/index.js:7
 #: src/components/Documentations/EmptyDocs.js:84
-#: src/components/Migrations/index.js:203
+#: src/components/Migrations/index.js:207
 msgid "Learn more "
 msgstr ""
 
@@ -7531,42 +7536,42 @@ msgid "Continue"
 msgstr ""
 
 #: assets/build/index.js:7
-#: src/components/Migrations/index.js:193
+#: src/components/Migrations/index.js:197
 msgid "Migration has been successful"
 msgstr ""
 
 #: assets/build/index.js:7
-#: src/components/Migrations/index.js:193
+#: src/components/Migrations/index.js:197
 msgid "Migrate existing docs from BetterDocs to weDocs"
 msgstr ""
 
 #: assets/build/index.js:7
-#: src/components/Migrations/index.js:206
+#: src/components/Migrations/index.js:210
 msgid "All existing docs have been successfully migrated from BetterDocs to weDocs."
 msgstr ""
 
 #: assets/build/index.js:7
-#: src/components/Migrations/index.js:206
+#: src/components/Migrations/index.js:210
 msgid "how to migrate docs"
 msgstr ""
 
 #: assets/build/index.js:7
-#: src/components/Migrations/index.js:227
+#: src/components/Migrations/index.js:231
 msgid "Already Migrated"
 msgstr ""
 
 #: assets/build/index.js:7
-#: src/components/Migrations/index.js:243
+#: src/components/Migrations/index.js:247
 msgid "Start Migration"
 msgstr ""
 
 #: assets/build/index.js:7
-#: src/components/Migrations/index.js:270
+#: src/components/Migrations/index.js:274
 msgid "Go back to Docs"
 msgstr ""
 
 #: assets/build/index.js:7
-#: src/components/Migrations/index.js:290
+#: src/components/Migrations/index.js:294
 msgid "Migration not required"
 msgstr ""
 
