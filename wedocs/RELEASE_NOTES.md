@@ -1,7 +1,9 @@
 ## Changelog
 
-**v2.3.1 (29 Jun, 2026)**
-- **Security:** Fixed a stored XSS vulnerability in the Sidebar block where crafted connector-width and heading-tag attributes could inject scripts into rendered pages.
-- **Security:** Added administrator capability and nonce verification to the BetterDocs migration so it can no longer be triggered by lower-privileged users.
-- **Fixed:** The vendor documentation action now appears only when Dokan is active.
+**v2.4.0 (21 Jul, 2026)**
+- **Added:** Documentation Dashboard with a knowledge base analytics overview — see total docs, article views and reader feedback for your WordPress documentation at a glance.
+- **Added:** Premium page with a Lite vs Pro documentation feature comparison, pricing plans and a video walkthrough of Dokan vendor documentation.
+- **Added:** Changelog preview in Settings, so you can see how a product changelog page looks for your docs site before upgrading to Pro.
+- **Improved:** Pro-only General and AI documentation settings are now clearly marked as disabled instead of appearing editable.
+- **Security:** Hardened the AI summary, documentation listing, Quick Search and helpful feedback REST endpoints against unauthorized access.
 
