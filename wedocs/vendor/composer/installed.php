@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'tareq1988/wedocs',
-        'pretty_version' => 'v2.4.0',
-        'version' => '2.4.0.0',
-        'reference' => '7418e32b2800786e814cb12892992e9aa8f47b05',
+        'pretty_version' => 'v2.4.1',
+        'version' => '2.4.1.0',
+        'reference' => 'fe0643ccc0d79e99eee471e7a1a77d3109e8a3ab',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'tareq1988/wedocs' => array(
-            'pretty_version' => 'v2.4.0',
-            'version' => '2.4.0.0',
-            'reference' => '7418e32b2800786e814cb12892992e9aa8f47b05',
+            'pretty_version' => 'v2.4.1',
+            'version' => '2.4.1.0',
+            'reference' => 'fe0643ccc0d79e99eee471e7a1a77d3109e8a3ab',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

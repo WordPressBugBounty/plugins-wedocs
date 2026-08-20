@@ -2518,6 +2518,36 @@ input:where([type='file']):focus {
   place-items: center;
   text-align: center;
   min-width: 4rem;
+}.swap {
+  position: relative;
+  display: inline-grid;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  place-content: center;
+  cursor: pointer;
+}.swap > * {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: transform, opacity;
+}.swap input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}.swap .swap-on,
+.swap .swap-indeterminate,
+.swap input:indeterminate ~ .swap-on {
+  opacity: 0;
+}.swap input:checked ~ .swap-off,
+.swap.swap-active .swap-off,
+.swap input:indeterminate ~ .swap-off {
+  opacity: 0;
+}.swap input:checked ~ .swap-on,
+.swap-active .swap-on,
+.swap input:indeterminate ~ .swap-indeterminate {
+  opacity: 1;
 }.tabs {
   display: flex;
   flex-wrap: wrap;
@@ -4862,9 +4892,6 @@ input:where([type='file']):focus {
 }.wedocs-document .bg-\[\#E7E6FF\] {
   --tw-bg-opacity: 1;
   background-color: rgb(231 230 255 / var(--tw-bg-opacity, 1));
-}.wedocs-document .bg-\[\#ECFDF5\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(236 253 245 / var(--tw-bg-opacity, 1));
 }.wedocs-document .bg-\[\#F3F4F6\] {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1));
@@ -5183,6 +5210,8 @@ input:where([type='file']):focus {
   padding-left: 0.125rem;
 }.wedocs-document .pl-10 {
   padding-left: 2.5rem;
+}.wedocs-document .pl-2 {
+  padding-left: 0.5rem;
 }.wedocs-document .pl-2\.5 {
   padding-left: 0.625rem;
 }.wedocs-document .pl-3 {
@@ -5357,9 +5386,6 @@ input:where([type='file']):focus {
 }.wedocs-document .text-\[\#0043FF\] {
   --tw-text-opacity: 1;
   color: rgb(0 67 255 / var(--tw-text-opacity, 1));
-}.wedocs-document .text-\[\#047857\] {
-  --tw-text-opacity: 1;
-  color: rgb(4 120 87 / var(--tw-text-opacity, 1));
 }.wedocs-document .text-\[\#0E0E0F\] {
   --tw-text-opacity: 1;
   color: rgb(14 14 15 / var(--tw-text-opacity, 1));
@@ -5997,6 +6023,8 @@ input:where([type='file']):focus {
   background-color: rgb(242 242 242 / var(--tw-bg-opacity, 1));
 }.wedocs-document .disabled\:opacity-40:disabled {
   opacity: 0.4;
+}.wedocs-document .disabled\:opacity-50:disabled {
+  opacity: 0.5;
 }.wedocs-document .disabled\:opacity-60:disabled {
   opacity: 0.6;
 }.wedocs-document .disabled\:opacity-75:disabled {

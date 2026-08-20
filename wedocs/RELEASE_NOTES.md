@@ -1,9 +1,6 @@
 ## Changelog
 
-**v2.4.0 (21 Jul, 2026)**
-- **Added:** Documentation Dashboard with a knowledge base analytics overview — see total docs, article views and reader feedback for your WordPress documentation at a glance.
-- **Added:** Premium page with a Lite vs Pro documentation feature comparison, pricing plans and a video walkthrough of Dokan vendor documentation.
-- **Added:** Changelog preview in Settings, so you can see how a product changelog page looks for your docs site before upgrading to Pro.
-- **Improved:** Pro-only General and AI documentation settings are now clearly marked as disabled instead of appearing editable.
-- **Security:** Hardened the AI summary, documentation listing, Quick Search and helpful feedback REST endpoints against unauthorized access.
+**v2.4.1 (20 Aug, 2026)**
+- **Update:** Tested up to WordPress 7.1.
+- **Fixed:** The documentation admin page took 40-60 seconds to load on sites with a few hundred docs. Comment counts are now read from the post record instead of counting comments per doc, root docs are paginated through a dedicated listing endpoint, and a doc's sections and articles load when it is opened rather than all up front.
 
