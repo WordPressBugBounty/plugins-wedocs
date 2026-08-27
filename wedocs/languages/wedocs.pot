@@ -2,22 +2,22 @@
 # This file is distributed under the GPL2.
 msgid ""
 msgstr ""
-"Project-Id-Version: weDocs 2.4.1\n"
+"Project-Id-Version: weDocs 2.5.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wedocs-plugin\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-08-20T10:39:15+00:00\n"
+"POT-Creation-Date: 2026-08-27T11:35:36+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: wedocs\n"
 
 #. Plugin Name of the plugin
 #: wedocs.php
-#: includes/Admin/Menu.php:46
 #: includes/Admin/Menu.php:47
+#: includes/Admin/Menu.php:48
 #: includes/Elementor.php:29
 #: wedocs.php:272
 msgid "weDocs"
@@ -52,7 +52,7 @@ msgid "Home"
 msgstr ""
 
 #: assets/build/blocks/Breadcrumb/render.php:253
-#: includes/Post_Types.php:42
+#: includes/Post_Types.php:46
 #: src/blocks/Breadcrumb/render.php:253
 #: templates/vendor-docs.php:19
 #: templates/vendor-single-doc.php:206
@@ -74,12 +74,14 @@ msgstr ""
 #: includes/Ajax.php:370
 #: includes/Elementor/Widgets/DocsGrid.php:222
 #: includes/Elementor/Widgets/DocsGrid.php:2765
-#: includes/Shortcode.php:48
+#: includes/Shortcode.php:49
 #: src/blocks/DocsGrid/render.php:87
 #: templates/vendor-docs.php:92
 #: assets/build/block.js:1
 #: assets/build/blocks/DocsGrid/index.js:1
+#: assets/build/index.js:1
 #: src/blocks/DocsGrid/edit.js:107
+#: src/components/Settings/ShortcodeSettings.js:54
 msgid "View Details"
 msgstr ""
 
@@ -257,7 +259,7 @@ msgstr ""
 
 #: includes/Admin.php:92
 #: includes/Admin.php:113
-#: includes/Admin/ChangelogUpsell.php:118
+#: includes/Admin/ChangelogUpsell.php:120
 #: assets/build/index.js:13
 #: src/components/Premium/index.js:298
 #: src/components/Premium/index.js:704
@@ -271,7 +273,7 @@ msgstr ""
 
 #: includes/Admin.php:94
 #: includes/Admin.php:116
-#: includes/Admin/Menu.php:78
+#: includes/Admin/Menu.php:178
 #: includes/Dokan/VendorDashboard.php:65
 #: includes/functions.php:153
 msgid "Docs"
@@ -305,38 +307,39 @@ msgstr ""
 msgid "Changelogs"
 msgstr ""
 
-#: includes/Admin/ChangelogUpsell.php:91
+#: includes/Admin/ChangelogUpsell.php:93
 msgid "Publish a beautiful changelog timeline at /changelog"
 msgstr ""
 
-#: includes/Admin/ChangelogUpsell.php:92
+#: includes/Admin/ChangelogUpsell.php:94
 msgid "Group updates into channels (Free, Pro, …) with their own pages"
 msgstr ""
 
-#: includes/Admin/ChangelogUpsell.php:93
+#: includes/Admin/ChangelogUpsell.php:95
 msgid "Colour-coded categories: Fixes, Improvements, New feature, New releases"
 msgstr ""
 
-#: includes/Admin/ChangelogUpsell.php:94
+#: includes/Admin/ChangelogUpsell.php:96
 msgid "Customisable header banner, brand colour and RSS feed"
 msgstr ""
 
-#: includes/Admin/ChangelogUpsell.php:95
+#: includes/Admin/ChangelogUpsell.php:97
 msgid "Embed anywhere with the [wedocs_changelog] shortcode"
 msgstr ""
 
-#: includes/Admin/ChangelogUpsell.php:101
+#: includes/Admin/ChangelogUpsell.php:103
 msgid "Pro feature"
 msgstr ""
 
-#: includes/Admin/ChangelogUpsell.php:103
+#: includes/Admin/ChangelogUpsell.php:105
 #: assets/build/index.js:1
 #: src/components/ProPreviews/ChangelogSettings.js:36
 #: src/components/ProPreviews/index.js:24
+#: src/components/Settings/ShortcodeSettings.js:116
 msgid "Changelog"
 msgstr ""
 
-#: includes/Admin/ChangelogUpsell.php:105
+#: includes/Admin/ChangelogUpsell.php:107
 msgid "Keep your users in the loop with a polished, filterable changelog for your product — available in weDocs Pro."
 msgstr ""
 
@@ -348,26 +351,32 @@ msgstr ""
 msgid "Votes"
 msgstr ""
 
-#: includes/Admin/Menu.php:73
+#: includes/Admin/Menu.php:56
+#: includes/Admin/Menu.php:188
+#: includes/Admin/Menu.php:191
+msgid "FAQ"
+msgstr ""
+
+#: includes/Admin/Menu.php:173
 #: assets/build/index.js:13
-#: src/components/Dashboard/index.js:105
+#: src/components/Dashboard/index.js:107
 msgid "Dashboard"
 msgstr ""
 
-#: includes/Admin/Menu.php:83
-#: includes/Post_Types.php:96
+#: includes/Admin/Menu.php:183
+#: includes/Post_Types.php:100
 msgid "Tags"
 msgstr ""
 
-#: includes/Admin/Menu.php:88
+#: includes/Admin/Menu.php:194
 msgid "Settings"
 msgstr ""
 
-#: includes/Admin/Menu.php:93
+#: includes/Admin/Menu.php:199
 msgid "Migration"
 msgstr ""
 
-#: includes/Admin/Menu.php:132
+#: includes/Admin/Menu.php:247
 msgid "Premium"
 msgstr ""
 
@@ -952,7 +961,7 @@ msgstr ""
 #: src/blocks/AdvanceContributors/edit.js:372
 #: src/blocks/Contributors/edit-old.js:179
 #: src/blocks/Contributors/edit.js:409
-#: src/components/Dashboard/index.js:208
+#: src/components/Dashboard/index.js:206
 msgid "Title"
 msgstr ""
 
@@ -1828,8 +1837,10 @@ msgstr ""
 #: includes/Elementor/Widgets/DocsGrid.php:1826
 #: includes/Elementor/Widgets/DocsGrid.php:1845
 #: assets/build/blocks/AdvanceContributors/index.js:1
+#: assets/build/faq.js:1
 #: src/blocks/commonControls/TypographyControls.js:192
 #: src/blocks/components/TypographyControl.js:164
+#: src/faq/components/TiptapEditor.js:165
 msgid "Underline"
 msgstr ""
 
@@ -2064,6 +2075,8 @@ msgid "Showing %d-%d of %d"
 msgstr ""
 
 #: includes/Elementor/Widgets/DocsGrid.php:3010
+#: templates/shortcode.php:137
+#: templates/shortcode.php:141
 #: assets/build/index.js:10
 #: src/components/Documentations/DocsPagination.js:71
 msgid "Previous"
@@ -2075,6 +2088,8 @@ msgid "Page %d of %d"
 msgstr ""
 
 #: includes/Elementor/Widgets/DocsGrid.php:3016
+#: templates/shortcode.php:151
+#: templates/shortcode.php:155
 #: assets/build/index.js:13
 #: src/components/Documentations/DocsPagination.js:89
 msgid "Next"
@@ -2140,6 +2155,7 @@ msgstr ""
 #: assets/build/blocks/DocNavigation/index.js:1
 #: assets/build/blocks/PrintButton/index.js:1
 #: assets/build/blocks/SocialShare/index.js:1
+#: assets/build/faq.js:1
 #: assets/build/index.js:1
 #: src/blocks/AdvanceContributors/edit-old.js:491
 #: src/blocks/components/TypographyControl.js:108
@@ -2149,6 +2165,8 @@ msgstr ""
 #: src/blocks/PrintButton/Inspector.js:233
 #: src/blocks/SocialShare/edit.js:331
 #: src/components/ProPreviews/AssistantWidgetPanels/FontSettings.js:6
+#: src/faq/components/TiptapEditor.js:56
+#: src/faq/components/TiptapEditor.js:61
 msgid "Normal"
 msgstr ""
 
@@ -2214,29 +2232,29 @@ msgstr ""
 msgid "Gap Between Input & Button"
 msgstr ""
 
-#: includes/Frontend.php:95
-#: includes/Frontend.php:111
+#: includes/Frontend.php:101
+#: includes/Frontend.php:117
 msgid "Powered by weDocs plugin for WordPress"
 msgstr ""
 
-#: includes/Frontend.php:102
-#: includes/Frontend.php:114
+#: includes/Frontend.php:108
+#: includes/Frontend.php:120
 msgid "Doc: "
 msgstr ""
 
-#: includes/Frontend.php:103
-#: includes/Frontend.php:115
+#: includes/Frontend.php:109
+#: includes/Frontend.php:121
 #: templates/modals/search-modal.php:49
 msgid "Search field cannot be blank"
 msgstr ""
 
-#: includes/Frontend.php:104
-#: includes/Frontend.php:116
+#: includes/Frontend.php:110
+#: includes/Frontend.php:122
 msgid "Your search didn't match any documents"
 msgstr ""
 
-#: includes/Frontend.php:105
-#: includes/Frontend.php:117
+#: includes/Frontend.php:111
+#: includes/Frontend.php:123
 msgid "Section: "
 msgstr ""
 
@@ -2365,134 +2383,223 @@ msgstr ""
 msgid "Industry leading 24x7 support"
 msgstr ""
 
-#: includes/Post_Types.php:40
+#: includes/Post_Types.php:44
 msgctxt "Post Type General Name"
 msgid "Docs"
 msgstr ""
 
-#: includes/Post_Types.php:41
+#: includes/Post_Types.php:45
 msgctxt "Post Type Singular Name"
 msgid "Doc"
 msgstr ""
 
-#: includes/Post_Types.php:43
+#: includes/Post_Types.php:47
 #: assets/build/index.js:13
 #: src/components/Migrations/Modals/MigrationContentMappingModal.js:140
 msgid "Parent Doc"
 msgstr ""
 
-#: includes/Post_Types.php:44
+#: includes/Post_Types.php:48
 msgid "All Documentations"
 msgstr ""
 
-#: includes/Post_Types.php:45
+#: includes/Post_Types.php:49
 msgid "View Documentation"
 msgstr ""
 
-#: includes/Post_Types.php:46
+#: includes/Post_Types.php:50
 msgid "Add Documentation"
 msgstr ""
 
-#: includes/Post_Types.php:47
+#: includes/Post_Types.php:51
+#: includes/Post_Types.php:246
 msgid "Add New"
 msgstr ""
 
-#: includes/Post_Types.php:48
+#: includes/Post_Types.php:52
 msgid "Edit Documentation"
 msgstr ""
 
-#: includes/Post_Types.php:49
+#: includes/Post_Types.php:53
 msgid "Update Documentation"
 msgstr ""
 
-#: includes/Post_Types.php:50
+#: includes/Post_Types.php:54
 msgid "Search Documentation"
 msgstr ""
 
-#: includes/Post_Types.php:51
+#: includes/Post_Types.php:55
 msgid "Not documentation found"
 msgstr ""
 
-#: includes/Post_Types.php:52
+#: includes/Post_Types.php:56
+#: includes/Post_Types.php:251
 msgid "Not found in Trash"
 msgstr ""
 
-#: includes/Post_Types.php:94
+#: includes/Post_Types.php:98
 msgctxt "Taxonomy General Name"
 msgid "Tags"
 msgstr ""
 
-#: includes/Post_Types.php:95
+#: includes/Post_Types.php:99
 msgctxt "Taxonomy Singular Name"
 msgid "Tag"
 msgstr ""
 
-#: includes/Post_Types.php:97
+#: includes/Post_Types.php:101
 msgid "All Tags"
 msgstr ""
 
-#: includes/Post_Types.php:98
+#: includes/Post_Types.php:102
 msgid "Parent Tag"
 msgstr ""
 
-#: includes/Post_Types.php:99
+#: includes/Post_Types.php:103
 msgid "Parent Tag:"
 msgstr ""
 
-#: includes/Post_Types.php:100
+#: includes/Post_Types.php:104
 msgid "New Tag"
 msgstr ""
 
-#: includes/Post_Types.php:101
+#: includes/Post_Types.php:105
 msgid "Add New Item"
 msgstr ""
 
-#: includes/Post_Types.php:102
+#: includes/Post_Types.php:106
 msgid "Edit Tag"
 msgstr ""
 
-#: includes/Post_Types.php:103
+#: includes/Post_Types.php:107
 msgid "Update Tag"
 msgstr ""
 
-#: includes/Post_Types.php:104
+#: includes/Post_Types.php:108
 msgid "View Tag"
 msgstr ""
 
-#: includes/Post_Types.php:105
+#: includes/Post_Types.php:109
 msgid "Separate items with commas"
 msgstr ""
 
-#: includes/Post_Types.php:106
+#: includes/Post_Types.php:110
 msgid "Add or remove items"
 msgstr ""
 
-#: includes/Post_Types.php:107
+#: includes/Post_Types.php:111
 msgid "Choose from the most used"
 msgstr ""
 
-#: includes/Post_Types.php:108
+#: includes/Post_Types.php:112
 msgid "Popular Tags"
 msgstr ""
 
-#: includes/Post_Types.php:109
+#: includes/Post_Types.php:113
 msgid "Search Tags"
 msgstr ""
 
-#: includes/Post_Types.php:110
+#: includes/Post_Types.php:114
+#: includes/Post_Types.php:301
 msgid "Not Found"
 msgstr ""
 
-#: includes/Post_Types.php:111
+#: includes/Post_Types.php:115
 msgid "No items"
 msgstr ""
 
-#: includes/Post_Types.php:112
+#: includes/Post_Types.php:116
 msgid "Tags list"
 msgstr ""
 
-#: includes/Post_Types.php:113
+#: includes/Post_Types.php:117
 msgid "Tags list navigation"
+msgstr ""
+
+#: includes/Post_Types.php:240
+msgctxt "Post Type General Name"
+msgid "FAQs"
+msgstr ""
+
+#: includes/Post_Types.php:241
+msgctxt "Post Type Singular Name"
+msgid "FAQ"
+msgstr ""
+
+#: includes/Post_Types.php:242
+msgid "FAQs"
+msgstr ""
+
+#: includes/Post_Types.php:243
+#: assets/build/faq.js:1
+#: src/faq/components/FaqApp.js:129
+msgid "All FAQs"
+msgstr ""
+
+#: includes/Post_Types.php:244
+msgid "View FAQ"
+msgstr ""
+
+#: includes/Post_Types.php:245
+msgid "Add FAQ"
+msgstr ""
+
+#: includes/Post_Types.php:247
+msgid "Edit FAQ"
+msgstr ""
+
+#: includes/Post_Types.php:248
+msgid "Update FAQ"
+msgstr ""
+
+#: includes/Post_Types.php:249
+msgid "Search FAQs"
+msgstr ""
+
+#: includes/Post_Types.php:250
+msgid "No FAQs found"
+msgstr ""
+
+#: includes/Post_Types.php:292
+msgctxt "Taxonomy General Name"
+msgid "FAQ Groups"
+msgstr ""
+
+#: includes/Post_Types.php:293
+msgctxt "Taxonomy Singular Name"
+msgid "FAQ Group"
+msgstr ""
+
+#: includes/Post_Types.php:294
+msgid "FAQ Groups"
+msgstr ""
+
+#: includes/Post_Types.php:295
+msgid "All FAQ Groups"
+msgstr ""
+
+#: includes/Post_Types.php:296
+#: assets/build/faq.js:1
+#: src/faq/components/FaqApp.js:135
+msgid "New FAQ Group"
+msgstr ""
+
+#: includes/Post_Types.php:297
+msgid "Add New FAQ Group"
+msgstr ""
+
+#: includes/Post_Types.php:298
+#: assets/build/faq.js:1
+#: src/faq/components/AddFaqGroupModal.js:212
+msgid "Edit FAQ Group"
+msgstr ""
+
+#: includes/Post_Types.php:299
+msgid "Update FAQ Group"
+msgstr ""
+
+#: includes/Post_Types.php:300
+msgid "Search FAQ Groups"
 msgstr ""
 
 #: includes/Templates/SingleDocTemplate.php:118
@@ -2634,6 +2741,18 @@ msgstr ""
 msgid "No, Thanks"
 msgstr ""
 
+#: templates/shortcode-faq.php:12
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#. translators: 1: current page, 2: total pages.
+#: templates/shortcode.php:146
+#: assets/build/index.js:13
+#: src/components/Documentations/DocsPagination.js:77
+#, php-format,js-format
+msgid "Page %1$d of %2$d"
+msgstr ""
+
 #. translators: %s: Name of current post.
 #: templates/single-docs.php:95
 #, php-format
@@ -2650,7 +2769,7 @@ msgstr ""
 #: assets/build/blocks/QuickSearch/index.js:1
 #: assets/build/index.js:13
 #: src/blocks/QuickSearch/edit.js:41
-#: src/components/Dashboard/index.js:119
+#: src/components/Dashboard/index.js:120
 #: src/components/Migrations/Modals/MigrationContentMappingModal.js:17
 msgid "Articles"
 msgstr ""
@@ -3324,6 +3443,7 @@ msgstr ""
 #: assets/build/blocks/DocNavigation/index.js:1
 #: assets/build/blocks/PrintButton/index.js:1
 #: assets/build/blocks/SocialShare/index.js:1
+#: assets/build/faq.js:1
 #: assets/build/index.js:1
 #: src/blocks/AdvanceContributors/edit-old.js:492
 #: src/blocks/Contributors/edit-old.js:492
@@ -3331,6 +3451,7 @@ msgstr ""
 #: src/blocks/PrintButton/Inspector.js:234
 #: src/blocks/SocialShare/edit.js:334
 #: src/components/ProPreviews/AssistantWidgetPanels/FontSettings.js:9
+#: src/faq/components/TiptapEditor.js:147
 msgid "Bold"
 msgstr ""
 
@@ -3344,8 +3465,10 @@ msgstr ""
 
 #: assets/build/block.js:1
 #: assets/build/blocks/DocNavigation/index.js:1
+#: assets/build/faq.js:1
 #: src/blocks/components/TypographyControl.js:109
 #: src/blocks/DocNavigation/edit.js:139
+#: src/faq/components/TiptapEditor.js:156
 msgid "Italic"
 msgstr ""
 
@@ -4134,9 +4257,11 @@ msgstr ""
 #: assets/build/block.js:1
 #: assets/build/blocks/AdvanceContributors/index.js:1
 #: assets/build/blocks/HelpfulModal/index.js:1
+#: assets/build/faq.js:1
 #: src/blocks/commonControls/ColorsControls.js:229
 #: src/blocks/HelpfulModal/edit.js:298
 #: src/blocks/TableOfContents/ColorsControls.js:229
+#: src/faq/components/TiptapEditor.js:269
 msgid "Link"
 msgstr ""
 
@@ -5296,11 +5421,14 @@ msgstr ""
 #: src/blocks/components/TypographyControl.js:58
 #: src/blocks/TableOfContents/ColorsControls.js:242
 #: src/components/ProPreviews/AssistantWidgetPanels/PreferencePanel/ColorPaletteSettings.js:7
+#: src/components/Settings/ShortcodeSettings.js:265
 msgid "Default"
 msgstr ""
 
 #: assets/build/blocks/AdvanceContributors/index.js:1
+#: assets/build/faq.js:1
 #: src/blocks/commonControls/TypographyControls.js:197
+#: src/faq/components/TiptapEditor.js:174
 msgid "Strikethrough"
 msgstr ""
 
@@ -5436,7 +5564,9 @@ msgid "Text"
 msgstr ""
 
 #: assets/build/blocks/AdvanceContributors/index.js:1
+#: assets/build/faq.js:1
 #: src/blocks/commonControls/AlignmentControls.js:192
+#: src/faq/components/TiptapEditor.js:241
 msgid "Justify"
 msgstr ""
 
@@ -5573,6 +5703,7 @@ msgid "The content above is formatted with HTML tags. When inserted, it will be 
 msgstr ""
 
 #: assets/build/editor.js:1
+#: assets/build/faq.js:1
 #: assets/build/index.js:1
 #: assets/build/index.js:13
 #: src/components/AddArticleModal.js:205
@@ -5587,6 +5718,10 @@ msgstr ""
 #: src/components/RestrictionModal.js:131
 #: src/editor/AiDocWriterModal.js:523
 #: src/editor/AiDocWriterPreview.js:35
+#: src/faq/components/AddFaqForm.js:144
+#: src/faq/components/AddFaqGroupModal.js:295
+#: src/faq/components/FaqConfirmDialog.js:74
+#: src/faq/components/FaqItem.js:263
 msgid "Cancel"
 msgstr ""
 
@@ -5960,6 +6095,502 @@ msgstr ""
 #: assets/build/editor.js:1
 #: src/components/ProPreviews/AiDocWriterImageUploadPreview.js:183
 msgid "Supports JPG, PNG, GIF up to 10MB"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/utils/toast.js:47
+msgid "Something went wrong. Please try again."
+msgstr ""
+
+#: assets/build/faq.js:1
+#: assets/build/index.js:1
+#: src/components/AddArticleModal.js:81
+#: src/components/AddDocModal.js:88
+#: src/components/AddSectionModal.js:55
+#: src/components/ConfirmationModal.js:24
+#: src/components/DocListing/QuickEditModal.js:97
+#: src/components/RestrictionModal.js:36
+#: src/components/Settings/index.js:56
+#: src/faq/utils/toast.js:51
+msgid "Error"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/AddFaqGroupModal.js:213
+msgid "Create New FAQ Group"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/AddFaqGroupModal.js:229
+msgid "FAQ Group Title"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/AddFaqGroupModal.js:234
+msgid "FAQ Group Title..."
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/AddFaqGroupModal.js:246
+msgid "Title is required."
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/AddFaqGroupModal.js:258
+msgid "FAQ Group Icon"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/AddFaqGroupModal.js:82
+msgid "Media uploader is unavailable. Please reload the page."
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/AddFaqGroupModal.js:87
+msgid "Select FAQ Group Icon"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/AddFaqGroupModal.js:88
+msgid "Use this icon"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/AddFaqGroupModal.js:281
+msgid "Click to upload"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/AddFaqGroupModal.js:284
+msgid "SVG, PNG, JPG or GIF"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/AddFaqGroupModal.js:154
+msgid "FAQ group updated!"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/AddFaqGroupModal.js:155
+msgid "FAQ group created!"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/AddFaqGroupModal.js:157
+#: src/faq/components/FaqItem.js:98
+msgid "Your changes have been saved."
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/AddFaqGroupModal.js:158
+msgid "The new group is ready for FAQs."
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/AddFaqGroupModal.js:162
+msgid "Failed to save FAQ group. Please try again."
+msgstr ""
+
+#: assets/build/faq.js:1
+#: assets/build/index.js:1
+#: src/components/Settings/SaveButton.js:11
+#: src/faq/components/AddFaqGroupModal.js:303
+#: src/faq/components/FaqItem.js:271
+msgid "Saving..."
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/AddFaqForm.js:152
+#: src/faq/components/AddFaqGroupModal.js:303
+msgid "Creating..."
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/AddFaqGroupModal.js:304
+msgid "Save Changes"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/AddFaqGroupModal.js:304
+msgid "Create FAQ Group"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/EmptyFaq.js:66
+msgid "Get started by creating your first FAQ group"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/EmptyFaq.js:69
+msgid "Group your frequently asked questions so users can find answers quickly."
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/EmptyFaq.js:74
+msgid "Create a new FAQ group"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/FaqConfirmDialog.js:82
+msgid "Processing..."
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/TiptapEditor.js:48
+#: src/faq/components/TiptapEditor.js:66
+msgid "Heading 2"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/TiptapEditor.js:51
+#: src/faq/components/TiptapEditor.js:71
+msgid "Heading 3"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/TiptapEditor.js:54
+#: src/faq/components/TiptapEditor.js:76
+msgid "Heading 4"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/TiptapEditor.js:183
+msgid "Inline Code"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/TiptapEditor.js:199
+msgid "Align Left"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/TiptapEditor.js:213
+msgid "Align Center"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/TiptapEditor.js:227
+msgid "Align Right"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/TiptapEditor.js:257
+msgid "Highlight"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/TiptapEditor.js:127
+msgid "Enter URL"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/TiptapEditor.js:281
+msgid "Unlink"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/TiptapEditor.js:296
+msgid "Bullet List"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/TiptapEditor.js:312
+msgid "Ordered List"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/FaqItem.js:252
+#: src/faq/components/TiptapEditor.js:341
+msgid "Write your answer here..."
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/AddFaqForm.js:88
+#: src/faq/components/FaqItem.js:230
+msgid "Question"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/AddFaqForm.js:94
+msgid "Add New Question"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/AddFaqForm.js:113
+#: src/faq/components/FaqItem.js:246
+msgid "Answer"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/AddFaqForm.js:125
+msgid "Write your Answer here."
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/AddFaqForm.js:22
+msgid "Question is required."
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/AddFaqForm.js:26
+msgid "Answer is required."
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/AddFaqForm.js:67
+msgid "FAQ added!"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/AddFaqForm.js:68
+msgid "The new FAQ has been created."
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/AddFaqForm.js:72
+msgid "Failed to create FAQ. Please try again."
+msgstr ""
+
+#: assets/build/faq.js:1
+#: assets/build/index.js:1
+#: src/components/DocListing/DocSections.js:176
+#: src/components/DocListing/SectionArticles.js:179
+#: src/faq/components/AddFaqForm.js:153
+msgid "Create"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/AddFaqForm.js:159
+#: src/faq/components/FaqItem.js:289
+msgid "Keep It Open By Default"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/AddFaqForm.js:164
+#: src/faq/components/FaqItem.js:294
+msgid "Toggle open by default"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/FaqGroupRow.js:394
+#: src/faq/components/FaqItem.js:179
+msgid "Drag to reorder"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/FaqItem.js:97
+msgid "FAQ updated!"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/FaqItem.js:102
+msgid "Failed to save the FAQ. Please try again."
+msgstr ""
+
+#: assets/build/faq.js:1
+#: assets/build/index.js:13
+#: src/components/PermissionSettingsDemo/index.js:39
+#: src/faq/components/FaqItem.js:272
+msgid "Save"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/FaqItem.js:279
+#: src/faq/components/FaqItem.js:308
+msgid "Delete FAQ"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/FaqItem.js:161
+msgid "Failed to update the FAQ. Please try again."
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/FaqItem.js:126
+msgid "FAQ deleted!"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/FaqItem.js:127
+msgid "The FAQ has been removed."
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/FaqItem.js:132
+msgid "Failed to delete the FAQ. Please try again."
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/FaqItem.js:309
+msgid "Are you sure you want to delete this FAQ? This action cannot be undone."
+msgstr ""
+
+#: assets/build/faq.js:1
+#: assets/build/index.js:1
+#: src/components/DocActions.js:161
+#: src/components/DocListing/DocSections.js:241
+#: src/faq/components/FaqGroupRow.js:581
+#: src/faq/components/FaqItem.js:310
+msgid "Delete"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/FaqGroupRow.js:582
+#: src/faq/components/FaqItem.js:313
+msgid "Deleting..."
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/FaqGroupRow.js:105
+msgid "Could not load the FAQs in this group."
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/FaqGroupRow.js:423
+msgid "Add a New FAQ"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/FaqGroupRow.js:430
+msgid "Edit FAQ group"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/FaqGroupRow.js:442
+msgid "Duplicate FAQ group"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/FaqGroupRow.js:454
+msgid "Delete FAQ group"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/FaqGroupRow.js:199
+msgid "Failed to update the FAQ group. Please try again."
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/FaqGroupRow.js:468
+msgid "Deactivate FAQ group"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/FaqGroupRow.js:468
+msgid "Activate FAQ group"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/FaqGroupRow.js:476
+msgid "Expand FAQ group"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/FaqGroupRow.js:504
+msgid "Loading FAQs…"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/FaqGroupRow.js:510
+msgid "No FAQs in this group yet. Click \"Add a New FAQ\" to get started."
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/FaqApp.js:100
+#: src/faq/components/FaqGroupRow.js:71
+msgid "The new order could not be saved and will reset when you reload."
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/FaqGroupRow.js:266
+msgid "(Copy)"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/FaqGroupRow.js:293
+msgid "Could not create a unique group name."
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/FaqGroupRow.js:331
+msgid "FAQ group duplicated!"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/FaqGroupRow.js:332
+msgid "A copy of the group and its FAQs has been created."
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/FaqGroupRow.js:337
+msgid "Something went wrong while duplicating the FAQ group."
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/FaqGroupRow.js:559
+msgid "Duplicate this FAQ group?"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/FaqGroupRow.js:560
+msgid "This will create a copy of this FAQ group along with all the FAQs inside it."
+msgstr ""
+
+#: assets/build/faq.js:1
+#: assets/build/index.js:1
+#: src/components/ProPreviews/index.js:259
+#: src/faq/components/FaqGroupRow.js:561
+msgid "Duplicate"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/FaqGroupRow.js:562
+msgid "Duplicating..."
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/FaqGroupRow.js:371
+msgid "FAQ group deleted!"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/FaqGroupRow.js:372
+msgid "The group and its FAQs have been removed."
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/FaqGroupRow.js:377
+msgid "Failed to delete the FAQ group. Please try again."
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/FaqGroupRow.js:579
+msgid "Delete this FAQ group?"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/FaqGroupRow.js:580
+msgid "This will permanently delete this FAQ group and all FAQs inside it. This action cannot be undone."
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/FaqGroupRow.js:600
+msgid "Duplication Failed"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/FaqGroupRow.js:602
+msgid "OK"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/FaqApp.js:45
+msgid "Could not load the FAQ groups. Please reload the page."
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/FaqApp.js:70
+msgid "The group was created but its position could not be saved."
 msgstr ""
 
 #: assets/build/index.js:1
@@ -6793,19 +7424,14 @@ msgid "Layout & Styles"
 msgstr ""
 
 #: assets/build/index.js:1
-#: src/components/ProPreviews/index.js:259
-msgid "Duplicate"
-msgstr ""
-
-#: assets/build/index.js:1
 #: src/components/ProPreviews/index.js:266
 msgid "Restrict editing for admin only"
 msgstr ""
 
 #: assets/build/index.js:1
 #: assets/build/index.js:13
-#: src/components/Dashboard/index.js:234
-#: src/components/Dashboard/index.js:235
+#: src/components/Dashboard/index.js:232
+#: src/components/Dashboard/index.js:233
 #: src/components/DocActions.js:118
 #: src/components/DocListing/ArticleChildrens.js:147
 #: src/components/DocListing/DocSections.js:189
@@ -6853,17 +7479,6 @@ msgstr ""
 #: assets/build/index.js:1
 #: src/components/RestrictionModal.js:22
 msgid " has been deleted successfully"
-msgstr ""
-
-#: assets/build/index.js:1
-#: src/components/AddArticleModal.js:81
-#: src/components/AddDocModal.js:88
-#: src/components/AddSectionModal.js:55
-#: src/components/ConfirmationModal.js:24
-#: src/components/DocListing/QuickEditModal.js:97
-#: src/components/RestrictionModal.js:36
-#: src/components/Settings/index.js:55
-msgid "Error"
 msgstr ""
 
 #: assets/build/index.js:1
@@ -6960,8 +7575,8 @@ msgstr ""
 
 #: assets/build/index.js:1
 #: assets/build/index.js:13
-#: src/components/Dashboard/index.js:244
-#: src/components/Dashboard/index.js:245
+#: src/components/Dashboard/index.js:242
+#: src/components/Dashboard/index.js:243
 #: src/components/DocActions.js:127
 msgid "View"
 msgstr ""
@@ -6994,12 +7609,6 @@ msgstr ""
 #: assets/build/index.js:1
 #: src/components/DocActions.js:144
 msgid "Switch to Draft"
-msgstr ""
-
-#: assets/build/index.js:1
-#: src/components/DocActions.js:161
-#: src/components/DocListing/DocSections.js:241
-msgid "Delete"
 msgstr ""
 
 #: assets/build/index.js:1
@@ -7053,12 +7662,6 @@ msgstr ""
 #: src/components/AddDocModal.js:268
 #: src/components/AddSectionModal.js:191
 msgid "Create and Publish"
-msgstr ""
-
-#: assets/build/index.js:1
-#: src/components/DocListing/DocSections.js:176
-#: src/components/DocListing/SectionArticles.js:179
-msgid "Create"
 msgstr ""
 
 #: assets/build/index.js:1
@@ -7164,7 +7767,7 @@ msgstr ""
 #: assets/build/index.js:13
 #: src/components/DocListing/index.js:159
 #: src/components/Documentations/index.js:139
-#: src/components/Settings/index.js:133
+#: src/components/Settings/index.js:135
 msgid "weDocs database has been updated successfully"
 msgstr ""
 
@@ -7172,7 +7775,7 @@ msgstr ""
 #: assets/build/index.js:13
 #: src/components/DocListing/index.js:160
 #: src/components/Documentations/index.js:140
-#: src/components/Settings/index.js:134
+#: src/components/Settings/index.js:136
 msgid "Database Updated!"
 msgstr ""
 
@@ -7187,8 +7790,9 @@ msgid "AI Control"
 msgstr ""
 
 #: assets/build/index.js:1
-#: src/components/Settings/SaveButton.js:11
-msgid "Saving..."
+#: src/components/Settings/Menu.js:46
+#: src/components/Settings/ShortcodeSettings.js:307
+msgid "Shortcodes"
 msgstr ""
 
 #: assets/build/index.js:1
@@ -7352,11 +7956,21 @@ msgstr ""
 
 #: assets/build/index.js:1
 #: src/components/Settings/GeneralSettings.js:498
-msgid "Use Legacy Template"
+msgid "Show FAQ on Docs Home"
 msgstr ""
 
 #: assets/build/index.js:1
 #: src/components/Settings/GeneralSettings.js:502
+msgid "Display the FAQ section on the documentation home page where the [wedocs] shortcode is used"
+msgstr ""
+
+#: assets/build/index.js:1
+#: src/components/Settings/GeneralSettings.js:544
+msgid "Use Legacy Template"
+msgstr ""
+
+#: assets/build/index.js:1
+#: src/components/Settings/GeneralSettings.js:548
 msgid "Enable legacy PHP template system for single doc pages. Disable to use the new builder template."
 msgstr ""
 
@@ -7476,12 +8090,146 @@ msgid "Set the maximum file size for image uploads. Minimum: 100KB, Maximum: 5MB
 msgstr ""
 
 #: assets/build/index.js:1
-#: src/components/Settings/index.js:44
-msgid "Settings Data Saved!"
+#: assets/build/index.js:13
+#: src/components/Premium/index.js:339
+#: src/components/Settings/ShortcodeSettings.js:157
+msgid "Pro"
+msgstr ""
+
+#: assets/build/index.js:1
+#: src/components/Settings/ShortcodeSettings.js:157
+msgid "Free"
+msgstr ""
+
+#: assets/build/index.js:1
+#: src/components/Settings/ShortcodeSettings.js:215
+#: src/components/Settings/ShortcodeSettings.js:216
+msgid "Copied"
+msgstr ""
+
+#: assets/build/index.js:1
+#: src/components/Settings/ShortcodeSettings.js:215
+#: src/components/Settings/ShortcodeSettings.js:216
+msgid "Copy shortcode"
+msgstr ""
+
+#: assets/build/index.js:1
+#: src/components/Settings/ShortcodeSettings.js:257
+msgid "Attributes"
+msgstr ""
+
+#: assets/build/index.js:1
+#: src/components/Settings/ShortcodeSettings.js:264
+msgid "Attribute"
+msgstr ""
+
+#: assets/build/index.js:1
+#: src/components/Settings/ShortcodeSettings.js:266
+msgid "Description"
+msgstr ""
+
+#: assets/build/index.js:1
+#: src/components/Settings/ShortcodeSettings.js:277
+msgid "empty"
+msgstr ""
+
+#: assets/build/index.js:1
+#: src/components/Settings/ShortcodeSettings.js:15
+msgid "Documentation List"
+msgstr ""
+
+#: assets/build/index.js:1
+#: src/components/Settings/ShortcodeSettings.js:16
+msgid "Lists your documentation. Use this on the page you have set as the docs home."
+msgstr ""
+
+#: assets/build/index.js:1
+#: src/components/Settings/ShortcodeSettings.js:26
+msgid "Number of columns to lay the docs out in. The Pro layout setting takes over when it is set."
+msgstr ""
+
+#: assets/build/index.js:1
+#: src/components/Settings/ShortcodeSettings.js:34
+msgid "How many sections to show under each doc."
+msgstr ""
+
+#: assets/build/index.js:1
+#: src/components/Settings/ShortcodeSettings.js:39
+msgid "Comma separated doc IDs to show. Leave as any to show all of them."
+msgstr ""
+
+#: assets/build/index.js:1
+#: src/components/Settings/ShortcodeSettings.js:47
+msgid "Comma separated doc IDs to leave out. Ignored for any ID that include also names."
+msgstr ""
+
+#: assets/build/index.js:1
+#: src/components/Settings/ShortcodeSettings.js:55
+msgid "Label for the link at the foot of each doc."
+msgstr ""
+
+#: assets/build/index.js:1
+#: src/components/Settings/ShortcodeSettings.js:60
+msgid "Docs per page. Leave empty to show every doc on one page."
+msgstr ""
+
+#: assets/build/index.js:1
+#: src/components/Settings/ShortcodeSettings.js:70
+msgid "FAQ Section"
+msgstr ""
+
+#: assets/build/index.js:1
+#: src/components/Settings/ShortcodeSettings.js:71
+msgid "Renders your FAQ groups as an accordion. Inactive groups and groups with no FAQs are skipped."
+msgstr ""
+
+#: assets/build/index.js:1
+#: src/components/Settings/ShortcodeSettings.js:80
+msgid "Comma separated FAQ group slugs to show. Leave empty for all groups."
+msgstr ""
+
+#: assets/build/index.js:1
+#: src/components/Settings/ShortcodeSettings.js:88
+msgid "FAQs to show per group. Use -1 for no limit."
+msgstr ""
+
+#: assets/build/index.js:1
+#: src/components/Settings/ShortcodeSettings.js:96
+msgid "What to sort the FAQs by, for example menu_order, title or date."
+msgstr ""
+
+#: assets/build/index.js:1
+#: src/components/Settings/ShortcodeSettings.js:104
+msgid "Sort direction, ASC or DESC."
+msgstr ""
+
+#: assets/build/index.js:1
+#: src/components/Settings/ShortcodeSettings.js:117
+msgid "Embeds your changelog timeline on any page."
+msgstr ""
+
+#: assets/build/index.js:1
+#: src/components/Settings/ShortcodeSettings.js:126
+msgid "Channel slug to show. Leave empty to show every channel."
+msgstr ""
+
+#: assets/build/index.js:1
+#: src/components/Settings/ShortcodeSettings.js:134
+msgid "Show the channel switcher above the timeline."
+msgstr ""
+
+#: assets/build/index.js:1
+#: src/components/Settings/ShortcodeSettings.js:314
+msgid "Paste any of these into a page or post. Every attribute is optional, so the shortcode on its own works too."
 msgstr ""
 
 #: assets/build/index.js:1
 #: src/components/Settings/index.js:45
+msgid "Settings Data Saved!"
+msgstr ""
+
+#: assets/build/index.js:1
+#: src/components/Settings/index.js:46
 msgid "Settings data has been saved successfully"
 msgstr ""
 
@@ -7576,13 +8324,6 @@ msgstr ""
 #: src/components/Documentations/DocsPagination.js:57
 #, js-format
 msgid "Showing %1$d–%2$d of %3$d docs"
-msgstr ""
-
-#. translators: 1: current page, 2: total pages.
-#: assets/build/index.js:13
-#: src/components/Documentations/DocsPagination.js:77
-#, js-format
-msgid "Page %1$d of %2$d"
 msgstr ""
 
 #: assets/build/index.js:13
@@ -7842,37 +8583,32 @@ msgid "Manage Docs"
 msgstr ""
 
 #: assets/build/index.js:13
-#: src/components/PermissionSettingsDemo/index.js:39
-msgid "Save"
-msgstr ""
-
-#: assets/build/index.js:13
-#: src/components/Dashboard/index.js:64
+#: src/components/Dashboard/index.js:66
 msgid "Could not load dashboard data."
 msgstr ""
 
 #: assets/build/index.js:13
-#: src/components/Dashboard/index.js:92
+#: src/components/Dashboard/index.js:94
 msgid "No data available."
 msgstr ""
 
 #: assets/build/index.js:13
-#: src/components/Dashboard/index.js:112
+#: src/components/Dashboard/index.js:114
 msgid "Total Docs"
 msgstr ""
 
 #: assets/build/index.js:13
-#: src/components/Dashboard/index.js:114
+#: src/components/Dashboard/index.js:116
 msgid "published"
 msgstr ""
 
 #: assets/build/index.js:13
-#: src/components/Dashboard/index.js:114
+#: src/components/Dashboard/index.js:116
 msgid "draft"
 msgstr ""
 
 #: assets/build/index.js:13
-#: src/components/Dashboard/index.js:121
+#: src/components/Dashboard/index.js:122
 msgid "contributor(s)"
 msgstr ""
 
@@ -7887,62 +8623,62 @@ msgid "across all docs"
 msgstr ""
 
 #: assets/build/index.js:13
-#: src/components/Dashboard/index.js:133
+#: src/components/Dashboard/index.js:132
 msgid "Helpful Rate"
 msgstr ""
 
 #: assets/build/index.js:13
-#: src/components/Dashboard/index.js:135
+#: src/components/Dashboard/index.js:134
 msgid "up"
 msgstr ""
 
 #: assets/build/index.js:13
-#: src/components/Dashboard/index.js:135
+#: src/components/Dashboard/index.js:134
 msgid "down"
 msgstr ""
 
 #: assets/build/index.js:13
-#: src/components/Dashboard/index.js:142
+#: src/components/Dashboard/index.js:140
 msgid "Popular Docs"
 msgstr ""
 
 #: assets/build/index.js:13
-#: src/components/Dashboard/index.js:165
+#: src/components/Dashboard/index.js:163
 msgid "No views recorded yet — they appear as visitors read your docs."
 msgstr ""
 
 #: assets/build/index.js:13
-#: src/components/Dashboard/index.js:170
+#: src/components/Dashboard/index.js:168
 msgid "Most Helpful Docs"
 msgstr ""
 
 #: assets/build/index.js:13
-#: src/components/Dashboard/index.js:196
+#: src/components/Dashboard/index.js:194
 msgid "No helpful votes yet."
 msgstr ""
 
 #: assets/build/index.js:13
-#: src/components/Dashboard/index.js:202
+#: src/components/Dashboard/index.js:200
 msgid "Recently Updated"
 msgstr ""
 
 #: assets/build/index.js:13
-#: src/components/Dashboard/index.js:209
+#: src/components/Dashboard/index.js:207
 msgid "Status"
 msgstr ""
 
 #: assets/build/index.js:13
-#: src/components/Dashboard/index.js:210
+#: src/components/Dashboard/index.js:208
 msgid "Views"
 msgstr ""
 
 #: assets/build/index.js:13
-#: src/components/Dashboard/index.js:211
+#: src/components/Dashboard/index.js:209
 msgid "Updated"
 msgstr ""
 
 #: assets/build/index.js:13
-#: src/components/Dashboard/index.js:258
+#: src/components/Dashboard/index.js:256
 msgid "No docs yet."
 msgstr ""
 
@@ -8205,11 +8941,6 @@ msgstr ""
 #: assets/build/index.js:13
 #: src/components/Premium/index.js:336
 msgid "Lite"
-msgstr ""
-
-#: assets/build/index.js:13
-#: src/components/Premium/index.js:339
-msgid "Pro"
 msgstr ""
 
 #: assets/build/index.js:13
