@@ -38,8 +38,7 @@
     margin: 0.25em 0;
 }
 
-.wedocs-tiptap-content .tiptap ul,
-.wedocs-tiptap-content .tiptap ol {
+.wedocs-tiptap-content .tiptap ul,.wedocs-tiptap-content .tiptap ol {
     padding-left: 1.5em;
     margin: 0.5em 0;
 }

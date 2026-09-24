@@ -1238,6 +1238,23 @@ footer.entry-footer.wedocs-entry-footer.on .help-content .help-button #wedocs-st
   }
 }
 @media screen and (max-width: 768px) {
+  #wedocs-single-doc-search-modal {
+    align-items: center;
+    justify-content: center;
+  }
+  #wedocs-single-doc-search-modal .doc-search-container {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  #wedocs-single-doc-search-modal .doc-search-container .doc-search-modal {
+    max-width: 100%;
+  }
+  #wedocs-single-doc-search-modal .doc-search-container .doc-search-modal .modal-body .doc-search-dropdown-container .doc-search-hits {
+    max-height: 50vh;
+  }
   .wedocs-single-wrap {
     display: flex;
   }
@@ -1282,6 +1299,29 @@ footer.entry-footer.wedocs-entry-footer.on .help-content .help-button #wedocs-st
   }
 }
 @media screen and (max-width: 425px) {
+  #wedocs-single-doc-search-modal .doc-search-container {
+    padding: 0.5rem;
+  }
+  #wedocs-single-doc-search-modal .doc-search-container .doc-search-modal .modal-header .doc-search-form .doc-search-field #doc-search-input {
+    height: 2.75rem;
+    font-size: 0.875rem;
+    margin-left: 0.5rem;
+  }
+  #wedocs-single-doc-search-modal .doc-search-container .doc-search-modal .modal-body .doc-search-dropdown-container .doc-search-hits {
+    max-height: 40vh;
+    padding: 0.5rem;
+  }
+  #wedocs-single-doc-search-modal .doc-search-container .doc-search-modal .modal-body .doc-search-dropdown-container .doc-search-hits #doc-search-list .doc-search-hit .doc-search-hit-result {
+    padding: 0.75rem;
+  }
+  #wedocs-single-doc-search-modal .doc-search-container .doc-search-modal .modal-body .doc-search-dropdown-container .doc-search-hits #doc-search-list .doc-search-hit .doc-search-hit-result .doc-search-hit-container .doc-search-hit-icon {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 0.5rem;
+  }
+  #wedocs-single-doc-search-modal .doc-search-container .doc-search-modal .modal-body .doc-search-dropdown-container .doc-search-hits #doc-search-list .doc-search-hit .doc-search-hit-result .doc-search-hit-container .doc-search-hit-content-wrapper {
+    max-width: 100%;
+  }
   .wedocs-hide-mobile {
     display: none;
   }

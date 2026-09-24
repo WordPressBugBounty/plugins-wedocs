@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit116350e1527c41e68b0c663fd18e52db
+class ComposerStaticInitce167708e622ee9803b60d71798018ad
 {
     public static $files = array (
         'bc33bdda64b68124ebec25fc6f289c9e' => __DIR__ . '/../..' . '/includes/functions.php',
@@ -34,6 +34,7 @@ class ComposerStaticInit116350e1527c41e68b0c663fd18e52db
         'WeDevs\\WeDocs\\Admin\\Admin' => __DIR__ . '/../..' . '/includes/Admin/Admin.php',
         'WeDevs\\WeDocs\\Admin\\ChangelogUpsell' => __DIR__ . '/../..' . '/includes/Admin/ChangelogUpsell.php',
         'WeDevs\\WeDocs\\Admin\\Docs_List_Table' => __DIR__ . '/../..' . '/includes/Admin/Docs_List_Table.php',
+        'WeDevs\\WeDocs\\Admin\\GlossaryUpsell' => __DIR__ . '/../..' . '/includes/Admin/GlossaryUpsell.php',
         'WeDevs\\WeDocs\\Admin\\Menu' => __DIR__ . '/../..' . '/includes/Admin/Menu.php',
         'WeDevs\\WeDocs\\Admin\\Migrate' => __DIR__ . '/../..' . '/includes/Admin/Migrate.php',
         'WeDevs\\WeDocs\\Ajax' => __DIR__ . '/../..' . '/includes/Ajax.php',
@@ -45,8 +46,16 @@ class ComposerStaticInit116350e1527c41e68b0c663fd18e52db
         'WeDevs\\WeDocs\\Capability' => __DIR__ . '/../..' . '/includes/Capability.php',
         'WeDevs\\WeDocs\\Dokan\\VendorDashboard' => __DIR__ . '/../..' . '/includes/Dokan/VendorDashboard.php',
         'WeDevs\\WeDocs\\Elementor' => __DIR__ . '/../..' . '/includes/Elementor.php',
+        'WeDevs\\WeDocs\\Elementor\\Widgets\\DocNavigation' => __DIR__ . '/../..' . '/includes/Elementor/Widgets/DocNavigation.php',
+        'WeDevs\\WeDocs\\Elementor\\Widgets\\DocsBreadcrumb' => __DIR__ . '/../..' . '/includes/Elementor/Widgets/DocsBreadcrumb.php',
         'WeDevs\\WeDocs\\Elementor\\Widgets\\DocsGrid' => __DIR__ . '/../..' . '/includes/Elementor/Widgets/DocsGrid.php',
+        'WeDevs\\WeDocs\\Elementor\\Widgets\\DocsHamburgerMenu' => __DIR__ . '/../..' . '/includes/Elementor/Widgets/DocsHamburgerMenu.php',
+        'WeDevs\\WeDocs\\Elementor\\Widgets\\DocsSidebar' => __DIR__ . '/../..' . '/includes/Elementor/Widgets/DocsSidebar.php',
+        'WeDevs\\WeDocs\\Elementor\\Widgets\\NeedHelp' => __DIR__ . '/../..' . '/includes/Elementor/Widgets/NeedHelp.php',
         'WeDevs\\WeDocs\\Elementor\\Widgets\\Search' => __DIR__ . '/../..' . '/includes/Elementor/Widgets/Search.php',
+        'WeDevs\\WeDocs\\Elementor\\Widgets\\SearchModal' => __DIR__ . '/../..' . '/includes/Elementor/Widgets/SearchModal.php',
+        'WeDevs\\WeDocs\\Elementor\\Widgets\\TableOfContents' => __DIR__ . '/../..' . '/includes/Elementor/Widgets/TableOfContents.php',
+        'WeDevs\\WeDocs\\Elementor\\Widgets\\WasThisHelpful' => __DIR__ . '/../..' . '/includes/Elementor/Widgets/WasThisHelpful.php',
         'WeDevs\\WeDocs\\Frontend' => __DIR__ . '/../..' . '/includes/Frontend.php',
         'WeDevs\\WeDocs\\Installer' => __DIR__ . '/../..' . '/includes/Installer.php',
         'WeDevs\\WeDocs\\Post_Types' => __DIR__ . '/../..' . '/includes/Post_Types.php',
@@ -72,9 +81,9 @@ class ComposerStaticInit116350e1527c41e68b0c663fd18e52db
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit116350e1527c41e68b0c663fd18e52db::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit116350e1527c41e68b0c663fd18e52db::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit116350e1527c41e68b0c663fd18e52db::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitce167708e622ee9803b60d71798018ad::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitce167708e622ee9803b60d71798018ad::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInitce167708e622ee9803b60d71798018ad::$classMap;
 
         }, null, ClassLoader::class);
     }

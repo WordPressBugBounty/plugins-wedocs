@@ -2,14 +2,14 @@
 # This file is distributed under the GPL2.
 msgid ""
 msgstr ""
-"Project-Id-Version: weDocs 2.5.0\n"
+"Project-Id-Version: weDocs 2.6.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wedocs-plugin\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-08-27T11:35:36+00:00\n"
+"POT-Creation-Date: 2026-09-24T10:52:59+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: wedocs\n"
@@ -18,8 +18,8 @@ msgstr ""
 #: wedocs.php
 #: includes/Admin/Menu.php:47
 #: includes/Admin/Menu.php:48
-#: includes/Elementor.php:29
-#: wedocs.php:272
+#: includes/Elementor.php:36
+#: wedocs.php:270
 msgid "weDocs"
 msgstr ""
 
@@ -44,7 +44,10 @@ msgid "https://wedocs.co/?utm_source=wporg&utm_medium=banner&utm_campaign=author
 msgstr ""
 
 #: assets/build/blocks/Breadcrumb/render.php:237
-#: includes/functions.php:192
+#: includes/Elementor/Widgets/DocsBreadcrumb.php:75
+#: includes/Elementor/Widgets/DocsBreadcrumb.php:330
+#: includes/Elementor/Widgets/DocsBreadcrumb.php:549
+#: includes/functions.php:202
 #: src/blocks/Breadcrumb/render.php:237
 #: assets/build/index.js:1
 #: src/components/ProPreviews/AssistantWidgetPanels/PreferencePanel/PreferenceSettings.js:33
@@ -52,6 +55,7 @@ msgid "Home"
 msgstr ""
 
 #: assets/build/blocks/Breadcrumb/render.php:253
+#: includes/Elementor/Widgets/DocsBreadcrumb.php:571
 #: includes/Post_Types.php:46
 #: src/blocks/Breadcrumb/render.php:253
 #: templates/vendor-docs.php:19
@@ -71,15 +75,14 @@ msgid "%d more items"
 msgstr ""
 
 #: assets/build/blocks/DocsGrid/render.php:87
-#: includes/Ajax.php:370
 #: includes/Elementor/Widgets/DocsGrid.php:222
-#: includes/Elementor/Widgets/DocsGrid.php:2765
+#: includes/Elementor/Widgets/DocsGrid.php:2795
 #: includes/Shortcode.php:49
 #: src/blocks/DocsGrid/render.php:87
 #: templates/vendor-docs.php:92
 #: assets/build/block.js:1
 #: assets/build/blocks/DocsGrid/index.js:1
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/blocks/DocsGrid/edit.js:107
 #: src/components/Settings/ShortcodeSettings.js:54
 msgid "View Details"
@@ -103,7 +106,7 @@ msgstr ""
 #: assets/build/blocks/HelpfulModal/render.php:252
 #: src/blocks/HelpfulModal/render.php:252
 #: templates/single-docs.php:152
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/DocListing/ArticleChildrens.js:236
 #: src/components/DocListing/SectionArticles.js:320
 #, php-format,js-format
@@ -139,6 +142,11 @@ msgid "Print this article"
 msgstr ""
 
 #: assets/build/blocks/QuickSearch/render.php:230
+#: includes/Elementor/Widgets/DocsHamburgerMenu.php:90
+#: includes/Elementor/Widgets/DocsHamburgerMenu.php:401
+#: includes/Elementor/Widgets/DocsSidebar.php:113
+#: includes/Elementor/Widgets/DocsSidebar.php:593
+#: includes/Elementor/Widgets/DocsSidebar.php:984
 #: src/blocks/QuickSearch/render.php:230
 #: assets/build/block.js:1
 #: assets/build/blocks/QuickSearch/index.js:1
@@ -147,6 +155,8 @@ msgid "Quick search..."
 msgstr ""
 
 #: assets/build/blocks/QuickSearch/render.php:231
+#: includes/Elementor/Widgets/SearchModal.php:138
+#: includes/Elementor/Widgets/SearchModal.php:468
 #: src/blocks/QuickSearch/render.php:231
 #: templates/modals/search-modal.php:34
 #: assets/build/block.js:1
@@ -202,7 +212,7 @@ msgid "Search failed. Please try again."
 msgstr ""
 
 #: assets/build/blocks/QuickSearch/templates/search-results.php:17
-#: includes/Ajax.php:561
+#: includes/Ajax.php:640
 #: src/blocks/QuickSearch/templates/search-results.php:17
 msgid "No results found. Try different keywords."
 msgstr ""
@@ -257,30 +267,30 @@ msgstr ""
 msgid "Share on %s"
 msgstr ""
 
-#: includes/Admin.php:92
-#: includes/Admin.php:113
-#: includes/Admin/ChangelogUpsell.php:120
-#: assets/build/index.js:13
+#: includes/Admin.php:93
+#: includes/Admin.php:114
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:298
 #: src/components/Premium/index.js:704
 msgid "Upgrade to Pro"
 msgstr ""
 
-#: includes/Admin.php:93
-#: includes/Admin.php:114
-msgid "Check Discount"
-msgstr ""
-
 #: includes/Admin.php:94
-#: includes/Admin.php:116
-#: includes/Admin/Menu.php:178
-#: includes/Dokan/VendorDashboard.php:65
-#: includes/functions.php:153
-msgid "Docs"
+#: includes/Admin.php:115
+msgid "Check Discount"
 msgstr ""
 
 #: includes/Admin.php:95
 #: includes/Admin.php:117
+#: includes/Admin/Menu.php:178
+#: includes/Dokan/VendorDashboard.php:65
+#: includes/Elementor/Widgets/DocsBreadcrumb.php:367
+#: includes/functions.php:163
+msgid "Docs"
+msgstr ""
+
+#: includes/Admin.php:96
+#: includes/Admin.php:118
 msgid "Get Support"
 msgstr ""
 
@@ -302,53 +312,37 @@ msgstr ""
 msgid "Use the <a href=\"%s\">classic UI</a>."
 msgstr ""
 
-#: includes/Admin/ChangelogUpsell.php:44
-#: includes/Admin/ChangelogUpsell.php:45
-msgid "Changelogs"
-msgstr ""
-
-#: includes/Admin/ChangelogUpsell.php:93
-msgid "Publish a beautiful changelog timeline at /changelog"
-msgstr ""
-
-#: includes/Admin/ChangelogUpsell.php:94
-msgid "Group updates into channels (Free, Pro, …) with their own pages"
-msgstr ""
-
-#: includes/Admin/ChangelogUpsell.php:95
-msgid "Colour-coded categories: Fixes, Improvements, New feature, New releases"
-msgstr ""
-
 #: includes/Admin/ChangelogUpsell.php:96
-msgid "Customisable header banner, brand colour and RSS feed"
-msgstr ""
-
-#: includes/Admin/ChangelogUpsell.php:97
-msgid "Embed anywhere with the [wedocs_changelog] shortcode"
-msgstr ""
-
-#: includes/Admin/ChangelogUpsell.php:103
-msgid "Pro feature"
+#: assets/build/index.js:1
+#: assets/build/index.js:2
+#: assets/build/index.js:14
+#: assets/build/upsell.js:1
+#: src/components/Premium/index.js:339
+#: src/components/ProPreviews/ChangelogSettings.js:15
+#: src/components/Settings/ShortcodeSettings.js:157
+msgid "Pro"
 msgstr ""
 
 #: includes/Admin/ChangelogUpsell.php:105
 #: assets/build/index.js:1
-#: src/components/ProPreviews/ChangelogSettings.js:36
-#: src/components/ProPreviews/index.js:24
-#: src/components/Settings/ShortcodeSettings.js:116
-msgid "Changelog"
-msgstr ""
-
-#: includes/Admin/ChangelogUpsell.php:107
-msgid "Keep your users in the loop with a polished, filterable changelog for your product — available in weDocs Pro."
+#: assets/build/upsell.js:1
+#: src/components/ProPreviews/ChangelogSettings.js:23
+msgid "Changelogs"
 msgstr ""
 
 #: includes/Admin/Docs_List_Table.php:27
 msgid "Helpfulness"
 msgstr ""
 
-#: includes/Admin/Docs_List_Table.php:67
+#: includes/Admin/Docs_List_Table.php:77
 msgid "Votes"
+msgstr ""
+
+#: includes/Admin/GlossaryUpsell.php:27
+#: assets/build/index.js:1
+#: assets/build/upsell.js:1
+#: src/components/ProPreviews/GlossarySettings.js:43
+msgid "Glossaries"
 msgstr ""
 
 #: includes/Admin/Menu.php:56
@@ -358,8 +352,9 @@ msgid "FAQ"
 msgstr ""
 
 #: includes/Admin/Menu.php:173
-#: assets/build/index.js:13
-#: src/components/Dashboard/index.js:107
+#: assets/build/index.js:14
+#: src/components/Dashboard/index.js:56
+#: src/components/Dashboard/index.js:148
 msgid "Dashboard"
 msgstr ""
 
@@ -381,7 +376,7 @@ msgid "Premium"
 msgstr ""
 
 #: includes/Admin/Migrate.php:65
-#: includes/Ajax.php:397
+#: includes/Ajax.php:476
 msgid "Security verification failed."
 msgstr ""
 
@@ -403,7 +398,7 @@ msgid "Migration not available at this moment."
 msgstr ""
 
 #: includes/Admin/Migrate.php:214
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Migrations/Modals/MigrationContentMappingModal.js:11
 msgid "Untitled Docs"
 msgstr ""
@@ -418,62 +413,150 @@ msgstr ""
 msgid "Unauthorized operation"
 msgstr ""
 
-#: includes/Ajax.php:118
+#: includes/Ajax.php:130
 msgid "Unauthorized access."
 msgstr ""
 
-#: includes/Ajax.php:184
+#: includes/Ajax.php:196
 msgid "Invalid post."
 msgstr ""
 
-#: includes/Ajax.php:189
-#: includes/Ajax.php:457
-#: includes/API/API.php:1286
+#: includes/Ajax.php:201
+#: includes/Ajax.php:536
+#: includes/API/API.php:1287
 msgid "Sorry, we have already recorded your feedback!"
 msgstr ""
 
-#: includes/Ajax.php:204
+#: includes/Ajax.php:216
 msgid "Thanks for your feedback!"
 msgstr ""
 
-#: includes/Ajax.php:225
+#: includes/Ajax.php:237
 msgid "Please enter a valid email address."
 msgstr ""
 
-#: includes/Ajax.php:232
+#: includes/Ajax.php:244
 msgid "Please provide a subject line."
 msgstr ""
 
-#: includes/Ajax.php:236
+#: includes/Ajax.php:248
 msgid "Please provide the message details."
 msgstr ""
 
-#: includes/Ajax.php:241
+#: includes/Ajax.php:253
 msgid "Thanks for your feedback."
 msgstr ""
 
-#: includes/Ajax.php:408
+#: includes/Ajax.php:389
+msgid "No more docs found."
+msgstr ""
+
+#: includes/Ajax.php:487
 msgid "Invalid voting data."
 msgstr ""
 
-#: includes/Ajax.php:415
+#: includes/Ajax.php:494
+#: includes/Ajax.php:680
+#: includes/Ajax.php:746
 msgid "Invalid post type."
 msgstr ""
 
-#: includes/Ajax.php:426
+#: includes/Ajax.php:505
 msgid "You must be logged in to vote."
 msgstr ""
 
-#: includes/Ajax.php:491
+#: includes/Ajax.php:570
+#: includes/Elementor/Widgets/WasThisHelpful.php:104
 msgid "Thank you for your feedback!"
 msgstr ""
 
-#: includes/Ajax.php:528
+#: includes/Ajax.php:607
 msgid "Query must be at least 2 characters long."
 msgstr ""
 
-#: includes/Ajax.php:578
+#: includes/Ajax.php:657
 msgid "Template not found."
+msgstr ""
+
+#: includes/Ajax.php:675
+msgid "Invalid vote."
+msgstr ""
+
+#: includes/Ajax.php:701
+msgid "You have already voted on this article."
+msgstr ""
+
+#: includes/Ajax.php:734
+#: includes/Ajax.php:778
+#: includes/API/API.php:3013
+msgid "Too many requests. Please try again later."
+msgstr ""
+
+#: includes/Ajax.php:741
+msgid "Invalid feedback."
+msgstr ""
+
+#: includes/Ajax.php:772
+msgid "Security check failed."
+msgstr ""
+
+#: includes/Ajax.php:791
+msgid "Message is required."
+msgstr ""
+
+#. translators: %s: title of the page the request was sent from.
+#: includes/Ajax.php:805
+#, php-format
+msgid "[weDocs] Support request from %s"
+msgstr ""
+
+#. translators: %s: submitted name.
+#: includes/Ajax.php:808
+#, php-format
+msgid ""
+"Name: %s\n"
+""
+msgstr ""
+
+#. translators: %s: submitted name.
+#. translators: %s: submitted email address.
+#: includes/Ajax.php:808
+#: includes/Ajax.php:810
+msgid "Not provided"
+msgstr ""
+
+#. translators: %s: submitted email address.
+#: includes/Ajax.php:810
+#, php-format
+msgid ""
+"Email: %s\n"
+""
+msgstr ""
+
+#. translators: 1: page title, 2: page URL.
+#: includes/Ajax.php:812
+#, php-format
+msgid ""
+"Page: %1$s (%2$s)\n"
+"\n"
+""
+msgstr ""
+
+#. translators: %s: submitted message body.
+#: includes/Ajax.php:814
+#, php-format
+msgid ""
+"Message:\n"
+"%s"
+msgstr ""
+
+#: includes/Ajax.php:836
+msgid "Failed to send email. Please try again."
+msgstr ""
+
+#: includes/Ajax.php:950
+#: includes/Elementor/Widgets/NeedHelp.php:21
+msgid "weDocs - Need More Help"
 msgstr ""
 
 #: includes/Analytics.php:268
@@ -539,7 +622,7 @@ msgstr ""
 
 #: includes/API/API.php:808
 #: includes/API/API.php:835
-#: includes/API/API.php:1268
+#: includes/API/API.php:1269
 msgid "You are not currently logged in."
 msgstr ""
 
@@ -548,288 +631,284 @@ msgstr ""
 msgid "Currently sortable status not given"
 msgstr ""
 
-#: includes/API/API.php:1161
+#: includes/API/API.php:1162
 msgid "The page number requested is larger than the number of pages available."
 msgstr ""
 
-#: includes/API/API.php:1247
+#: includes/API/API.php:1248
 msgid "No name given"
 msgstr ""
 
-#: includes/API/API.php:1251
+#: includes/API/API.php:1252
 msgid "No email given"
 msgstr ""
 
-#: includes/API/API.php:1277
+#: includes/API/API.php:1278
 msgid "Doc status not valid for update helpful data"
 msgstr ""
 
-#: includes/API/API.php:1320
-#: includes/API/API.php:1334
-#: includes/API/API.php:1343
-#: includes/API/API.php:1353
+#: includes/API/API.php:1321
+#: includes/API/API.php:1335
+#: includes/API/API.php:1344
+#: includes/API/API.php:1354
 msgid "Sorry, you are not allowed to view this documentation."
 msgstr ""
 
-#: includes/API/API.php:1398
+#: includes/API/API.php:1399
 msgid "You cannot delete the documentation resource."
 msgstr ""
 
-#: includes/API/API.php:1419
+#: includes/API/API.php:1420
 msgid "Invalid Documentation."
 msgstr ""
 
-#: includes/API/API.php:1463
+#: includes/API/API.php:1464
 msgid "You cannot see promotion notices."
 msgstr ""
 
-#: includes/API/API.php:1556
+#: includes/API/API.php:1557
 msgid "You do not have permission to generate AI content."
 msgstr ""
 
-#: includes/API/API.php:1578
-#: includes/API/API.php:1948
+#: includes/API/API.php:1579
+#: includes/API/API.php:1949
 msgid "AI image analysis is a pro feature. Please upgrade to weDocs Pro to use this feature."
 msgstr ""
 
-#: includes/API/API.php:1586
+#: includes/API/API.php:1587
 msgid "You do not have permission to upload images."
 msgstr ""
 
-#: includes/API/API.php:1594
+#: includes/API/API.php:1595
 msgid "You do not have permission to upload files."
 msgstr ""
 
-#: includes/API/API.php:1621
+#: includes/API/API.php:1622
 msgid "No image file provided."
 msgstr ""
 
-#: includes/API/API.php:1675
+#: includes/API/API.php:1676
 msgid "File type validation failed. The file may be corrupted or malicious."
 msgstr ""
 
-#: includes/API/API.php:1688
+#: includes/API/API.php:1689
 msgid "Could not determine file type."
 msgstr ""
 
-#: includes/API/API.php:1697
+#: includes/API/API.php:1698
 msgid "Only PNG, JPG, and WEBP images are allowed."
 msgstr ""
 
-#: includes/API/API.php:1707
+#: includes/API/API.php:1708
 msgid "File is not a valid image."
 msgstr ""
 
-#: includes/API/API.php:1716
+#: includes/API/API.php:1717
 msgid "Image dimensions are too large. Maximum 10000x10000 pixels."
 msgstr ""
 
 #. translators: %s: Maximum file size in MB or KB
-#: includes/API/API.php:1736
+#: includes/API/API.php:1737
 #, php-format
 msgid "Image must be under %s."
 msgstr ""
 
-#: includes/API/API.php:1922
+#: includes/API/API.php:1923
 msgid "Max tokens must be between 1 and 8000."
 msgstr ""
 
-#: includes/API/API.php:1930
+#: includes/API/API.php:1931
 msgid "Temperature must be between 0.0 and 2.0."
 msgstr ""
 
-#: includes/API/API.php:1939
+#: includes/API/API.php:1940
 msgid "Maximum 5 images allowed."
 msgstr ""
 
 #. translators: %d: attachment ID
-#: includes/API/API.php:1965
+#: includes/API/API.php:1966
 #, php-format
 msgid "Attachment ID %d not found."
 msgstr ""
 
 #. translators: %d: attachment ID
-#: includes/API/API.php:1978
+#: includes/API/API.php:1979
 #, php-format
 msgid "You do not have permission to analyze attachment ID %d."
 msgstr ""
 
-#: includes/API/API.php:1993
-#: includes/API/API.php:3066
+#: includes/API/API.php:1994
+#: includes/API/API.php:3067
 msgid "AI settings are not configured."
 msgstr ""
 
-#: includes/API/API.php:2007
-#: includes/API/API.php:3077
+#: includes/API/API.php:2008
+#: includes/API/API.php:3078
 msgid "AI provider is not configured or API key is missing."
 msgstr ""
 
-#: includes/API/API.php:2019
-#: includes/API/API.php:3088
+#: includes/API/API.php:2020
+#: includes/API/API.php:3089
 msgid "Invalid AI provider specified."
 msgstr ""
 
-#: includes/API/API.php:2029
-#: includes/API/API.php:3098
+#: includes/API/API.php:2030
+#: includes/API/API.php:3099
 msgid "AI model is not specified."
 msgstr ""
 
-#: includes/API/API.php:2041
+#: includes/API/API.php:2042
 msgid "Selected model does not support image analysis. Please select a vision-capable model."
 msgstr ""
 
-#: includes/API/API.php:2055
+#: includes/API/API.php:2056
 msgid "You are an expert documentation assistant. Generate detailed, comprehensive, and well-structured documentation using HTML tags (h2, h3, h4, p, ul, ol, strong, code, span class='highlight'). Adapt your tone and style to match the content type — technical, informational, policy, or general. Write thorough content with multiple paragraphs per section, aiming for depth and completeness. If screenshots are provided, use them to understand the context and write accurately — but never include image tags in your output. Only return the inner HTML content body, no document structure tags. Follow the user's instructions as the primary directive for what to generate."
 msgstr ""
 
-#: includes/API/API.php:2118
+#: includes/API/API.php:2119
 msgid "The request took too long to complete. Please try again with a shorter prompt."
 msgstr ""
 
-#: includes/API/API.php:2162
+#: includes/API/API.php:2163
 msgid "Unsupported AI provider"
 msgstr ""
 
-#: includes/API/API.php:2188
+#: includes/API/API.php:2189
 msgid "OpenAI API key is missing or invalid"
 msgstr ""
 
-#: includes/API/API.php:2267
-#: includes/API/API.php:2388
-#: includes/API/API.php:2501
+#: includes/API/API.php:2268
+#: includes/API/API.php:2389
+#: includes/API/API.php:2502
 msgid "The request took too long. Please try again with a shorter prompt or check your connection."
 msgstr ""
 
-#: includes/API/API.php:2270
+#: includes/API/API.php:2271
 #, php-format
 msgid "OpenAI API error: %s"
 msgstr ""
 
-#: includes/API/API.php:2289
+#: includes/API/API.php:2290
 msgid "Invalid OpenAI API response"
 msgstr ""
 
-#: includes/API/API.php:2315
+#: includes/API/API.php:2316
 msgid "Anthropic API key is missing or invalid"
 msgstr ""
 
-#: includes/API/API.php:2391
+#: includes/API/API.php:2392
 #, php-format
 msgid "Anthropic API error: %s"
 msgstr ""
 
-#: includes/API/API.php:2410
+#: includes/API/API.php:2411
 msgid "Invalid Anthropic API response"
 msgstr ""
 
-#: includes/API/API.php:2436
+#: includes/API/API.php:2437
 msgid "Google API key is missing or invalid"
 msgstr ""
 
-#: includes/API/API.php:2504
+#: includes/API/API.php:2505
 #, php-format
 msgid "Google API error: %s"
 msgstr ""
 
-#: includes/API/API.php:2513
+#: includes/API/API.php:2514
 msgid "Google API request failed"
 msgstr ""
 
-#: includes/API/API.php:2524
+#: includes/API/API.php:2525
 msgid "Invalid Google API response"
 msgstr ""
 
-#: includes/API/API.php:2540
+#: includes/API/API.php:2541
 #, php-format
 msgid "%s API request failed"
 msgstr ""
 
-#: includes/API/API.php:2545
-#: includes/API/API.php:2550
+#: includes/API/API.php:2546
+#: includes/API/API.php:2551
 #, php-format
 msgid "Invalid %s API key. Please check your API key in the AI settings."
 msgstr ""
 
-#: includes/API/API.php:2547
-#: includes/API/API.php:2552
+#: includes/API/API.php:2548
+#: includes/API/API.php:2553
 #, php-format
 msgid "Authentication failed. Please verify your %s API key is correct."
 msgstr ""
 
-#: includes/API/API.php:2554
+#: includes/API/API.php:2555
 msgid "Rate limit exceeded. Please wait a moment and try again."
 msgstr ""
 
-#: includes/API/API.php:2556
+#: includes/API/API.php:2557
 #, php-format
 msgid "%s service is temporarily unavailable. Please try again later."
 msgstr ""
 
-#: includes/API/API.php:2560
+#: includes/API/API.php:2561
 #, php-format
 msgid "%s API error: %s"
 msgstr ""
 
-#: includes/API/API.php:2588
+#: includes/API/API.php:2589
 msgid "Invalid AI provider."
 msgstr ""
 
-#: includes/API/API.php:2684
+#: includes/API/API.php:2685
 msgid "Dynamic model listing is not supported for this provider."
 msgstr ""
 
 #. translators: %d: HTTP status code
-#: includes/API/API.php:2720
+#: includes/API/API.php:2721
 #, php-format
 msgid "OpenAI API returned HTTP %d."
 msgstr ""
 
 #. translators: %d: HTTP status code
-#: includes/API/API.php:2803
+#: includes/API/API.php:2804
 #, php-format
 msgid "Anthropic API returned HTTP %d."
 msgstr ""
 
 #. translators: %d: HTTP status code
-#: includes/API/API.php:2856
+#: includes/API/API.php:2857
 #, php-format
 msgid "Google API returned HTTP %d."
 msgstr ""
 
-#: includes/API/API.php:2908
-#: includes/API/API.php:2938
-#: includes/API/API.php:2967
-#: includes/API/API.php:2997
-#: includes/API/API.php:3034
+#: includes/API/API.php:2909
+#: includes/API/API.php:2939
+#: includes/API/API.php:2968
+#: includes/API/API.php:2998
+#: includes/API/API.php:3035
 msgid "Invalid documentation post."
 msgstr ""
 
-#: includes/API/API.php:2947
+#: includes/API/API.php:2948
 msgid "Summary saved successfully."
 msgstr ""
 
-#: includes/API/API.php:2976
+#: includes/API/API.php:2977
 msgid "Summary deleted successfully."
 msgstr ""
 
-#: includes/API/API.php:3007
+#: includes/API/API.php:3008
 msgid "You are not allowed to generate this summary."
 msgstr ""
 
-#: includes/API/API.php:3012
-msgid "Too many requests. Please try again later."
-msgstr ""
-
-#: includes/API/API.php:3046
+#: includes/API/API.php:3047
 msgid "Cannot generate summary for empty content."
 msgstr ""
 
-#: includes/API/API.php:3053
+#: includes/API/API.php:3054
 #, php-format
 msgid "Please create a concise summary (2-3 sentences, maximum 150 words) of the following documentation article titled \"%s\":\\n\\n%s"
 msgstr ""
 
-#: includes/API/API.php:3058
+#: includes/API/API.php:3059
 msgid "You are a technical documentation assistant. Create concise, accurate summaries that capture the key points of documentation articles. Keep summaries brief and to the point."
 msgstr ""
 
@@ -874,16 +953,587 @@ msgstr ""
 msgid "Allow vendors to view from their dashboard using weDocs"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:26
-msgid "weDocs - Docs Grid"
+#: includes/Elementor/Widgets/DocNavigation.php:21
+msgid "weDocs - Doc Navigation"
 msgstr ""
 
+#: includes/Elementor/Widgets/DocNavigation.php:67
+#: includes/Elementor/Widgets/DocsBreadcrumb.php:65
 #: includes/Elementor/Widgets/DocsGrid.php:59
+#: includes/Elementor/Widgets/DocsHamburgerMenu.php:41
+#: includes/Elementor/Widgets/DocsSidebar.php:91
 #: includes/Elementor/Widgets/Search.php:60
+#: includes/Elementor/Widgets/TableOfContents.php:73
+#: includes/Elementor/Widgets/WasThisHelpful.php:41
 #: assets/build/block.js:1
 #: assets/build/blocks/HelpfulModal/index.js:1
 #: src/blocks/HelpfulModal/edit.js:335
 msgid "Content"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocNavigation.php:75
+msgid "Show Previous"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocNavigation.php:77
+#: includes/Elementor/Widgets/DocNavigation.php:89
+#: includes/Elementor/Widgets/DocNavigation.php:121
+#: includes/Elementor/Widgets/DocNavigation.php:146
+#: includes/Elementor/Widgets/DocsBreadcrumb.php:84
+#: includes/Elementor/Widgets/DocsGrid.php:195
+#: includes/Elementor/Widgets/DocsGrid.php:245
+#: includes/Elementor/Widgets/DocsGrid.php:328
+#: includes/Elementor/Widgets/DocsGrid.php:353
+#: includes/Elementor/Widgets/DocsGrid.php:366
+#: includes/Elementor/Widgets/DocsGrid.php:431
+#: includes/Elementor/Widgets/DocsGrid.php:621
+#: includes/Elementor/Widgets/DocsGrid.php:1146
+#: includes/Elementor/Widgets/DocsHamburgerMenu.php:78
+#: includes/Elementor/Widgets/DocsHamburgerMenu.php:100
+#: includes/Elementor/Widgets/DocsSidebar.php:101
+#: includes/Elementor/Widgets/DocsSidebar.php:123
+#: includes/Elementor/Widgets/DocsSidebar.php:137
+#: includes/Elementor/Widgets/DocsSidebar.php:577
+#: includes/Elementor/Widgets/NeedHelp.php:194
+#: includes/Elementor/Widgets/Search.php:70
+#: includes/Elementor/Widgets/TableOfContents.php:127
+#: includes/Elementor/Widgets/TableOfContents.php:139
+#: includes/Elementor/Widgets/TableOfContents.php:154
+#: includes/Elementor/Widgets/TableOfContents.php:187
+#: includes/Elementor/Widgets/TableOfContents.php:199
+#: includes/Elementor/Widgets/TableOfContents.php:211
+#: includes/Elementor/Widgets/TableOfContents.php:249
+#: includes/Elementor/Widgets/WasThisHelpful.php:74
+#: includes/Elementor/Widgets/WasThisHelpful.php:380
+#: templates/content-feedback.php:22
+msgid "Yes"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocNavigation.php:78
+#: includes/Elementor/Widgets/DocNavigation.php:90
+#: includes/Elementor/Widgets/DocNavigation.php:122
+#: includes/Elementor/Widgets/DocNavigation.php:147
+#: includes/Elementor/Widgets/DocsBreadcrumb.php:85
+#: includes/Elementor/Widgets/DocsGrid.php:196
+#: includes/Elementor/Widgets/DocsGrid.php:246
+#: includes/Elementor/Widgets/DocsGrid.php:329
+#: includes/Elementor/Widgets/DocsGrid.php:354
+#: includes/Elementor/Widgets/DocsGrid.php:367
+#: includes/Elementor/Widgets/DocsGrid.php:432
+#: includes/Elementor/Widgets/DocsGrid.php:622
+#: includes/Elementor/Widgets/DocsGrid.php:1147
+#: includes/Elementor/Widgets/DocsHamburgerMenu.php:79
+#: includes/Elementor/Widgets/DocsHamburgerMenu.php:101
+#: includes/Elementor/Widgets/DocsSidebar.php:102
+#: includes/Elementor/Widgets/DocsSidebar.php:124
+#: includes/Elementor/Widgets/DocsSidebar.php:138
+#: includes/Elementor/Widgets/DocsSidebar.php:578
+#: includes/Elementor/Widgets/NeedHelp.php:195
+#: includes/Elementor/Widgets/Search.php:71
+#: includes/Elementor/Widgets/TableOfContents.php:128
+#: includes/Elementor/Widgets/TableOfContents.php:140
+#: includes/Elementor/Widgets/TableOfContents.php:155
+#: includes/Elementor/Widgets/TableOfContents.php:188
+#: includes/Elementor/Widgets/TableOfContents.php:200
+#: includes/Elementor/Widgets/TableOfContents.php:212
+#: includes/Elementor/Widgets/TableOfContents.php:250
+#: includes/Elementor/Widgets/WasThisHelpful.php:84
+#: includes/Elementor/Widgets/WasThisHelpful.php:384
+#: templates/content-feedback.php:16
+msgid "No"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocNavigation.php:87
+msgid "Show Next"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocNavigation.php:99
+msgid "Previous Label"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocNavigation.php:101
+#: includes/Elementor/Widgets/DocNavigation.php:381
+#: includes/Elementor/Widgets/DocNavigation.php:650
+#: includes/Elementor/Widgets/DocsGrid.php:3072
+#: templates/shortcode.php:137
+#: templates/shortcode.php:141
+#: assets/build/index.js:11
+#: src/components/Documentations/DocsPagination.js:71
+msgid "Previous"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocNavigation.php:109
+msgid "Next Label"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocNavigation.php:111
+#: includes/Elementor/Widgets/DocNavigation.php:382
+#: includes/Elementor/Widgets/DocNavigation.php:651
+#: includes/Elementor/Widgets/DocsGrid.php:3078
+#: templates/shortcode.php:151
+#: templates/shortcode.php:155
+#: assets/build/index.js:14
+#: src/components/Documentations/DocsPagination.js:89
+msgid "Next"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocNavigation.php:119
+msgid "Show Arrows"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocNavigation.php:131
+#: includes/Elementor/Widgets/NeedHelp.php:90
+#: assets/build/block.js:1
+#: assets/build/blocks/HelpfulModal/index.js:1
+#: assets/build/blocks/PrintButton/index.js:1
+#: assets/build/blocks/SocialShare/index.js:1
+#: src/blocks/HelpfulModal/edit.js:276
+#: src/blocks/PrintButton/edit.js:110
+#: src/blocks/SocialShare/edit.js:274
+msgid "Layout"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocNavigation.php:135
+msgid "Side by Side"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocNavigation.php:136
+#: assets/build/block.js:1
+#: assets/build/blocks/HelpfulModal/index.js:1
+#: src/blocks/HelpfulModal/edit.js:286
+msgid "Stacked"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocNavigation.php:144
+msgid "Stack on Mobile"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocNavigation.php:150
+msgid "Stack prev/next vertically on screens ≤768px"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocNavigation.php:161
+#: includes/Elementor/Widgets/DocsBreadcrumb.php:125
+#: includes/Elementor/Widgets/DocsSidebar.php:227
+#: includes/Elementor/Widgets/Search.php:847
+#: includes/Elementor/Widgets/TableOfContents.php:281
+#: includes/Elementor/Widgets/WasThisHelpful.php:152
+msgid "Container"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocNavigation.php:169
+#: includes/Elementor/Widgets/DocsBreadcrumb.php:133
+#: includes/Elementor/Widgets/DocsGrid.php:505
+#: includes/Elementor/Widgets/DocsGrid.php:752
+#: includes/Elementor/Widgets/DocsGrid.php:860
+#: includes/Elementor/Widgets/DocsGrid.php:1206
+#: includes/Elementor/Widgets/DocsGrid.php:1309
+#: includes/Elementor/Widgets/DocsGrid.php:1908
+#: includes/Elementor/Widgets/DocsGrid.php:2286
+#: includes/Elementor/Widgets/DocsGrid.php:2471
+#: includes/Elementor/Widgets/DocsGrid.php:2649
+#: includes/Elementor/Widgets/DocsHamburgerMenu.php:134
+#: includes/Elementor/Widgets/DocsHamburgerMenu.php:196
+#: includes/Elementor/Widgets/DocsSidebar.php:235
+#: includes/Elementor/Widgets/DocsSidebar.php:344
+#: includes/Elementor/Widgets/NeedHelp.php:217
+#: includes/Elementor/Widgets/NeedHelp.php:344
+#: includes/Elementor/Widgets/NeedHelp.php:425
+#: includes/Elementor/Widgets/Search.php:241
+#: includes/Elementor/Widgets/Search.php:298
+#: includes/Elementor/Widgets/Search.php:350
+#: includes/Elementor/Widgets/Search.php:608
+#: includes/Elementor/Widgets/Search.php:653
+#: includes/Elementor/Widgets/Search.php:712
+#: includes/Elementor/Widgets/Search.php:855
+#: includes/Elementor/Widgets/SearchModal.php:174
+#: includes/Elementor/Widgets/TableOfContents.php:289
+#: includes/Elementor/Widgets/WasThisHelpful.php:160
+#: assets/build/block.js:1
+#: assets/build/blocks/Contributors/index.js:1
+#: assets/build/blocks/DocsGrid/index.js:1
+#: assets/build/blocks/HelpfulFeedback/index.js:1
+#: assets/build/blocks/PrintButton/index.js:1
+#: assets/build/blocks/QuickSearch/index.js:1
+#: assets/build/blocks/Search/index.js:1
+#: assets/build/blocks/SocialShare/index.js:1
+#: assets/build/blocks/TableOfContents/index.js:1
+#: src/blocks/AdvanceContributors/edit-old.js:274
+#: src/blocks/components/BackgroundControl.js:46
+#: src/blocks/Contributors/edit-old.js:274
+#: src/blocks/Contributors/edit.js:598
+#: src/blocks/DocsGrid/StyleControls.js:400
+#: src/blocks/HelpfulFeedback/edit.js:210
+#: src/blocks/PrintButton/Inspector.js:62
+#: src/blocks/QuickSearch/edit.js:191
+#: src/blocks/QuickSearch/edit.js:288
+#: src/blocks/Search/edit.js:211
+#: src/blocks/SocialShare/edit.js:354
+#: src/blocks/SocialShare/edit.js:441
+#: src/blocks/TableOfContents/Inspector.js:131
+msgid "Background Color"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocNavigation.php:181
+#: includes/Elementor/Widgets/DocsBreadcrumb.php:145
+#: includes/Elementor/Widgets/DocsGrid.php:517
+#: includes/Elementor/Widgets/DocsGrid.php:764
+#: includes/Elementor/Widgets/DocsGrid.php:872
+#: includes/Elementor/Widgets/DocsGrid.php:1218
+#: includes/Elementor/Widgets/DocsGrid.php:1333
+#: includes/Elementor/Widgets/DocsGrid.php:1956
+#: includes/Elementor/Widgets/DocsGrid.php:2346
+#: includes/Elementor/Widgets/DocsGrid.php:2532
+#: includes/Elementor/Widgets/DocsGrid.php:2686
+#: includes/Elementor/Widgets/DocsHamburgerMenu.php:159
+#: includes/Elementor/Widgets/DocsHamburgerMenu.php:221
+#: includes/Elementor/Widgets/DocsSidebar.php:247
+#: includes/Elementor/Widgets/DocsSidebar.php:419
+#: includes/Elementor/Widgets/NeedHelp.php:229
+#: includes/Elementor/Widgets/NeedHelp.php:380
+#: includes/Elementor/Widgets/Search.php:424
+#: includes/Elementor/Widgets/Search.php:745
+#: includes/Elementor/Widgets/Search.php:866
+#: includes/Elementor/Widgets/SearchModal.php:261
+#: includes/Elementor/Widgets/TableOfContents.php:301
+#: includes/Elementor/Widgets/WasThisHelpful.php:172
+#: assets/build/block.js:1
+#: assets/build/blocks/AdvanceContributors/index.js:1
+#: assets/build/blocks/AISummary/index.js:1
+#: assets/build/blocks/Contributors/index.js:1
+#: assets/build/blocks/DocActions/index.js:1
+#: assets/build/blocks/DocNavigation/index.js:1
+#: assets/build/blocks/FontSizeSwitcher/index.js:1
+#: assets/build/blocks/HelpfulFeedback/index.js:1
+#: assets/build/blocks/PrintButton/index.js:1
+#: assets/build/blocks/QuickSearch/index.js:1
+#: assets/build/blocks/SocialShare/index.js:1
+#: assets/build/blocks/TableOfContents/index.js:1
+#: src/blocks/AdvanceContributors/edit-old.js:323
+#: src/blocks/commonControls/CommonControls.js:50
+#: src/blocks/commonControls/DimensionsControls.js:65
+#: src/blocks/components/SpacingControl.js:27
+#: src/blocks/Contributors/edit-old.js:323
+#: src/blocks/DocNavigation/edit.js:179
+#: src/blocks/PrintButton/Inspector.js:93
+#: src/blocks/PrintButton/Inspector.js:129
+#: src/blocks/QuickSearch/edit.js:220
+#: src/blocks/SocialShare/edit.js:464
+#: src/blocks/TableOfContents/Inspector.js:151
+msgid "Padding"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocNavigation.php:207
+#: includes/Elementor/Widgets/DocsGrid.php:580
+#: includes/Elementor/Widgets/DocsGrid.php:811
+#: includes/Elementor/Widgets/DocsGrid.php:919
+#: includes/Elementor/Widgets/DocsGrid.php:1265
+#: includes/Elementor/Widgets/DocsGrid.php:1380
+#: includes/Elementor/Widgets/DocsGrid.php:1994
+#: includes/Elementor/Widgets/DocsGrid.php:2405
+#: includes/Elementor/Widgets/DocsGrid.php:2552
+#: includes/Elementor/Widgets/DocsGrid.php:2724
+#: includes/Elementor/Widgets/DocsHamburgerMenu.php:172
+#: includes/Elementor/Widgets/DocsSidebar.php:267
+#: includes/Elementor/Widgets/DocsSidebar.php:406
+#: includes/Elementor/Widgets/NeedHelp.php:261
+#: includes/Elementor/Widgets/NeedHelp.php:393
+#: includes/Elementor/Widgets/NeedHelp.php:466
+#: includes/Elementor/Widgets/Search.php:496
+#: includes/Elementor/Widgets/Search.php:794
+#: includes/Elementor/Widgets/Search.php:887
+#: includes/Elementor/Widgets/SearchModal.php:248
+#: includes/Elementor/Widgets/TableOfContents.php:334
+#: includes/Elementor/Widgets/WasThisHelpful.php:198
+#: assets/build/block.js:1
+#: assets/build/blocks/AdvanceContributors/index.js:1
+#: assets/build/blocks/AISummary/index.js:1
+#: assets/build/blocks/Contributors/index.js:1
+#: assets/build/blocks/DocActions/index.js:1
+#: assets/build/blocks/DocNavigation/index.js:1
+#: assets/build/blocks/DocsGrid/index.js:1
+#: assets/build/blocks/HelpfulFeedback/index.js:1
+#: assets/build/blocks/PrintButton/index.js:1
+#: assets/build/blocks/QuickSearch/index.js:1
+#: assets/build/blocks/Search/index.js:1
+#: assets/build/blocks/SocialShare/index.js:1
+#: assets/build/blocks/TableOfContents/index.js:1
+#: src/blocks/AdvanceContributors/edit-old.js:368
+#: src/blocks/commonControls/BorderAndShadowControls.js:95
+#: src/blocks/commonControls/CommonControls.js:145
+#: src/blocks/commonControls/CommonControls.js:151
+#: src/blocks/components/BorderControl.js:104
+#: src/blocks/Contributors/edit-old.js:368
+#: src/blocks/DocNavigation/edit.js:228
+#: src/blocks/DocsGrid/StyleControls.js:283
+#: src/blocks/PrintButton/Inspector.js:145
+#: src/blocks/QuickSearch/edit.js:214
+#: src/blocks/Search/edit.js:197
+#: src/blocks/SocialShare/edit.js:494
+#: src/blocks/TableOfContents/Inspector.js:193
+msgid "Border Radius"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocNavigation.php:230
+msgid "Label"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocNavigation.php:238
+#: includes/Elementor/Widgets/DocNavigation.php:269
+#: includes/Elementor/Widgets/DocNavigation.php:313
+#: includes/Elementor/Widgets/DocNavigation.php:349
+#: includes/Elementor/Widgets/DocsBreadcrumb.php:181
+#: includes/Elementor/Widgets/DocsBreadcrumb.php:224
+#: includes/Elementor/Widgets/DocsBreadcrumb.php:265
+#: includes/Elementor/Widgets/DocsBreadcrumb.php:302
+#: includes/Elementor/Widgets/DocsGrid.php:1666
+#: includes/Elementor/Widgets/DocsGrid.php:1728
+#: includes/Elementor/Widgets/DocsGrid.php:1790
+#: includes/Elementor/Widgets/DocsHamburgerMenu.php:270
+#: includes/Elementor/Widgets/DocsHamburgerMenu.php:369
+#: includes/Elementor/Widgets/DocsSidebar.php:299
+#: includes/Elementor/Widgets/TableOfContents.php:372
+#: includes/Elementor/Widgets/WasThisHelpful.php:222
+#: assets/build/block.js:1
+#: assets/build/blocks/AdvanceContributors/index.js:1
+#: assets/build/blocks/TableOfContents/index.js:1
+#: src/blocks/AdvanceContributors/edit-old.js:279
+#: src/blocks/AdvanceContributors/edit-old.js:360
+#: src/blocks/AdvanceContributors/edit-old.js:429
+#: src/blocks/AdvanceContributors/edit-old.js:507
+#: src/blocks/commonControls/ColorsControls.js:53
+#: src/blocks/commonControls/ColorsControls.js:122
+#: src/blocks/components/BackgroundControl.js:51
+#: src/blocks/components/BorderControl.js:93
+#: src/blocks/components/ShadowControl.js:103
+#: src/blocks/Contributors/edit-old.js:279
+#: src/blocks/Contributors/edit-old.js:360
+#: src/blocks/Contributors/edit-old.js:429
+#: src/blocks/Contributors/edit-old.js:507
+#: src/blocks/TableOfContents/ColorsControls.js:53
+#: src/blocks/TableOfContents/ColorsControls.js:122
+#: src/blocks/TableOfContents/Inspector.js:203
+#: src/blocks/TableOfContents/Inspector.js:235
+msgid "Color"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocNavigation.php:261
+#: includes/Elementor/Widgets/DocsGrid.php:1658
+#: includes/Elementor/Widgets/DocsHamburgerMenu.php:261
+#: includes/Elementor/Widgets/DocsSidebar.php:290
+msgid "Doc Title"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocNavigation.php:281
+#: includes/Elementor/Widgets/DocsBreadcrumb.php:193
+#: includes/Elementor/Widgets/DocsGrid.php:1708
+#: includes/Elementor/Widgets/DocsGrid.php:1770
+#: includes/Elementor/Widgets/DocsGrid.php:1803
+#: includes/Elementor/Widgets/DocsHamburgerMenu.php:313
+#: includes/Elementor/Widgets/DocsSidebar.php:468
+#: includes/Elementor/Widgets/WasThisHelpful.php:265
+#: assets/build/block.js:1
+#: assets/build/blocks/DocsGrid/index.js:1
+#: assets/build/blocks/TableOfContents/index.js:1
+#: src/blocks/AdvanceContributors/edit-old.js:458
+#: src/blocks/AdvanceContributors/edit-old.js:474
+#: src/blocks/components/TypographyControl.js:46
+#: src/blocks/Contributors/edit-old.js:458
+#: src/blocks/Contributors/edit-old.js:474
+#: src/blocks/DocsGrid/StyleControls.js:405
+#: src/blocks/TableOfContents/Inspector.js:243
+msgid "Hover Color"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocNavigation.php:304
+msgid "Arrow"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocNavigation.php:325
+#: includes/Elementor/Widgets/DocsBreadcrumb.php:277
+#: includes/Elementor/Widgets/DocsBreadcrumb.php:314
+#: includes/Elementor/Widgets/DocsHamburgerMenu.php:382
+#: assets/build/block.js:1
+#: assets/build/blocks/AdvanceContributors/index.js:1
+#: assets/build/blocks/DocsGrid/index.js:1
+#: src/blocks/AdvanceContributors/edit-old.js:395
+#: src/blocks/commonControls/BackgroundImageControls.js:137
+#: src/blocks/Contributors/edit-old.js:395
+#: src/blocks/DocsGrid/StyleControls.js:88
+msgid "Size"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocNavigation.php:341
+#: includes/Elementor/Widgets/DocsBreadcrumb.php:94
+#: includes/Elementor/Widgets/DocsBreadcrumb.php:257
+msgid "Separator"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocNavigation.php:362
+#: includes/Elementor/Widgets/DocsGrid.php:2068
+#: includes/Elementor/Widgets/DocsHamburgerMenu.php:208
+#: includes/Elementor/Widgets/Search.php:177
+#: includes/Elementor/Widgets/SearchModal.php:290
+#: assets/build/block.js:1
+#: assets/build/blocks/AdvanceContributors/index.js:1
+#: assets/build/blocks/TableOfContents/index.js:1
+#: src/blocks/commonControls/DimensionsControls.js:94
+#: src/blocks/components/DimensionControl.js:28
+#: src/blocks/TableOfContents/Inspector.js:139
+msgid "Width"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocNavigation.php:676
+#: includes/Elementor/Widgets/DocsBreadcrumb.php:575
+msgid "Getting Started"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocNavigation.php:691
+msgid "Advanced Configuration"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocNavigation.php:706
+msgid "Preview: This widget shows navigation between documentation pages."
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsBreadcrumb.php:19
+msgid "weDocs - Breadcrumb"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsBreadcrumb.php:73
+msgid "Home Text"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsBreadcrumb.php:82
+msgid "Show Home Icon"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsBreadcrumb.php:110
+msgid "Max Characters per Item"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsBreadcrumb.php:115
+msgid "0 = no truncation"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsBreadcrumb.php:157
+#: includes/Elementor/Widgets/DocsGrid.php:966
+#: includes/Elementor/Widgets/DocsGrid.php:2384
+#: includes/Elementor/Widgets/TableOfContents.php:474
+msgid "Item Spacing"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsBreadcrumb.php:173
+msgid "Links"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsBreadcrumb.php:216
+msgid "Current Item"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsBreadcrumb.php:236
+#: assets/build/block.js:1
+#: assets/build/blocks/AISummary/index.js:1
+#: assets/build/blocks/DocNavigation/index.js:1
+#: assets/build/blocks/HelpfulFeedback/index.js:1
+#: assets/build/blocks/LastUpdated/index.js:1
+#: assets/build/blocks/PrintButton/index.js:1
+#: assets/build/blocks/QuickSearch/index.js:1
+#: assets/build/blocks/SocialShare/index.js:1
+#: assets/build/blocks/TableOfContents/index.js:1
+#: src/blocks/AdvanceContributors/edit-old.js:488
+#: src/blocks/commonControls/CommonControls.js:207
+#: src/blocks/components/TypographyControl.js:87
+#: src/blocks/Contributors/edit-old.js:488
+#: src/blocks/DocNavigation/edit.js:379
+#: src/blocks/PrintButton/Inspector.js:230
+#: src/blocks/QuickSearch/edit.js:243
+#: src/blocks/SocialShare/edit.js:328
+#: src/blocks/TableOfContents/Inspector.js:217
+msgid "Font Weight"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsBreadcrumb.php:240
+#: includes/Elementor/Widgets/Search.php:234
+#: includes/Elementor/Widgets/Search.php:587
+#: assets/build/block.js:1
+#: assets/build/blocks/DocNavigation/index.js:1
+#: assets/build/blocks/PrintButton/index.js:1
+#: assets/build/blocks/SocialShare/index.js:1
+#: assets/build/faq.js:1
+#: assets/build/index.js:1
+#: assets/build/index.js:2
+#: assets/build/upsell.js:2
+#: src/blocks/AdvanceContributors/edit-old.js:491
+#: src/blocks/components/TypographyControl.js:108
+#: src/blocks/Contributors/edit-old.js:491
+#: src/blocks/DocNavigation/edit.js:132
+#: src/blocks/DocNavigation/edit.js:138
+#: src/blocks/PrintButton/Inspector.js:233
+#: src/blocks/SocialShare/edit.js:331
+#: src/components/ProPreviews/AssistantWidgetPanels/FontSettings.js:6
+#: src/components/ProPreviews/GlossarySettings.js:124
+#: src/components/ProPreviews/GlossarySettings.js:125
+#: src/faq/components/TiptapEditor.js:56
+#: src/faq/components/TiptapEditor.js:61
+msgid "Normal"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsBreadcrumb.php:241
+#: assets/build/block.js:1
+#: assets/build/blocks/PrintButton/index.js:1
+#: assets/build/blocks/SocialShare/index.js:1
+#: assets/build/index.js:1
+#: src/blocks/PrintButton/Inspector.js:236
+#: src/blocks/SocialShare/edit.js:258
+#: src/blocks/SocialShare/edit.js:332
+#: src/components/ProPreviews/AssistantWidgetPanels/FontSettings.js:7
+msgid "Medium"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsBreadcrumb.php:242
+#: assets/build/block.js:1
+#: assets/build/blocks/PrintButton/index.js:1
+#: src/blocks/PrintButton/Inspector.js:238
+msgid "Semi Bold"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsBreadcrumb.php:243
+#: assets/build/block.js:1
+#: assets/build/blocks/DocNavigation/index.js:1
+#: assets/build/blocks/PrintButton/index.js:1
+#: assets/build/blocks/SocialShare/index.js:1
+#: assets/build/faq.js:1
+#: assets/build/index.js:1
+#: src/blocks/AdvanceContributors/edit-old.js:492
+#: src/blocks/Contributors/edit-old.js:492
+#: src/blocks/DocNavigation/edit.js:133
+#: src/blocks/PrintButton/Inspector.js:234
+#: src/blocks/SocialShare/edit.js:334
+#: src/components/ProPreviews/AssistantWidgetPanels/FontSettings.js:9
+#: src/faq/components/TiptapEditor.js:147
+msgid "Bold"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsBreadcrumb.php:293
+msgid "Home Icon"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsBreadcrumb.php:402
+#: includes/Elementor/Widgets/DocsBreadcrumb.php:585
+msgid "Breadcrumb"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsBreadcrumb.php:579
+msgid "Installation Guide"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsBreadcrumb.php:622
+msgid "Preview: This widget shows the navigation path on documentation pages."
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsGrid.php:26
+msgid "weDocs - Docs Grid"
 msgstr ""
 
 #: includes/Elementor/Widgets/DocsGrid.php:67
@@ -899,8 +1549,8 @@ msgid "2x2 Grid"
 msgstr ""
 
 #: includes/Elementor/Widgets/DocsGrid.php:73
-#: includes/Elementor/Widgets/DocsGrid.php:952
-#: includes/Elementor/Widgets/DocsGrid.php:2855
+#: includes/Elementor/Widgets/DocsGrid.php:955
+#: includes/Elementor/Widgets/DocsGrid.php:3023
 msgid "List View"
 msgstr ""
 
@@ -953,15 +1603,17 @@ msgid "Menu Order"
 msgstr ""
 
 #: includes/Elementor/Widgets/DocsGrid.php:141
+#: includes/Elementor/Widgets/TableOfContents.php:81
+#: includes/Elementor/Widgets/TableOfContents.php:364
 #: assets/build/block.js:1
 #: assets/build/blocks/AdvanceContributors/index.js:1
 #: assets/build/blocks/Contributors/index.js:1
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/blocks/AdvanceContributors/edit-old.js:179
 #: src/blocks/AdvanceContributors/edit.js:372
 #: src/blocks/Contributors/edit-old.js:179
 #: src/blocks/Contributors/edit.js:409
-#: src/components/Dashboard/index.js:206
+#: src/components/Dashboard/index.js:247
 msgid "Title"
 msgstr ""
 
@@ -1008,32 +1660,6 @@ msgstr ""
 msgid "Keep Articles Collapsed"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:195
-#: includes/Elementor/Widgets/DocsGrid.php:245
-#: includes/Elementor/Widgets/DocsGrid.php:328
-#: includes/Elementor/Widgets/DocsGrid.php:353
-#: includes/Elementor/Widgets/DocsGrid.php:366
-#: includes/Elementor/Widgets/DocsGrid.php:431
-#: includes/Elementor/Widgets/DocsGrid.php:621
-#: includes/Elementor/Widgets/DocsGrid.php:1143
-#: includes/Elementor/Widgets/Search.php:70
-#: templates/content-feedback.php:22
-msgid "Yes"
-msgstr ""
-
-#: includes/Elementor/Widgets/DocsGrid.php:196
-#: includes/Elementor/Widgets/DocsGrid.php:246
-#: includes/Elementor/Widgets/DocsGrid.php:329
-#: includes/Elementor/Widgets/DocsGrid.php:354
-#: includes/Elementor/Widgets/DocsGrid.php:367
-#: includes/Elementor/Widgets/DocsGrid.php:432
-#: includes/Elementor/Widgets/DocsGrid.php:622
-#: includes/Elementor/Widgets/DocsGrid.php:1144
-#: includes/Elementor/Widgets/Search.php:71
-#: templates/content-feedback.php:16
-msgid "No"
-msgstr ""
-
 #: includes/Elementor/Widgets/DocsGrid.php:208
 #: assets/build/block.js:1
 #: assets/build/blocks/DocsGrid/index.js:1
@@ -1042,6 +1668,8 @@ msgid "Show View Details Button"
 msgstr ""
 
 #: includes/Elementor/Widgets/DocsGrid.php:220
+#: includes/Elementor/Widgets/NeedHelp.php:81
+#: includes/Elementor/Widgets/SearchModal.php:76
 #: assets/build/block.js:1
 #: assets/build/blocks/DocsGrid/index.js:1
 #: assets/build/blocks/HelpfulModal/index.js:1
@@ -1055,7 +1683,7 @@ msgid "Button Text"
 msgstr ""
 
 #: includes/Elementor/Widgets/DocsGrid.php:235
-#: includes/Elementor/Widgets/DocsGrid.php:2225
+#: includes/Elementor/Widgets/DocsGrid.php:2228
 msgid "Pagination"
 msgstr ""
 
@@ -1088,7 +1716,7 @@ msgid "Load More Button Text"
 msgstr ""
 
 #: includes/Elementor/Widgets/DocsGrid.php:275
-#: includes/Elementor/Widgets/DocsGrid.php:2770
+#: includes/Elementor/Widgets/DocsGrid.php:2933
 msgid "Load More"
 msgstr ""
 
@@ -1121,10 +1749,13 @@ msgid "Add search box above grid"
 msgstr ""
 
 #: includes/Elementor/Widgets/DocsGrid.php:339
+#: includes/Elementor/Widgets/DocsHamburgerMenu.php:88
+#: includes/Elementor/Widgets/DocsSidebar.php:111
 msgid "Search Placeholder"
 msgstr ""
 
 #: includes/Elementor/Widgets/DocsGrid.php:341
+#: includes/Elementor/Widgets/SearchModal.php:69
 msgid "Search documentation..."
 msgstr ""
 
@@ -1153,8 +1784,8 @@ msgid "Item Animation"
 msgstr ""
 
 #: includes/Elementor/Widgets/DocsGrid.php:392
-#: includes/Elementor/Widgets/DocsGrid.php:1825
-#: includes/Elementor/Widgets/DocsGrid.php:1844
+#: includes/Elementor/Widgets/DocsGrid.php:1828
+#: includes/Elementor/Widgets/DocsGrid.php:1847
 #: includes/Elementor/Widgets/Search.php:669
 #: assets/build/block.js:1
 #: assets/build/blocks/AdvanceContributors/index.js:1
@@ -1263,94 +1894,16 @@ msgstr ""
 msgid "4 Columns"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:505
-#: includes/Elementor/Widgets/DocsGrid.php:752
-#: includes/Elementor/Widgets/DocsGrid.php:860
-#: includes/Elementor/Widgets/DocsGrid.php:1203
-#: includes/Elementor/Widgets/DocsGrid.php:1306
-#: includes/Elementor/Widgets/DocsGrid.php:1905
-#: includes/Elementor/Widgets/DocsGrid.php:2283
-#: includes/Elementor/Widgets/DocsGrid.php:2468
-#: includes/Elementor/Widgets/DocsGrid.php:2646
-#: includes/Elementor/Widgets/Search.php:241
-#: includes/Elementor/Widgets/Search.php:298
-#: includes/Elementor/Widgets/Search.php:350
-#: includes/Elementor/Widgets/Search.php:608
-#: includes/Elementor/Widgets/Search.php:653
-#: includes/Elementor/Widgets/Search.php:712
-#: includes/Elementor/Widgets/Search.php:855
-#: assets/build/block.js:1
-#: assets/build/blocks/Contributors/index.js:1
-#: assets/build/blocks/DocsGrid/index.js:1
-#: assets/build/blocks/HelpfulFeedback/index.js:1
-#: assets/build/blocks/PrintButton/index.js:1
-#: assets/build/blocks/QuickSearch/index.js:1
-#: assets/build/blocks/Search/index.js:1
-#: assets/build/blocks/SocialShare/index.js:1
-#: assets/build/blocks/TableOfContents/index.js:1
-#: src/blocks/AdvanceContributors/edit-old.js:274
-#: src/blocks/components/BackgroundControl.js:46
-#: src/blocks/Contributors/edit-old.js:274
-#: src/blocks/Contributors/edit.js:598
-#: src/blocks/DocsGrid/StyleControls.js:400
-#: src/blocks/HelpfulFeedback/edit.js:210
-#: src/blocks/PrintButton/Inspector.js:62
-#: src/blocks/QuickSearch/edit.js:191
-#: src/blocks/QuickSearch/edit.js:288
-#: src/blocks/Search/edit.js:211
-#: src/blocks/SocialShare/edit.js:354
-#: src/blocks/SocialShare/edit.js:441
-#: src/blocks/TableOfContents/Inspector.js:131
-msgid "Background Color"
-msgstr ""
-
-#: includes/Elementor/Widgets/DocsGrid.php:517
-#: includes/Elementor/Widgets/DocsGrid.php:764
-#: includes/Elementor/Widgets/DocsGrid.php:872
-#: includes/Elementor/Widgets/DocsGrid.php:1215
-#: includes/Elementor/Widgets/DocsGrid.php:1330
-#: includes/Elementor/Widgets/DocsGrid.php:1953
-#: includes/Elementor/Widgets/DocsGrid.php:2343
-#: includes/Elementor/Widgets/DocsGrid.php:2529
-#: includes/Elementor/Widgets/DocsGrid.php:2683
-#: includes/Elementor/Widgets/Search.php:424
-#: includes/Elementor/Widgets/Search.php:745
-#: includes/Elementor/Widgets/Search.php:866
-#: assets/build/block.js:1
-#: assets/build/blocks/AdvanceContributors/index.js:1
-#: assets/build/blocks/AISummary/index.js:1
-#: assets/build/blocks/Contributors/index.js:1
-#: assets/build/blocks/DocActions/index.js:1
-#: assets/build/blocks/DocNavigation/index.js:1
-#: assets/build/blocks/FontSizeSwitcher/index.js:1
-#: assets/build/blocks/HelpfulFeedback/index.js:1
-#: assets/build/blocks/PrintButton/index.js:1
-#: assets/build/blocks/QuickSearch/index.js:1
-#: assets/build/blocks/SocialShare/index.js:1
-#: assets/build/blocks/TableOfContents/index.js:1
-#: src/blocks/AdvanceContributors/edit-old.js:323
-#: src/blocks/commonControls/CommonControls.js:50
-#: src/blocks/commonControls/DimensionsControls.js:65
-#: src/blocks/components/SpacingControl.js:27
-#: src/blocks/Contributors/edit-old.js:323
-#: src/blocks/DocNavigation/edit.js:179
-#: src/blocks/PrintButton/Inspector.js:93
-#: src/blocks/PrintButton/Inspector.js:129
-#: src/blocks/QuickSearch/edit.js:220
-#: src/blocks/SocialShare/edit.js:464
-#: src/blocks/TableOfContents/Inspector.js:151
-msgid "Padding"
-msgstr ""
-
 #: includes/Elementor/Widgets/DocsGrid.php:536
 #: includes/Elementor/Widgets/DocsGrid.php:783
 #: includes/Elementor/Widgets/DocsGrid.php:891
-#: includes/Elementor/Widgets/DocsGrid.php:1234
-#: includes/Elementor/Widgets/DocsGrid.php:1349
-#: includes/Elementor/Widgets/DocsGrid.php:1972
-#: includes/Elementor/Widgets/DocsGrid.php:2362
-#: includes/Elementor/Widgets/DocsGrid.php:2571
-#: includes/Elementor/Widgets/DocsGrid.php:2702
+#: includes/Elementor/Widgets/DocsGrid.php:1237
+#: includes/Elementor/Widgets/DocsGrid.php:1352
+#: includes/Elementor/Widgets/DocsGrid.php:1975
+#: includes/Elementor/Widgets/DocsGrid.php:2365
+#: includes/Elementor/Widgets/DocsGrid.php:2574
+#: includes/Elementor/Widgets/DocsGrid.php:2705
+#: includes/Elementor/Widgets/DocsSidebar.php:319
 #: includes/Elementor/Widgets/Search.php:443
 #: includes/Elementor/Widgets/Search.php:764
 #: assets/build/block.js:1
@@ -1382,15 +1935,16 @@ msgstr ""
 #: includes/Elementor/Widgets/DocsGrid.php:556
 #: includes/Elementor/Widgets/DocsGrid.php:803
 #: includes/Elementor/Widgets/DocsGrid.php:911
-#: includes/Elementor/Widgets/DocsGrid.php:1254
-#: includes/Elementor/Widgets/DocsGrid.php:1369
-#: includes/Elementor/Widgets/DocsGrid.php:2013
-#: includes/Elementor/Widgets/DocsGrid.php:2740
+#: includes/Elementor/Widgets/DocsGrid.php:1257
+#: includes/Elementor/Widgets/DocsGrid.php:1372
+#: includes/Elementor/Widgets/DocsGrid.php:2016
+#: includes/Elementor/Widgets/DocsGrid.php:2743
 #: includes/Elementor/Widgets/Search.php:462
 #: includes/Elementor/Widgets/Search.php:472
 #: includes/Elementor/Widgets/Search.php:776
 #: includes/Elementor/Widgets/Search.php:786
 #: includes/Elementor/Widgets/Search.php:879
+#: includes/Elementor/Widgets/TableOfContents.php:321
 #: assets/build/block.js:1
 #: assets/build/blocks/AdvanceContributors/index.js:1
 #: assets/build/blocks/AISummary/index.js:1
@@ -1402,49 +1956,8 @@ msgstr ""
 msgid "Border"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:580
-#: includes/Elementor/Widgets/DocsGrid.php:811
-#: includes/Elementor/Widgets/DocsGrid.php:919
-#: includes/Elementor/Widgets/DocsGrid.php:1262
-#: includes/Elementor/Widgets/DocsGrid.php:1377
-#: includes/Elementor/Widgets/DocsGrid.php:1991
-#: includes/Elementor/Widgets/DocsGrid.php:2402
-#: includes/Elementor/Widgets/DocsGrid.php:2549
-#: includes/Elementor/Widgets/DocsGrid.php:2721
-#: includes/Elementor/Widgets/Search.php:496
-#: includes/Elementor/Widgets/Search.php:794
-#: includes/Elementor/Widgets/Search.php:887
-#: assets/build/block.js:1
-#: assets/build/blocks/AdvanceContributors/index.js:1
-#: assets/build/blocks/AISummary/index.js:1
-#: assets/build/blocks/Contributors/index.js:1
-#: assets/build/blocks/DocActions/index.js:1
-#: assets/build/blocks/DocNavigation/index.js:1
-#: assets/build/blocks/DocsGrid/index.js:1
-#: assets/build/blocks/HelpfulFeedback/index.js:1
-#: assets/build/blocks/PrintButton/index.js:1
-#: assets/build/blocks/QuickSearch/index.js:1
-#: assets/build/blocks/Search/index.js:1
-#: assets/build/blocks/SocialShare/index.js:1
-#: assets/build/blocks/TableOfContents/index.js:1
-#: src/blocks/AdvanceContributors/edit-old.js:368
-#: src/blocks/commonControls/BorderAndShadowControls.js:95
-#: src/blocks/commonControls/CommonControls.js:145
-#: src/blocks/commonControls/CommonControls.js:151
-#: src/blocks/components/BorderControl.js:104
-#: src/blocks/Contributors/edit-old.js:368
-#: src/blocks/DocNavigation/edit.js:228
-#: src/blocks/DocsGrid/StyleControls.js:283
-#: src/blocks/PrintButton/Inspector.js:145
-#: src/blocks/QuickSearch/edit.js:214
-#: src/blocks/Search/edit.js:197
-#: src/blocks/SocialShare/edit.js:494
-#: src/blocks/TableOfContents/Inspector.js:193
-msgid "Border Radius"
-msgstr ""
-
 #: includes/Elementor/Widgets/DocsGrid.php:602
-#: includes/Elementor/Widgets/DocsGrid.php:2022
+#: includes/Elementor/Widgets/DocsGrid.php:2025
 #: includes/Elementor/Widgets/Search.php:280
 #: includes/Elementor/Widgets/Search.php:332
 #: includes/Elementor/Widgets/Search.php:385
@@ -1456,7 +1969,7 @@ msgid "Box Shadow"
 msgstr ""
 
 #: includes/Elementor/Widgets/DocsGrid.php:611
-#: includes/Elementor/Widgets/DocsGrid.php:2031
+#: includes/Elementor/Widgets/DocsGrid.php:2034
 msgid "Hover Box Shadow"
 msgstr ""
 
@@ -1473,15 +1986,15 @@ msgid "Hover Lift Distance"
 msgstr ""
 
 #: includes/Elementor/Widgets/DocsGrid.php:656
-#: includes/Elementor/Widgets/DocsGrid.php:1860
-#: includes/Elementor/Widgets/DocsGrid.php:2138
+#: includes/Elementor/Widgets/DocsGrid.php:1863
+#: includes/Elementor/Widgets/DocsGrid.php:2141
 #: includes/Elementor/Widgets/Search.php:524
 #: includes/Elementor/Widgets/Search.php:822
 msgid "Transition Duration (ms)"
 msgstr ""
 
 #: includes/Elementor/Widgets/DocsGrid.php:677
-#: includes/Elementor/Widgets/DocsGrid.php:2159
+#: includes/Elementor/Widgets/DocsGrid.php:2162
 #: assets/build/block.js:1
 #: assets/build/blocks/DocNavigation/index.js:1
 #: src/blocks/DocNavigation/edit.js:313
@@ -1489,13 +2002,13 @@ msgid "Opacity"
 msgstr ""
 
 #: includes/Elementor/Widgets/DocsGrid.php:698
-#: includes/Elementor/Widgets/DocsGrid.php:2180
+#: includes/Elementor/Widgets/DocsGrid.php:2183
 msgid "Hover Opacity"
 msgstr ""
 
 #: includes/Elementor/Widgets/DocsGrid.php:719
-#: includes/Elementor/Widgets/DocsGrid.php:1318
-#: includes/Elementor/Widgets/DocsGrid.php:1929
+#: includes/Elementor/Widgets/DocsGrid.php:1321
+#: includes/Elementor/Widgets/DocsGrid.php:1932
 #: assets/build/block.js:1
 #: assets/build/blocks/PrintButton/index.js:1
 #: assets/build/blocks/Search/index.js:1
@@ -1507,6 +2020,7 @@ msgid "Hover Background Color"
 msgstr ""
 
 #: includes/Elementor/Widgets/DocsGrid.php:730
+#: includes/Elementor/Widgets/SearchModal.php:223
 msgid "Hover Border Color"
 msgstr ""
 
@@ -1515,10 +2029,12 @@ msgid "Card Header"
 msgstr ""
 
 #: includes/Elementor/Widgets/DocsGrid.php:823
-#: includes/Elementor/Widgets/DocsGrid.php:2039
-#: includes/Elementor/Widgets/DocsGrid.php:2236
-#: includes/Elementor/Widgets/DocsGrid.php:2657
+#: includes/Elementor/Widgets/DocsGrid.php:2042
+#: includes/Elementor/Widgets/DocsGrid.php:2239
+#: includes/Elementor/Widgets/DocsGrid.php:2660
 #: includes/Elementor/Widgets/Search.php:90
+#: includes/Elementor/Widgets/SearchModal.php:108
+#: includes/Elementor/Widgets/WasThisHelpful.php:132
 #: assets/build/block.js:1
 #: assets/build/blocks/AdvanceContributors/index.js:1
 #: assets/build/blocks/Search/index.js:1
@@ -1531,12 +2047,15 @@ msgid "Alignment"
 msgstr ""
 
 #: includes/Elementor/Widgets/DocsGrid.php:827
-#: includes/Elementor/Widgets/DocsGrid.php:2043
-#: includes/Elementor/Widgets/DocsGrid.php:2116
-#: includes/Elementor/Widgets/DocsGrid.php:2240
-#: includes/Elementor/Widgets/DocsGrid.php:2661
+#: includes/Elementor/Widgets/DocsGrid.php:2046
+#: includes/Elementor/Widgets/DocsGrid.php:2119
+#: includes/Elementor/Widgets/DocsGrid.php:2243
+#: includes/Elementor/Widgets/DocsGrid.php:2664
+#: includes/Elementor/Widgets/DocsHamburgerMenu.php:67
 #: includes/Elementor/Widgets/Search.php:94
 #: includes/Elementor/Widgets/Search.php:150
+#: includes/Elementor/Widgets/SearchModal.php:111
+#: includes/Elementor/Widgets/WasThisHelpful.php:135
 #: assets/build/block.js:1
 #: assets/build/blocks/AdvanceContributors/index.js:1
 #: assets/build/blocks/HelpfulFeedback/index.js:1
@@ -1551,11 +2070,13 @@ msgid "Left"
 msgstr ""
 
 #: includes/Elementor/Widgets/DocsGrid.php:831
-#: includes/Elementor/Widgets/DocsGrid.php:2047
-#: includes/Elementor/Widgets/DocsGrid.php:2120
-#: includes/Elementor/Widgets/DocsGrid.php:2244
-#: includes/Elementor/Widgets/DocsGrid.php:2665
+#: includes/Elementor/Widgets/DocsGrid.php:2050
+#: includes/Elementor/Widgets/DocsGrid.php:2123
+#: includes/Elementor/Widgets/DocsGrid.php:2247
+#: includes/Elementor/Widgets/DocsGrid.php:2668
 #: includes/Elementor/Widgets/Search.php:98
+#: includes/Elementor/Widgets/SearchModal.php:112
+#: includes/Elementor/Widgets/WasThisHelpful.php:136
 #: assets/build/block.js:1
 #: assets/build/blocks/AdvanceContributors/index.js:1
 #: assets/build/blocks/HelpfulFeedback/index.js:1
@@ -1570,12 +2091,15 @@ msgid "Center"
 msgstr ""
 
 #: includes/Elementor/Widgets/DocsGrid.php:835
-#: includes/Elementor/Widgets/DocsGrid.php:2051
-#: includes/Elementor/Widgets/DocsGrid.php:2124
-#: includes/Elementor/Widgets/DocsGrid.php:2248
-#: includes/Elementor/Widgets/DocsGrid.php:2669
+#: includes/Elementor/Widgets/DocsGrid.php:2054
+#: includes/Elementor/Widgets/DocsGrid.php:2127
+#: includes/Elementor/Widgets/DocsGrid.php:2251
+#: includes/Elementor/Widgets/DocsGrid.php:2672
+#: includes/Elementor/Widgets/DocsHamburgerMenu.php:68
 #: includes/Elementor/Widgets/Search.php:102
 #: includes/Elementor/Widgets/Search.php:154
+#: includes/Elementor/Widgets/SearchModal.php:113
+#: includes/Elementor/Widgets/WasThisHelpful.php:137
 #: assets/build/block.js:1
 #: assets/build/blocks/AdvanceContributors/index.js:1
 #: assets/build/blocks/HelpfulFeedback/index.js:1
@@ -1594,20 +2118,23 @@ msgid "Card Content/Body"
 msgstr ""
 
 #: includes/Elementor/Widgets/DocsGrid.php:931
+#: includes/Elementor/Widgets/TableOfContents.php:261
 msgid "Max Height"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:963
-#: includes/Elementor/Widgets/DocsGrid.php:2381
-msgid "Item Spacing"
+#: includes/Elementor/Widgets/DocsGrid.php:940
+msgid "Leave empty, or 0, for no limit."
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:984
+#: includes/Elementor/Widgets/DocsGrid.php:987
 msgid "List Icon"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:1014
+#: includes/Elementor/Widgets/DocsGrid.php:1017
+#: includes/Elementor/Widgets/DocsHamburgerMenu.php:146
+#: includes/Elementor/Widgets/NeedHelp.php:319
 #: includes/Elementor/Widgets/Search.php:556
+#: includes/Elementor/Widgets/WasThisHelpful.php:315
 #: assets/build/block.js:1
 #: assets/build/blocks/HelpfulModal/index.js:1
 #: assets/build/blocks/Search/index.js:1
@@ -1616,10 +2143,14 @@ msgstr ""
 msgid "Icon Size"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:1037
+#: includes/Elementor/Widgets/DocsGrid.php:1040
+#: includes/Elementor/Widgets/DocsHamburgerMenu.php:121
+#: includes/Elementor/Widgets/DocsSidebar.php:380
+#: includes/Elementor/Widgets/NeedHelp.php:306
 #: includes/Elementor/Widgets/Search.php:594
 #: includes/Elementor/Widgets/Search.php:639
 #: includes/Elementor/Widgets/Search.php:699
+#: includes/Elementor/Widgets/SearchModal.php:198
 #: assets/build/block.js:1
 #: assets/build/blocks/HelpfulModal/index.js:1
 #: assets/build/blocks/SocialShare/index.js:1
@@ -1629,15 +2160,15 @@ msgstr ""
 msgid "Icon Color"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:1051
+#: includes/Elementor/Widgets/DocsGrid.php:1054
 msgid "Icon Spacing"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:1072
+#: includes/Elementor/Widgets/DocsGrid.php:1075
 msgid "Icon Rotation"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:1094
+#: includes/Elementor/Widgets/DocsGrid.php:1097
 #: assets/build/block.js:1
 #: assets/build/blocks/HelpfulModal/index.js:1
 #: src/blocks/HelpfulModal/edit.js:456
@@ -1645,50 +2176,52 @@ msgstr ""
 msgid "Icon Background Color"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:1105
+#: includes/Elementor/Widgets/DocsGrid.php:1108
 msgid "Icon Padding"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:1123
+#: includes/Elementor/Widgets/DocsGrid.php:1126
 msgid "Icon Border Radius"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:1141
+#: includes/Elementor/Widgets/DocsGrid.php:1144
 msgid "Show Divider"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:1153
+#: includes/Elementor/Widgets/DocsGrid.php:1156
+#: includes/Elementor/Widgets/DocsSidebar.php:563
 msgid "Divider Color"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:1168
+#: includes/Elementor/Widgets/DocsGrid.php:1171
 msgid "Divider Width"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:1195
+#: includes/Elementor/Widgets/DocsGrid.php:1198
 #: assets/build/block.js:1
 #: assets/build/blocks/QuickSearch/index.js:1
 #: src/blocks/QuickSearch/edit.js:40
 msgid "Sections"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:1274
+#: includes/Elementor/Widgets/DocsGrid.php:1277
 msgid "Spacing Between Sections"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:1298
+#: includes/Elementor/Widgets/DocsGrid.php:1301
 msgid "Article Items"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:1398
+#: includes/Elementor/Widgets/DocsGrid.php:1401
 msgid "Article Icon/Prefix"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:1407
+#: includes/Elementor/Widgets/DocsGrid.php:1410
 msgid "Prefix Type"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:1411
+#: includes/Elementor/Widgets/DocsGrid.php:1414
+#: includes/Elementor/Widgets/NeedHelp.php:69
 #: includes/Elementor/Widgets/Search.php:123
 #: assets/build/block.js:1
 #: assets/build/blocks/QuickSearch/index.js:1
@@ -1696,66 +2229,66 @@ msgstr ""
 msgid "Icon"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:1412
+#: includes/Elementor/Widgets/DocsGrid.php:1415
 msgid "Text/Emoji"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:1420
+#: includes/Elementor/Widgets/DocsGrid.php:1423
 msgid "Prefix Icon"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:1448
+#: includes/Elementor/Widgets/DocsGrid.php:1451
 msgid "Prefix Text"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:1451
+#: includes/Elementor/Widgets/DocsGrid.php:1454
 msgid "Enter text or emoji"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:1461
+#: includes/Elementor/Widgets/DocsGrid.php:1464
 msgid "Prefix Size"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:1484
+#: includes/Elementor/Widgets/DocsGrid.php:1487
 msgid "Prefix Color"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:1499
+#: includes/Elementor/Widgets/DocsGrid.php:1502
 msgid "Prefix Spacing"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:1521
+#: includes/Elementor/Widgets/DocsGrid.php:1524
 msgid "Prefix Rotation"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:1546
+#: includes/Elementor/Widgets/DocsGrid.php:1549
 msgid "Prefix Background Color"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:1560
+#: includes/Elementor/Widgets/DocsGrid.php:1563
 msgid "Prefix Padding"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:1581
+#: includes/Elementor/Widgets/DocsGrid.php:1584
 msgid "Prefix Border Radius"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:1602
+#: includes/Elementor/Widgets/DocsGrid.php:1605
 msgid "Spacing Between Items"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:1623
+#: includes/Elementor/Widgets/DocsGrid.php:1626
 msgid "List Indent"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:1647
-#: includes/Elementor/Widgets/DocsGrid.php:1676
-#: includes/Elementor/Widgets/DocsGrid.php:1738
-#: includes/Elementor/Widgets/DocsGrid.php:1814
-#: includes/Elementor/Widgets/DocsGrid.php:1897
-#: includes/Elementor/Widgets/DocsGrid.php:2263
-#: includes/Elementor/Widgets/DocsGrid.php:2435
-#: includes/Elementor/Widgets/DocsGrid.php:2626
+#: includes/Elementor/Widgets/DocsGrid.php:1650
+#: includes/Elementor/Widgets/DocsGrid.php:1679
+#: includes/Elementor/Widgets/DocsGrid.php:1741
+#: includes/Elementor/Widgets/DocsGrid.php:1817
+#: includes/Elementor/Widgets/DocsGrid.php:1900
+#: includes/Elementor/Widgets/DocsGrid.php:2266
+#: includes/Elementor/Widgets/DocsGrid.php:2438
+#: includes/Elementor/Widgets/DocsGrid.php:2629
 #: includes/Elementor/Widgets/Search.php:397
 #: includes/Elementor/Widgets/Search.php:407
 #: assets/build/block.js:1
@@ -1770,72 +2303,26 @@ msgstr ""
 msgid "Typography"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:1655
-msgid "Doc Title"
-msgstr ""
-
-#: includes/Elementor/Widgets/DocsGrid.php:1663
-#: includes/Elementor/Widgets/DocsGrid.php:1725
-#: includes/Elementor/Widgets/DocsGrid.php:1787
-#: assets/build/block.js:1
-#: assets/build/blocks/AdvanceContributors/index.js:1
-#: assets/build/blocks/TableOfContents/index.js:1
-#: src/blocks/AdvanceContributors/edit-old.js:279
-#: src/blocks/AdvanceContributors/edit-old.js:360
-#: src/blocks/AdvanceContributors/edit-old.js:429
-#: src/blocks/AdvanceContributors/edit-old.js:507
-#: src/blocks/commonControls/ColorsControls.js:53
-#: src/blocks/commonControls/ColorsControls.js:122
-#: src/blocks/components/BackgroundControl.js:51
-#: src/blocks/components/BorderControl.js:93
-#: src/blocks/components/ShadowControl.js:103
-#: src/blocks/Contributors/edit-old.js:279
-#: src/blocks/Contributors/edit-old.js:360
-#: src/blocks/Contributors/edit-old.js:429
-#: src/blocks/Contributors/edit-old.js:507
-#: src/blocks/TableOfContents/ColorsControls.js:53
-#: src/blocks/TableOfContents/ColorsControls.js:122
-#: src/blocks/TableOfContents/Inspector.js:203
-#: src/blocks/TableOfContents/Inspector.js:235
-msgid "Color"
-msgstr ""
-
-#: includes/Elementor/Widgets/DocsGrid.php:1684
-#: includes/Elementor/Widgets/DocsGrid.php:1746
+#: includes/Elementor/Widgets/DocsGrid.php:1687
+#: includes/Elementor/Widgets/DocsGrid.php:1749
 msgid "Bottom Spacing"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:1705
-#: includes/Elementor/Widgets/DocsGrid.php:1767
-#: includes/Elementor/Widgets/DocsGrid.php:1800
-#: assets/build/block.js:1
-#: assets/build/blocks/DocsGrid/index.js:1
-#: assets/build/blocks/TableOfContents/index.js:1
-#: src/blocks/AdvanceContributors/edit-old.js:458
-#: src/blocks/AdvanceContributors/edit-old.js:474
-#: src/blocks/components/TypographyControl.js:46
-#: src/blocks/Contributors/edit-old.js:458
-#: src/blocks/Contributors/edit-old.js:474
-#: src/blocks/DocsGrid/StyleControls.js:405
-#: src/blocks/TableOfContents/Inspector.js:243
-msgid "Hover Color"
-msgstr ""
-
-#: includes/Elementor/Widgets/DocsGrid.php:1716
+#: includes/Elementor/Widgets/DocsGrid.php:1719
 msgid "Section Title"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:1778
+#: includes/Elementor/Widgets/DocsGrid.php:1781
 msgid "Article Links"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:1822
+#: includes/Elementor/Widgets/DocsGrid.php:1825
 #: src/blocks/components/TypographyControl.js:160
 msgid "Text Decoration"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:1826
-#: includes/Elementor/Widgets/DocsGrid.php:1845
+#: includes/Elementor/Widgets/DocsGrid.php:1829
+#: includes/Elementor/Widgets/DocsGrid.php:1848
 #: assets/build/blocks/AdvanceContributors/index.js:1
 #: assets/build/faq.js:1
 #: src/blocks/commonControls/TypographyControls.js:192
@@ -1844,33 +2331,36 @@ msgstr ""
 msgid "Underline"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:1827
-#: includes/Elementor/Widgets/DocsGrid.php:1846
+#: includes/Elementor/Widgets/DocsGrid.php:1830
+#: includes/Elementor/Widgets/DocsGrid.php:1849
 #: src/blocks/components/TypographyControl.js:165
 msgid "Overline"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:1828
-#: includes/Elementor/Widgets/DocsGrid.php:1847
+#: includes/Elementor/Widgets/DocsGrid.php:1831
+#: includes/Elementor/Widgets/DocsGrid.php:1850
 #: src/blocks/components/TypographyControl.js:166
 msgid "Line Through"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:1841
+#: includes/Elementor/Widgets/DocsGrid.php:1844
 msgid "Hover Text Decoration"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:1885
+#: includes/Elementor/Widgets/DocsGrid.php:1888
 msgid "View Details Button"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:1917
-#: includes/Elementor/Widgets/DocsGrid.php:2271
-#: includes/Elementor/Widgets/DocsGrid.php:2443
-#: includes/Elementor/Widgets/DocsGrid.php:2634
+#: includes/Elementor/Widgets/DocsGrid.php:1920
+#: includes/Elementor/Widgets/DocsGrid.php:2274
+#: includes/Elementor/Widgets/DocsGrid.php:2446
+#: includes/Elementor/Widgets/DocsGrid.php:2637
+#: includes/Elementor/Widgets/DocsSidebar.php:356
+#: includes/Elementor/Widgets/NeedHelp.php:356
 #: includes/Elementor/Widgets/Search.php:253
 #: includes/Elementor/Widgets/Search.php:309
 #: includes/Elementor/Widgets/Search.php:361
+#: includes/Elementor/Widgets/SearchModal.php:186
 #: assets/build/block.js:1
 #: assets/build/blocks/DocsGrid/index.js:1
 #: assets/build/blocks/HelpfulFeedback/index.js:1
@@ -1890,8 +2380,8 @@ msgstr ""
 msgid "Text Color"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:1941
-#: includes/Elementor/Widgets/DocsGrid.php:2319
+#: includes/Elementor/Widgets/DocsGrid.php:1944
+#: includes/Elementor/Widgets/DocsGrid.php:2322
 #: assets/build/block.js:1
 #: assets/build/blocks/PrintButton/index.js:1
 #: assets/build/blocks/Search/index.js:1
@@ -1900,65 +2390,57 @@ msgstr ""
 msgid "Hover Text Color"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:2065
-#: includes/Elementor/Widgets/Search.php:177
-#: assets/build/block.js:1
-#: assets/build/blocks/AdvanceContributors/index.js:1
-#: assets/build/blocks/TableOfContents/index.js:1
-#: src/blocks/commonControls/DimensionsControls.js:94
-#: src/blocks/components/DimensionControl.js:28
-#: src/blocks/TableOfContents/Inspector.js:139
-msgid "Width"
-msgstr ""
-
-#: includes/Elementor/Widgets/DocsGrid.php:2068
+#: includes/Elementor/Widgets/DocsGrid.php:2071
 #: assets/build/blocks/AdvanceContributors/index.js:1
 #: src/blocks/commonControls/BackgroundImageControls.js:181
 msgid "Auto"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:2069
+#: includes/Elementor/Widgets/DocsGrid.php:2072
 msgid "Full Width"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:2070
+#: includes/Elementor/Widgets/DocsGrid.php:2073
 #: assets/build/block.js:1
 #: assets/build/blocks/DocNavigation/index.js:1
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/blocks/DocNavigation/edit.js:251
 #: src/components/PermissionSettingsDemo/RoleManagementSettings.js:49
 msgid "Custom"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:2085
+#: includes/Elementor/Widgets/DocsGrid.php:2088
 msgid "Custom Width"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:2112
+#: includes/Elementor/Widgets/DocsGrid.php:2115
 msgid "Text Align"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:2201
+#: includes/Elementor/Widgets/DocsGrid.php:2204
 msgid "Hover Scale"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:2295
+#: includes/Elementor/Widgets/DocsGrid.php:2298
 msgid "Active Text Color"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:2307
+#: includes/Elementor/Widgets/DocsGrid.php:2310
 msgid "Active Background"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:2331
+#: includes/Elementor/Widgets/DocsGrid.php:2334
+#: includes/Elementor/Widgets/NeedHelp.php:368
+#: includes/Elementor/Widgets/SearchModal.php:211
 msgid "Hover Background"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:2426
+#: includes/Elementor/Widgets/DocsGrid.php:2429
 msgid "Search & Filters"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:2456
+#: includes/Elementor/Widgets/DocsGrid.php:2459
+#: includes/Elementor/Widgets/DocsSidebar.php:368
 #: includes/Elementor/Widgets/Search.php:265
 #: assets/build/block.js:1
 #: assets/build/blocks/QuickSearch/index.js:1
@@ -1967,7 +2449,7 @@ msgstr ""
 msgid "Placeholder Color"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:2481
+#: includes/Elementor/Widgets/DocsGrid.php:2484
 #: includes/Elementor/Widgets/Search.php:320
 #: includes/Elementor/Widgets/Search.php:372
 #: assets/build/block.js:1
@@ -1997,7 +2479,7 @@ msgstr ""
 msgid "Border Color"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:2494
+#: includes/Elementor/Widgets/DocsGrid.php:2497
 #: assets/build/block.js:1
 #: assets/build/blocks/AISummary/index.js:1
 #: assets/build/blocks/Contributors/index.js:1
@@ -2024,83 +2506,462 @@ msgstr ""
 msgid "Border Width"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:2516
+#: includes/Elementor/Widgets/DocsGrid.php:2519
 msgid "Focus Border Color"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:2590
+#: includes/Elementor/Widgets/DocsGrid.php:2593
 msgid "Gap Between Items"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:2614
+#: includes/Elementor/Widgets/DocsGrid.php:2617
 msgid "Document Count"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:2776
+#: includes/Elementor/Widgets/DocsGrid.php:2939
 msgid "Search docs..."
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:2817
+#: includes/Elementor/Widgets/DocsGrid.php:2985
 msgid "No documentation found."
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:2842
+#: includes/Elementor/Widgets/DocsGrid.php:3010
 msgid "Title (A-Z)"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:2843
+#: includes/Elementor/Widgets/DocsGrid.php:3011
 msgid "Title (Z-A)"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:2844
+#: includes/Elementor/Widgets/DocsGrid.php:3012
 msgid "Newest First"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:2845
+#: includes/Elementor/Widgets/DocsGrid.php:3013
 msgid "Oldest First"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:2852
+#: includes/Elementor/Widgets/DocsGrid.php:3020
 msgid "Grid View"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:2865
+#: includes/Elementor/Widgets/DocsGrid.php:3033
 #, php-format
 msgid "Total: %d documents"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:2988
+#: includes/Elementor/Widgets/DocsGrid.php:3050
 #, php-format
 msgid "Showing %d-%d of %d"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:3010
-#: templates/shortcode.php:137
-#: templates/shortcode.php:141
-#: assets/build/index.js:10
-#: src/components/Documentations/DocsPagination.js:71
-msgid "Previous"
-msgstr ""
-
-#: includes/Elementor/Widgets/DocsGrid.php:3013
+#: includes/Elementor/Widgets/DocsGrid.php:3075
 #, php-format
 msgid "Page %d of %d"
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:3016
-#: templates/shortcode.php:151
-#: templates/shortcode.php:155
-#: assets/build/index.js:13
-#: src/components/Documentations/DocsPagination.js:89
-msgid "Next"
-msgstr ""
-
-#: includes/Elementor/Widgets/DocsGrid.php:3437
+#: includes/Elementor/Widgets/DocsGrid.php:3499
 msgid "Loading..."
 msgstr ""
 
-#: includes/Elementor/Widgets/DocsGrid.php:3462
+#: includes/Elementor/Widgets/DocsGrid.php:3525
 msgid "Try Again"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsHamburgerMenu.php:20
+msgid "weDocs - Hamburger Menu"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsHamburgerMenu.php:49
+msgid "Trigger Icon"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsHamburgerMenu.php:53
+msgid "Hamburger Bars"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsHamburgerMenu.php:54
+msgid "Dots"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsHamburgerMenu.php:55
+msgid "Menu + Icon"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsHamburgerMenu.php:63
+msgid "Panel Position"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsHamburgerMenu.php:76
+#: includes/Elementor/Widgets/DocsSidebar.php:99
+msgid "Show Quick Search"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsHamburgerMenu.php:98
+#: includes/Elementor/Widgets/DocsSidebar.php:135
+msgid "Show Doc Title"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsHamburgerMenu.php:113
+msgid "Trigger Button"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsHamburgerMenu.php:188
+msgid "Panel"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsHamburgerMenu.php:246
+#: includes/Elementor/Widgets/NeedHelp.php:437
+#: includes/Elementor/Widgets/SearchModal.php:345
+msgid "Overlay Color"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsHamburgerMenu.php:293
+#: includes/Elementor/Widgets/DocsSidebar.php:448
+msgid "Navigation Items"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsHamburgerMenu.php:301
+#: includes/Elementor/Widgets/DocsSidebar.php:456
+#: includes/Elementor/Widgets/TableOfContents.php:418
+msgid "Link Color"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsHamburgerMenu.php:325
+#: includes/Elementor/Widgets/TableOfContents.php:442
+msgid "Active Color"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsHamburgerMenu.php:345
+#: includes/Elementor/Widgets/DocsSidebar.php:524
+msgid "Item Padding"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsHamburgerMenu.php:361
+msgid "Close Button"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsHamburgerMenu.php:407
+#: includes/Elementor/Widgets/DocsHamburgerMenu.php:426
+msgid "Hamburger Menu: Preview it on a single doc page."
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsHamburgerMenu.php:445
+msgid "Open menu"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsHamburgerMenu.php:452
+msgid "Menu"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsHamburgerMenu.php:471
+msgid "Close menu"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsSidebar.php:21
+msgid "weDocs - Docs Sidebar"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsSidebar.php:121
+msgid "Show Keyboard Shortcut"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsSidebar.php:127
+msgid "Show the ⌘K shortcut hint"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsSidebar.php:147
+msgid "Default Collapse"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsSidebar.php:151
+msgid "Expand Active Only"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsSidebar.php:152
+msgid "Expand All"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsSidebar.php:153
+msgid "Collapse All"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsSidebar.php:164
+#: includes/Elementor/Widgets/TableOfContents.php:224
+msgid "Responsive"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsSidebar.php:172
+#: includes/Elementor/Widgets/TableOfContents.php:232
+msgid "Mobile Display Mode"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsSidebar.php:176
+#: includes/Elementor/Widgets/TableOfContents.php:236
+msgid "Normal (Always Visible)"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsSidebar.php:177
+msgid "Hamburger Toggle"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsSidebar.php:178
+#: includes/Elementor/Widgets/TableOfContents.php:238
+msgid "Hidden on Mobile"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsSidebar.php:180
+msgid "How to display the sidebar on screens ≤768px"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsSidebar.php:187
+msgid "Toggle Button Text"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsSidebar.php:189
+#: includes/Elementor/Widgets/DocsSidebar.php:597
+#: includes/Elementor/Widgets/DocsSidebar.php:986
+msgid "Navigation"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsSidebar.php:197
+msgid "Toggle Button Color"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsSidebar.php:211
+msgid "Toggle Button Background"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsSidebar.php:335
+msgid "Quick Search"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsSidebar.php:432
+#: includes/Elementor/Widgets/SearchModal.php:308
+msgid "Shortcut Badge Background"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsSidebar.php:480
+msgid "Active Item Color"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsSidebar.php:492
+msgid "Active Item Background"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsSidebar.php:504
+#: includes/Elementor/Widgets/TableOfContents.php:454
+msgid "Active Border Color"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsSidebar.php:537
+#: includes/Elementor/Widgets/TableOfContents.php:489
+msgid "Sub-item Indent"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsSidebar.php:550
+msgid "Caret/Arrow Color"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsSidebar.php:575
+msgid "Show Dividers"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsSidebar.php:663
+msgid "Close navigation"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsSidebar.php:1014
+msgid "Sample Documentation"
+msgstr ""
+
+#: includes/Elementor/Widgets/DocsSidebar.php:1059
+msgid "Preview: This shows how the sidebar will look with your documentation structure."
+msgstr ""
+
+#: includes/Elementor/Widgets/NeedHelp.php:42
+#: includes/Elementor/Widgets/SearchModal.php:45
+#: includes/Elementor/Widgets/SearchModal.php:166
+msgid "Trigger"
+msgstr ""
+
+#: includes/Elementor/Widgets/NeedHelp.php:50
+msgid "Heading"
+msgstr ""
+
+#: includes/Elementor/Widgets/NeedHelp.php:52
+msgid "Need More Help?"
+msgstr ""
+
+#: includes/Elementor/Widgets/NeedHelp.php:59
+#: assets/build/index.js:2
+#: src/components/Settings/ShortcodeSettings.js:266
+msgid "Description"
+msgstr ""
+
+#: includes/Elementor/Widgets/NeedHelp.php:61
+msgid "Can't find what you're looking for? Reach out to our support team."
+msgstr ""
+
+#: includes/Elementor/Widgets/NeedHelp.php:83
+#: includes/Elementor/Widgets/NeedHelp.php:117
+msgid "Contact Support"
+msgstr ""
+
+#: includes/Elementor/Widgets/NeedHelp.php:94
+msgid "Card"
+msgstr ""
+
+#: includes/Elementor/Widgets/NeedHelp.php:95
+msgid "Inline"
+msgstr ""
+
+#: includes/Elementor/Widgets/NeedHelp.php:96
+msgid "Minimal (Button Only)"
+msgstr ""
+
+#: includes/Elementor/Widgets/NeedHelp.php:107
+msgid "Modal Content"
+msgstr ""
+
+#: includes/Elementor/Widgets/NeedHelp.php:115
+#: assets/build/block.js:1
+#: assets/build/blocks/HelpfulModal/index.js:1
+#: src/blocks/HelpfulModal/edit.js:353
+msgid "Modal Title"
+msgstr ""
+
+#: includes/Elementor/Widgets/NeedHelp.php:124
+msgid "Modal Description"
+msgstr ""
+
+#: includes/Elementor/Widgets/NeedHelp.php:126
+msgid "Fill out the form below and our team will get back to you as soon as possible."
+msgstr ""
+
+#: includes/Elementor/Widgets/NeedHelp.php:134
+msgid "Show Name Field"
+msgstr ""
+
+#: includes/Elementor/Widgets/NeedHelp.php:144
+msgid "Show Email Field"
+msgstr ""
+
+#: includes/Elementor/Widgets/NeedHelp.php:154
+#: assets/build/block.js:1
+#: assets/build/blocks/HelpfulModal/index.js:1
+#: src/blocks/HelpfulModal/edit.js:373
+msgid "Show Subject Field"
+msgstr ""
+
+#: includes/Elementor/Widgets/NeedHelp.php:164
+#: assets/build/block.js:1
+#: assets/build/blocks/HelpfulModal/index.js:1
+#: src/blocks/HelpfulModal/edit.js:390
+msgid "Submit Button Text"
+msgstr ""
+
+#: includes/Elementor/Widgets/NeedHelp.php:166
+msgid "Send Message"
+msgstr ""
+
+#: includes/Elementor/Widgets/NeedHelp.php:173
+#: assets/build/block.js:1
+#: assets/build/blocks/HelpfulModal/index.js:1
+#: src/blocks/HelpfulModal/edit.js:396
+msgid "Success Message"
+msgstr ""
+
+#: includes/Elementor/Widgets/NeedHelp.php:175
+msgid "Thank you! Your message has been sent successfully."
+msgstr ""
+
+#: includes/Elementor/Widgets/NeedHelp.php:182
+msgid "Recipient Email"
+msgstr ""
+
+#: includes/Elementor/Widgets/NeedHelp.php:185
+msgid "Email address where form submissions will be sent"
+msgstr ""
+
+#: includes/Elementor/Widgets/NeedHelp.php:192
+msgid "Save to Elementor Submissions"
+msgstr ""
+
+#: includes/Elementor/Widgets/NeedHelp.php:198
+msgid "Save form data to Elementor Pro submissions (requires Elementor Pro)"
+msgstr ""
+
+#: includes/Elementor/Widgets/NeedHelp.php:209
+msgid "Card / Trigger"
+msgstr ""
+
+#: includes/Elementor/Widgets/NeedHelp.php:274
+msgid "Heading Color"
+msgstr ""
+
+#: includes/Elementor/Widgets/NeedHelp.php:294
+msgid "Description Color"
+msgstr ""
+
+#: includes/Elementor/Widgets/NeedHelp.php:336
+#: includes/Elementor/Widgets/SearchModal.php:58
+#: assets/build/block.js:1
+#: assets/build/blocks/HelpfulModal/index.js:1
+#: src/blocks/HelpfulModal/edit.js:299
+msgid "Button"
+msgstr ""
+
+#: includes/Elementor/Widgets/NeedHelp.php:417
+#: includes/Elementor/Widgets/SearchModal.php:128
+#: includes/Elementor/Widgets/SearchModal.php:337
+msgid "Modal"
+msgstr ""
+
+#: includes/Elementor/Widgets/NeedHelp.php:449
+#: includes/Elementor/Widgets/SearchModal.php:363
+#: assets/build/block.js:1
+#: assets/build/blocks/HelpfulModal/index.js:1
+#: src/blocks/HelpfulModal/edit.js:533
+#: src/blocks/HelpfulModal/edit.js:537
+msgid "Modal Width"
+msgstr ""
+
+#: includes/Elementor/Widgets/NeedHelp.php:542
+#: templates/content-modal.php:22
+#: assets/build/block.js:1
+#: assets/build/blocks/DocsGrid/index.js:1
+#: assets/build/blocks/Sidebar/index.js:1
+#: src/blocks/DocsGrid/edit.js:224
+#: src/blocks/Sidebar/edit.js:291
+msgid "Name"
+msgstr ""
+
+#: includes/Elementor/Widgets/NeedHelp.php:549
+#: templates/content-modal.php:30
+msgid "Email"
+msgstr ""
+
+#: includes/Elementor/Widgets/NeedHelp.php:556
+#: templates/content-modal.php:38
+msgid "Subject"
+msgstr ""
+
+#: includes/Elementor/Widgets/NeedHelp.php:562
+#: templates/content-modal.php:46
+msgid "Message"
+msgstr ""
+
+#: includes/Elementor/Widgets/NeedHelp.php:806
+msgid "Sending..."
+msgstr ""
+
+#: includes/Elementor/Widgets/NeedHelp.php:831
+#: includes/Elementor/Widgets/NeedHelp.php:836
+#: assets/build/faq.js:1
+#: src/faq/utils/toast.js:47
+msgid "Something went wrong. Please try again."
 msgstr ""
 
 #: includes/Elementor/Widgets/Search.php:27
@@ -2112,6 +2973,7 @@ msgid "Hide Search"
 msgstr ""
 
 #: includes/Elementor/Widgets/Search.php:80
+#: includes/Elementor/Widgets/SearchModal.php:67
 #: assets/build/block.js:1
 #: assets/build/blocks/Search/index.js:1
 #: src/blocks/Search/edit.js:118
@@ -2147,27 +3009,6 @@ msgstr ""
 #: src/blocks/commonControls/DimensionsControls.js:167
 #: src/blocks/components/DimensionControl.js:45
 msgid "Height"
-msgstr ""
-
-#: includes/Elementor/Widgets/Search.php:234
-#: includes/Elementor/Widgets/Search.php:587
-#: assets/build/block.js:1
-#: assets/build/blocks/DocNavigation/index.js:1
-#: assets/build/blocks/PrintButton/index.js:1
-#: assets/build/blocks/SocialShare/index.js:1
-#: assets/build/faq.js:1
-#: assets/build/index.js:1
-#: src/blocks/AdvanceContributors/edit-old.js:491
-#: src/blocks/components/TypographyControl.js:108
-#: src/blocks/Contributors/edit-old.js:491
-#: src/blocks/DocNavigation/edit.js:132
-#: src/blocks/DocNavigation/edit.js:138
-#: src/blocks/PrintButton/Inspector.js:233
-#: src/blocks/SocialShare/edit.js:331
-#: src/components/ProPreviews/AssistantWidgetPanels/FontSettings.js:6
-#: src/faq/components/TiptapEditor.js:56
-#: src/faq/components/TiptapEditor.js:61
-msgid "Normal"
 msgstr ""
 
 #: includes/Elementor/Widgets/Search.php:291
@@ -2224,12 +3065,304 @@ msgstr ""
 msgid "Rotate"
 msgstr ""
 
-#: includes/Elementor/Widgets/Search.php:847
-msgid "Container"
-msgstr ""
-
 #: includes/Elementor/Widgets/Search.php:908
 msgid "Gap Between Input & Button"
+msgstr ""
+
+#: includes/Elementor/Widgets/SearchModal.php:24
+msgid "weDocs - Search Modal"
+msgstr ""
+
+#: includes/Elementor/Widgets/SearchModal.php:53
+msgid "Trigger Type"
+msgstr ""
+
+#: includes/Elementor/Widgets/SearchModal.php:57
+msgid "Search Input (like sidebar)"
+msgstr ""
+
+#: includes/Elementor/Widgets/SearchModal.php:59
+#: assets/build/block.js:1
+#: assets/build/blocks/SocialShare/index.js:1
+#: src/blocks/SocialShare/edit.js:247
+msgid "Icon Only"
+msgstr ""
+
+#: includes/Elementor/Widgets/SearchModal.php:78
+msgid "Search Docs"
+msgstr ""
+
+#: includes/Elementor/Widgets/SearchModal.php:86
+msgid "Show ⌘K Shortcut"
+msgstr ""
+
+#: includes/Elementor/Widgets/SearchModal.php:96
+msgid "Search Icon"
+msgstr ""
+
+#: includes/Elementor/Widgets/SearchModal.php:136
+msgid "Modal Search Placeholder"
+msgstr ""
+
+#: includes/Elementor/Widgets/SearchModal.php:145
+msgid "No Results Message"
+msgstr ""
+
+#: includes/Elementor/Widgets/SearchModal.php:147
+#: includes/Frontend.php:110
+#: includes/Frontend.php:122
+msgid "Your search didn't match any documents"
+msgstr ""
+
+#: includes/Elementor/Widgets/SearchModal.php:154
+msgid "Blank Search Message"
+msgstr ""
+
+#: includes/Elementor/Widgets/SearchModal.php:156
+#: includes/Frontend.php:109
+#: includes/Frontend.php:121
+#: templates/modals/search-modal.php:49
+msgid "Search field cannot be blank"
+msgstr ""
+
+#: includes/Elementor/Widgets/SearchModal.php:321
+msgid "Shortcut Badge Text"
+msgstr ""
+
+#: includes/Elementor/Widgets/SearchModal.php:354
+msgid "Modal Background"
+msgstr ""
+
+#: includes/Elementor/Widgets/SearchModal.php:377
+msgid "Modal Border Radius"
+msgstr ""
+
+#: includes/Elementor/Widgets/SearchModal.php:387
+msgid "Result Hover Background"
+msgstr ""
+
+#: includes/Elementor/Widgets/SearchModal.php:396
+msgid "Result Icon Background"
+msgstr ""
+
+#: includes/Elementor/Widgets/SearchModal.php:405
+msgid "Result Icon Color"
+msgstr ""
+
+#: includes/Elementor/Widgets/SearchModal.php:491
+#: templates/modals/search-modal.php:42
+msgid "ESC"
+msgstr ""
+
+#: includes/Elementor/Widgets/TableOfContents.php:21
+msgid "weDocs - Table of Contents"
+msgstr ""
+
+#: includes/Elementor/Widgets/TableOfContents.php:83
+#: includes/Elementor/Widgets/TableOfContents.php:507
+#: includes/Elementor/Widgets/TableOfContents.php:931
+msgid "On This Page"
+msgstr ""
+
+#: includes/Elementor/Widgets/TableOfContents.php:90
+msgid "Title HTML Tag"
+msgstr ""
+
+#: includes/Elementor/Widgets/TableOfContents.php:107
+msgid "Heading Levels"
+msgstr ""
+
+#: includes/Elementor/Widgets/TableOfContents.php:118
+msgid "Select which heading levels to include"
+msgstr ""
+
+#: includes/Elementor/Widgets/TableOfContents.php:125
+msgid "Collapsible"
+msgstr ""
+
+#: includes/Elementor/Widgets/TableOfContents.php:137
+#: includes/Elementor/Widgets/TableOfContents.php:237
+msgid "Collapsed by Default"
+msgstr ""
+
+#: includes/Elementor/Widgets/TableOfContents.php:152
+msgid "Sticky Position"
+msgstr ""
+
+#: includes/Elementor/Widgets/TableOfContents.php:158
+msgid "Make TOC sticky when scrolling"
+msgstr ""
+
+#: includes/Elementor/Widgets/TableOfContents.php:165
+msgid "Sticky Offset (px)"
+msgstr ""
+
+#: includes/Elementor/Widgets/TableOfContents.php:185
+msgid "Show Numbers"
+msgstr ""
+
+#: includes/Elementor/Widgets/TableOfContents.php:197
+msgid "Smooth Scroll"
+msgstr ""
+
+#: includes/Elementor/Widgets/TableOfContents.php:209
+msgid "Highlight Active Section"
+msgstr ""
+
+#: includes/Elementor/Widgets/TableOfContents.php:240
+msgid "How to display on screens ≤768px"
+msgstr ""
+
+#: includes/Elementor/Widgets/TableOfContents.php:247
+msgid "Sticky on Mobile"
+msgstr ""
+
+#: includes/Elementor/Widgets/TableOfContents.php:253
+msgid "Disable to turn off sticky positioning on mobile"
+msgstr ""
+
+#: includes/Elementor/Widgets/TableOfContents.php:271
+msgid "Limit height with scrolling for long lists"
+msgstr ""
+
+#: includes/Elementor/Widgets/TableOfContents.php:392
+msgid "Margin Bottom"
+msgstr ""
+
+#: includes/Elementor/Widgets/TableOfContents.php:410
+msgid "List Items"
+msgstr ""
+
+#: includes/Elementor/Widgets/TableOfContents.php:430
+msgid "Link Hover Color"
+msgstr ""
+
+#: includes/Elementor/Widgets/TableOfContents.php:625
+msgid "No headings found in the content."
+msgstr ""
+
+#: includes/Elementor/Widgets/TableOfContents.php:633
+msgid "Preview: This widget extracts headings from your content. Add H2, H3 headings to see them here."
+msgstr ""
+
+#: includes/Elementor/Widgets/TableOfContents.php:996
+msgid "Preview: This widget will show headings from your page content."
+msgstr ""
+
+#: includes/Elementor/Widgets/WasThisHelpful.php:20
+msgid "weDocs - Was This Helpful"
+msgstr ""
+
+#: includes/Elementor/Widgets/WasThisHelpful.php:49
+#: includes/Elementor/Widgets/WasThisHelpful.php:214
+#: assets/build/block.js:1
+#: assets/build/blocks/HelpfulFeedback/index.js:1
+#: src/blocks/HelpfulFeedback/edit.js:138
+msgid "Question Text"
+msgstr ""
+
+#: includes/Elementor/Widgets/WasThisHelpful.php:51
+msgid "Was this article helpful?"
+msgstr ""
+
+#: includes/Elementor/Widgets/WasThisHelpful.php:58
+#: src/blocks/components/TabSystem.js:10
+msgid "Style"
+msgstr ""
+
+#: includes/Elementor/Widgets/WasThisHelpful.php:62
+msgid "Thumbs Up/Down"
+msgstr ""
+
+#: includes/Elementor/Widgets/WasThisHelpful.php:63
+msgid "Emoji Reactions"
+msgstr ""
+
+#: includes/Elementor/Widgets/WasThisHelpful.php:64
+msgid "Yes/No Buttons"
+msgstr ""
+
+#: includes/Elementor/Widgets/WasThisHelpful.php:72
+msgid "Positive Text"
+msgstr ""
+
+#: includes/Elementor/Widgets/WasThisHelpful.php:82
+msgid "Negative Text"
+msgstr ""
+
+#: includes/Elementor/Widgets/WasThisHelpful.php:92
+#: assets/build/block.js:1
+#: assets/build/blocks/HelpfulFeedback/index.js:1
+#: src/blocks/HelpfulFeedback/edit.js:180
+msgid "Show Vote Count"
+msgstr ""
+
+#: includes/Elementor/Widgets/WasThisHelpful.php:102
+#: assets/build/block.js:1
+#: assets/build/blocks/HelpfulFeedback/index.js:1
+#: src/blocks/HelpfulFeedback/edit.js:157
+msgid "Thank You Message"
+msgstr ""
+
+#: includes/Elementor/Widgets/WasThisHelpful.php:111
+msgid "Negative Feedback Follow-up"
+msgstr ""
+
+#: includes/Elementor/Widgets/WasThisHelpful.php:115
+msgid "Show a text field when negative feedback is given"
+msgstr ""
+
+#: includes/Elementor/Widgets/WasThisHelpful.php:122
+msgid "Follow-up Placeholder"
+msgstr ""
+
+#: includes/Elementor/Widgets/WasThisHelpful.php:124
+msgid "How can we improve this article?"
+msgstr ""
+
+#: includes/Elementor/Widgets/WasThisHelpful.php:245
+msgid "Vote Buttons"
+msgstr ""
+
+#: includes/Elementor/Widgets/WasThisHelpful.php:253
+#: assets/build/block.js:1
+#: assets/build/blocks/DocsGrid/index.js:1
+#: src/blocks/DocsGrid/StyleControls.js:315
+msgid "Button Color"
+msgstr ""
+
+#: includes/Elementor/Widgets/WasThisHelpful.php:277
+msgid "Positive Active Color"
+msgstr ""
+
+#: includes/Elementor/Widgets/WasThisHelpful.php:289
+msgid "Negative Active Color"
+msgstr ""
+
+#: includes/Elementor/Widgets/WasThisHelpful.php:301
+#: assets/build/block.js:1
+#: assets/build/blocks/SocialShare/index.js:1
+#: src/blocks/SocialShare/edit.js:254
+msgid "Button Size"
+msgstr ""
+
+#: includes/Elementor/Widgets/WasThisHelpful.php:329
+#: assets/build/block.js:1
+#: assets/build/blocks/SocialShare/index.js:1
+#: src/blocks/SocialShare/edit.js:293
+msgid "Button Spacing"
+msgstr ""
+
+#: includes/Elementor/Widgets/WasThisHelpful.php:390
+msgid "Helpful"
+msgstr ""
+
+#: includes/Elementor/Widgets/WasThisHelpful.php:394
+msgid "Not helpful"
+msgstr ""
+
+#: includes/Elementor/Widgets/WasThisHelpful.php:414
+msgid "Submit Feedback"
 msgstr ""
 
 #: includes/Frontend.php:101
@@ -2242,143 +3375,138 @@ msgstr ""
 msgid "Doc: "
 msgstr ""
 
-#: includes/Frontend.php:109
-#: includes/Frontend.php:121
-#: templates/modals/search-modal.php:49
-msgid "Search field cannot be blank"
-msgstr ""
-
-#: includes/Frontend.php:110
-#: includes/Frontend.php:122
-msgid "Your search didn't match any documents"
-msgstr ""
-
 #: includes/Frontend.php:111
 #: includes/Frontend.php:123
 msgid "Section: "
 msgstr ""
 
-#: includes/functions.php:323
+#: includes/functions.php:418
 msgid "Doc navigation"
 msgstr ""
 
-#: includes/functions.php:518
+#: includes/functions.php:613
 #, php-format
 msgid "[%1$s] New Doc Feedback: \"%2$s\""
 msgstr ""
 
-#: includes/functions.php:520
+#: includes/functions.php:615
 #, php-format
 msgid "New feedback on your doc \"%s\""
 msgstr ""
 
-#: includes/functions.php:521
+#: includes/functions.php:616
 #, php-format
 msgid "Author: %1$s (IP: %2$s)"
 msgstr ""
 
-#: includes/functions.php:522
+#: includes/functions.php:617
 #, php-format
 msgid "Email: %s"
 msgstr ""
 
-#: includes/functions.php:523
+#: includes/functions.php:618
 #, php-format
 msgid "Feedback: %s"
 msgstr ""
 
-#: includes/functions.php:524
+#: includes/functions.php:619
 #, php-format
 msgid "Doc Permalink: %s"
 msgstr ""
 
-#: includes/functions.php:525
+#: includes/functions.php:620
 #, php-format
 msgid "Edit Doc: %s"
 msgstr ""
 
-#: includes/functions.php:1060
+#: includes/functions.php:1155
 #: assets/build/index.js:1
+#: assets/build/upsell.js:1
 #: src/components/ProPreviews/common/UpgradePopup.js:44
 msgid "Upgrade to"
 msgstr ""
 
-#: includes/functions.php:1061
+#: includes/functions.php:1156
 #: assets/build/index.js:1
+#: assets/build/upsell.js:1
 #: src/components/ProPreviews/common/UpgradePopup.js:45
 msgid "to experience even more Powerful features 🎉"
 msgstr ""
 
-#: includes/functions.php:1064
+#: includes/functions.php:1159
 msgid "Role based permission management "
 msgstr ""
 
-#: includes/functions.php:1065
+#: includes/functions.php:1160
 msgid "or viewing, managing, and configuring permission settings."
 msgstr ""
 
-#: includes/functions.php:1068
+#: includes/functions.php:1163
 msgid "Arrange content automatically or manually "
 msgstr ""
 
-#: includes/functions.php:1069
+#: includes/functions.php:1164
 msgid "giving you full control over its presentation."
 msgstr ""
 
-#: includes/functions.php:1072
+#: includes/functions.php:1167
 msgid "Personalize messaging tab with custom titles "
 msgstr ""
 
-#: includes/functions.php:1073
+#: includes/functions.php:1168
 msgid "and messages for seamless communication."
 msgstr ""
 
 #. translators: Full sentence combining: Customize with design widgets, colors, and pre-built options for an appealing interface.
-#: includes/functions.php:1079
+#: includes/functions.php:1174
 #, php-format
 msgid "%1$s %2$s %3$s"
 msgstr ""
 
-#: includes/functions.php:1080
+#: includes/functions.php:1175
 msgid "Customize with"
 msgstr ""
 
-#: includes/functions.php:1081
+#: includes/functions.php:1176
 msgid "design widgets, colors, and pre-built options"
 msgstr ""
 
-#: includes/functions.php:1082
+#: includes/functions.php:1177
 msgid "for an appealing interface."
 msgstr ""
 
-#: includes/functions.php:1086
+#: includes/functions.php:1181
 msgid "Get assisted by A.I. Powered Chatbot "
 msgstr ""
 
-#: includes/functions.php:1087
+#: includes/functions.php:1182
 msgid "24/7 with updated information and support."
 msgstr ""
 
-#: includes/functions.php:1090
+#: includes/functions.php:1185
 #: assets/build/index.js:1
+#: assets/build/upsell.js:1
 #: src/components/ProPreviews/common/UpgradePopup.js:47
 msgid "Get weDocs Pro"
 msgstr ""
 
-#: includes/functions.php:1093
+#: includes/functions.php:1188
 #: assets/build/index.js:1
+#: assets/build/upsell.js:1
 #: src/components/ProPreviews/common/UpgradePopup.js:50
 msgid "10,000+ successful businesses"
 msgstr ""
 
-#: includes/functions.php:1094
+#: includes/functions.php:1189
 #: assets/build/index.js:1
+#: assets/build/upsell.js:1
 #: src/components/ProPreviews/common/UpgradePopup.js:51
 msgid "14 days no questions asked refund policy"
 msgstr ""
 
-#: includes/functions.php:1095
+#: includes/functions.php:1190
 #: assets/build/index.js:1
+#: assets/build/upsell.js:1
 #: src/components/ProPreviews/common/UpgradePopup.js:52
 msgid "Industry leading 24x7 support"
 msgstr ""
@@ -2394,7 +3522,7 @@ msgid "Doc"
 msgstr ""
 
 #: includes/Post_Types.php:47
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Migrations/Modals/MigrationContentMappingModal.js:140
 msgid "Parent Doc"
 msgstr ""
@@ -2602,11 +3730,11 @@ msgstr ""
 msgid "Search FAQ Groups"
 msgstr ""
 
-#: includes/Templates/SingleDocTemplate.php:118
+#: includes/Templates/SingleDocTemplate.php:123
 msgid "Single Documentation"
 msgstr ""
 
-#: includes/Templates/SingleDocTemplate.php:127
+#: includes/Templates/SingleDocTemplate.php:132
 msgid "Template for displaying single documentation articles with sidebar navigation, breadcrumbs, and helpful feedback features."
 msgstr ""
 
@@ -2619,8 +3747,8 @@ msgid "weDocs Document Search"
 msgstr ""
 
 #: includes/Widget.php:36
-#: assets/build/index.js:1
-#: assets/build/index.js:13
+#: assets/build/index.js:2
+#: assets/build/index.js:14
 #: src/components/BackToDocsPage.js:25
 #: src/components/Documentations/index.js:155
 #: src/components/PermissionSettingsDemo/BackToDocsPage.js:25
@@ -2679,27 +3807,6 @@ msgstr ""
 msgid "How can we help?"
 msgstr ""
 
-#: templates/content-modal.php:22
-#: assets/build/block.js:1
-#: assets/build/blocks/DocsGrid/index.js:1
-#: assets/build/blocks/Sidebar/index.js:1
-#: src/blocks/DocsGrid/edit.js:224
-#: src/blocks/Sidebar/edit.js:291
-msgid "Name"
-msgstr ""
-
-#: templates/content-modal.php:30
-msgid "Email"
-msgstr ""
-
-#: templates/content-modal.php:38
-msgid "Subject"
-msgstr ""
-
-#: templates/content-modal.php:46
-msgid "Message"
-msgstr ""
-
 #: templates/content-modal.php:54
 msgid "Send"
 msgstr ""
@@ -2719,10 +3826,6 @@ msgstr ""
 #: templates/vendor-single-doc.php:177
 msgctxt "placeholder"
 msgid "Quick search..."
-msgstr ""
-
-#: templates/modals/search-modal.php:42
-msgid "ESC"
 msgstr ""
 
 #: templates/pro-notice.php:6
@@ -2747,7 +3850,7 @@ msgstr ""
 
 #. translators: 1: current page, 2: total pages.
 #: templates/shortcode.php:146
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Documentations/DocsPagination.js:77
 #, php-format,js-format
 msgid "Page %1$d of %2$d"
@@ -2767,9 +3870,9 @@ msgstr ""
 #: templates/vendor-single-doc.php:238
 #: assets/build/block.js:1
 #: assets/build/blocks/QuickSearch/index.js:1
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/blocks/QuickSearch/edit.js:41
-#: src/components/Dashboard/index.js:120
+#: src/components/Dashboard/index.js:161
 #: src/components/Migrations/Modals/MigrationContentMappingModal.js:17
 msgid "Articles"
 msgstr ""
@@ -3442,22 +4545,6 @@ msgstr ""
 #: assets/build/block.js:1
 #: assets/build/blocks/DocNavigation/index.js:1
 #: assets/build/blocks/PrintButton/index.js:1
-#: assets/build/blocks/SocialShare/index.js:1
-#: assets/build/faq.js:1
-#: assets/build/index.js:1
-#: src/blocks/AdvanceContributors/edit-old.js:492
-#: src/blocks/Contributors/edit-old.js:492
-#: src/blocks/DocNavigation/edit.js:133
-#: src/blocks/PrintButton/Inspector.js:234
-#: src/blocks/SocialShare/edit.js:334
-#: src/components/ProPreviews/AssistantWidgetPanels/FontSettings.js:9
-#: src/faq/components/TiptapEditor.js:147
-msgid "Bold"
-msgstr ""
-
-#: assets/build/block.js:1
-#: assets/build/blocks/DocNavigation/index.js:1
-#: assets/build/blocks/PrintButton/index.js:1
 #: src/blocks/DocNavigation/edit.js:134
 #: src/blocks/PrintButton/Inspector.js:235
 msgid "Light"
@@ -3672,27 +4759,6 @@ msgid "Font Size"
 msgstr ""
 
 #: assets/build/block.js:1
-#: assets/build/blocks/AISummary/index.js:1
-#: assets/build/blocks/DocNavigation/index.js:1
-#: assets/build/blocks/HelpfulFeedback/index.js:1
-#: assets/build/blocks/LastUpdated/index.js:1
-#: assets/build/blocks/PrintButton/index.js:1
-#: assets/build/blocks/QuickSearch/index.js:1
-#: assets/build/blocks/SocialShare/index.js:1
-#: assets/build/blocks/TableOfContents/index.js:1
-#: src/blocks/AdvanceContributors/edit-old.js:488
-#: src/blocks/commonControls/CommonControls.js:207
-#: src/blocks/components/TypographyControl.js:87
-#: src/blocks/Contributors/edit-old.js:488
-#: src/blocks/DocNavigation/edit.js:379
-#: src/blocks/PrintButton/Inspector.js:230
-#: src/blocks/QuickSearch/edit.js:243
-#: src/blocks/SocialShare/edit.js:328
-#: src/blocks/TableOfContents/Inspector.js:217
-msgid "Font Weight"
-msgstr ""
-
-#: assets/build/block.js:1
 #: assets/build/blocks/DocNavigation/index.js:1
 #: src/blocks/components/TypographyControl.js:105
 #: src/blocks/DocNavigation/edit.js:386
@@ -3745,16 +4811,6 @@ msgstr ""
 #: assets/build/blocks/DocsGrid/index.js:1
 #: src/blocks/DocsGrid/StyleControls.js:35
 msgid "System default"
-msgstr ""
-
-#: assets/build/block.js:1
-#: assets/build/blocks/AdvanceContributors/index.js:1
-#: assets/build/blocks/DocsGrid/index.js:1
-#: src/blocks/AdvanceContributors/edit-old.js:395
-#: src/blocks/commonControls/BackgroundImageControls.js:137
-#: src/blocks/Contributors/edit-old.js:395
-#: src/blocks/DocsGrid/StyleControls.js:88
-msgid "Size"
 msgstr ""
 
 #: assets/build/block.js:1
@@ -3822,10 +4878,13 @@ msgstr ""
 #: assets/build/blocks/HelpfulFeedback/index.js:1
 #: assets/build/blocks/LastUpdated/index.js:1
 #: assets/build/blocks/ReadingProgress/index.js:1
+#: assets/build/index.js:2
+#: assets/build/upsell.js:2
 #: src/blocks/AdvanceContributors/edit.js:563
 #: src/blocks/commonControls/CommonControls.js:19
 #: src/blocks/components/TypographyControl.js:36
 #: src/blocks/DocsGrid/StyleControls.js:223
+#: src/components/ProPreviews/GlossarySettings.js:185
 msgid "Colors"
 msgstr ""
 
@@ -3886,12 +4945,6 @@ msgstr ""
 #: src/blocks/SocialShare/edit.js:342
 #: src/blocks/SocialShare/edit.js:351
 msgid "Button Colors"
-msgstr ""
-
-#: assets/build/block.js:1
-#: assets/build/blocks/DocsGrid/index.js:1
-#: src/blocks/DocsGrid/StyleControls.js:315
-msgid "Button Color"
 msgstr ""
 
 #: assets/build/block.js:1
@@ -4002,7 +5055,7 @@ msgstr ""
 
 #: assets/build/block.js:1
 #: assets/build/blocks/DocsGrid/index.js:1
-#: assets/build/index.js:7
+#: assets/build/index.js:8
 #: src/blocks/DocsGrid/edit.js:500
 #: src/components/Documentations/DocsPagination.js:39
 msgid "Docs per page"
@@ -4064,12 +5117,6 @@ msgstr ""
 
 #: assets/build/block.js:1
 #: assets/build/blocks/HelpfulFeedback/index.js:1
-#: src/blocks/HelpfulFeedback/edit.js:138
-msgid "Question Text"
-msgstr ""
-
-#: assets/build/block.js:1
-#: assets/build/blocks/HelpfulFeedback/index.js:1
 #: src/blocks/HelpfulFeedback/edit.js:141
 msgid "The question to ask users about the article"
 msgstr ""
@@ -4084,12 +5131,6 @@ msgstr ""
 #: assets/build/blocks/HelpfulFeedback/index.js:1
 #: src/blocks/HelpfulFeedback/edit.js:151
 msgid "No Button Text"
-msgstr ""
-
-#: assets/build/block.js:1
-#: assets/build/blocks/HelpfulFeedback/index.js:1
-#: src/blocks/HelpfulFeedback/edit.js:157
-msgid "Thank You Message"
 msgstr ""
 
 #: assets/build/block.js:1
@@ -4122,12 +5163,6 @@ msgstr ""
 #: assets/build/blocks/HelpfulFeedback/index.js:1
 #: src/blocks/HelpfulFeedback/edit.js:176
 msgid "Display question and buttons in a single row"
-msgstr ""
-
-#: assets/build/block.js:1
-#: assets/build/blocks/HelpfulFeedback/index.js:1
-#: src/blocks/HelpfulFeedback/edit.js:180
-msgid "Show Vote Count"
 msgstr ""
 
 #: assets/build/block.js:1
@@ -4208,16 +5243,6 @@ msgstr ""
 
 #: assets/build/block.js:1
 #: assets/build/blocks/HelpfulModal/index.js:1
-#: assets/build/blocks/PrintButton/index.js:1
-#: assets/build/blocks/SocialShare/index.js:1
-#: src/blocks/HelpfulModal/edit.js:276
-#: src/blocks/PrintButton/edit.js:110
-#: src/blocks/SocialShare/edit.js:274
-msgid "Layout"
-msgstr ""
-
-#: assets/build/block.js:1
-#: assets/build/blocks/HelpfulModal/index.js:1
 #: src/blocks/HelpfulModal/edit.js:281
 msgid "Container Layout"
 msgstr ""
@@ -4226,12 +5251,6 @@ msgstr ""
 #: assets/build/blocks/HelpfulModal/index.js:1
 #: src/blocks/HelpfulModal/edit.js:282
 msgid "Choose between stacked (vertical) or row (horizontal) layout."
-msgstr ""
-
-#: assets/build/block.js:1
-#: assets/build/blocks/HelpfulModal/index.js:1
-#: src/blocks/HelpfulModal/edit.js:286
-msgid "Stacked"
 msgstr ""
 
 #: assets/build/block.js:1
@@ -4267,12 +5286,6 @@ msgstr ""
 
 #: assets/build/block.js:1
 #: assets/build/blocks/HelpfulModal/index.js:1
-#: src/blocks/HelpfulModal/edit.js:299
-msgid "Button"
-msgstr ""
-
-#: assets/build/block.js:1
-#: assets/build/blocks/HelpfulModal/index.js:1
 #: src/blocks/HelpfulModal/edit.js:305
 msgid "Button Background Color"
 msgstr ""
@@ -4287,12 +5300,6 @@ msgstr ""
 #: assets/build/blocks/HelpfulModal/index.js:1
 #: src/blocks/HelpfulModal/edit.js:337
 msgid "Main Text"
-msgstr ""
-
-#: assets/build/block.js:1
-#: assets/build/blocks/HelpfulModal/index.js:1
-#: src/blocks/HelpfulModal/edit.js:353
-msgid "Modal Title"
 msgstr ""
 
 #: assets/build/block.js:1
@@ -4315,12 +5322,6 @@ msgstr ""
 
 #: assets/build/block.js:1
 #: assets/build/blocks/HelpfulModal/index.js:1
-#: src/blocks/HelpfulModal/edit.js:373
-msgid "Show Subject Field"
-msgstr ""
-
-#: assets/build/block.js:1
-#: assets/build/blocks/HelpfulModal/index.js:1
 #: src/blocks/HelpfulModal/edit.js:379
 msgid "Subject Label"
 msgstr ""
@@ -4329,18 +5330,6 @@ msgstr ""
 #: assets/build/blocks/HelpfulModal/index.js:1
 #: src/blocks/HelpfulModal/edit.js:385
 msgid "Message Label"
-msgstr ""
-
-#: assets/build/block.js:1
-#: assets/build/blocks/HelpfulModal/index.js:1
-#: src/blocks/HelpfulModal/edit.js:390
-msgid "Submit Button Text"
-msgstr ""
-
-#: assets/build/block.js:1
-#: assets/build/blocks/HelpfulModal/index.js:1
-#: src/blocks/HelpfulModal/edit.js:396
-msgid "Success Message"
 msgstr ""
 
 #: assets/build/block.js:1
@@ -4401,13 +5390,6 @@ msgstr ""
 #: src/blocks/AdvanceContributors/edit.js:564
 #: src/blocks/HelpfulModal/edit.js:521
 msgid "Dimensions"
-msgstr ""
-
-#: assets/build/block.js:1
-#: assets/build/blocks/HelpfulModal/index.js:1
-#: src/blocks/HelpfulModal/edit.js:533
-#: src/blocks/HelpfulModal/edit.js:537
-msgid "Modal Width"
 msgstr ""
 
 #: assets/build/block.js:1
@@ -4574,23 +5556,6 @@ msgstr ""
 #: assets/build/blocks/PrintButton/index.js:1
 #: src/blocks/PrintButton/Inspector.js:198
 msgid "Font Size (px)"
-msgstr ""
-
-#: assets/build/block.js:1
-#: assets/build/blocks/PrintButton/index.js:1
-#: assets/build/blocks/SocialShare/index.js:1
-#: assets/build/index.js:1
-#: src/blocks/PrintButton/Inspector.js:236
-#: src/blocks/SocialShare/edit.js:258
-#: src/blocks/SocialShare/edit.js:332
-#: src/components/ProPreviews/AssistantWidgetPanels/FontSettings.js:7
-msgid "Medium"
-msgstr ""
-
-#: assets/build/block.js:1
-#: assets/build/blocks/PrintButton/index.js:1
-#: src/blocks/PrintButton/Inspector.js:238
-msgid "Semi Bold"
 msgstr ""
 
 #: assets/build/block.js:1
@@ -5119,12 +6084,6 @@ msgstr ""
 
 #: assets/build/block.js:1
 #: assets/build/blocks/SocialShare/index.js:1
-#: src/blocks/SocialShare/edit.js:247
-msgid "Icon Only"
-msgstr ""
-
-#: assets/build/block.js:1
-#: assets/build/blocks/SocialShare/index.js:1
 #: src/blocks/SocialShare/edit.js:248
 msgid "Icon with Text"
 msgstr ""
@@ -5133,12 +6092,6 @@ msgstr ""
 #: assets/build/blocks/SocialShare/index.js:1
 #: src/blocks/SocialShare/edit.js:249
 msgid "Text Only"
-msgstr ""
-
-#: assets/build/block.js:1
-#: assets/build/blocks/SocialShare/index.js:1
-#: src/blocks/SocialShare/edit.js:254
-msgid "Button Size"
 msgstr ""
 
 #: assets/build/block.js:1
@@ -5173,12 +6126,6 @@ msgstr ""
 #: src/blocks/commonControls/AlignmentControls.js:139
 #: src/blocks/SocialShare/edit.js:278
 msgid "Vertical"
-msgstr ""
-
-#: assets/build/block.js:1
-#: assets/build/blocks/SocialShare/index.js:1
-#: src/blocks/SocialShare/edit.js:293
-msgid "Button Spacing"
 msgstr ""
 
 #: assets/build/block.js:1
@@ -5251,7 +6198,7 @@ msgstr ""
 
 #: assets/build/block.js:1
 #: assets/build/blocks/TableOfContents/index.js:1
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/blocks/AdvanceContributors/edit-old.js:170
 #: src/blocks/Contributors/edit-old.js:170
 #: src/blocks/TableOfContents/Inspector.js:43
@@ -5416,6 +6363,7 @@ msgstr ""
 
 #: assets/build/blocks/AdvanceContributors/index.js:1
 #: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/blocks/commonControls/ColorsControls.js:242
 #: src/blocks/commonControls/TypographyControls.js:82
 #: src/blocks/components/TypographyControl.js:58
@@ -5704,8 +6652,9 @@ msgstr ""
 
 #: assets/build/editor.js:1
 #: assets/build/faq.js:1
-#: assets/build/index.js:1
-#: assets/build/index.js:13
+#: assets/build/index.js:2
+#: assets/build/index.js:14
+#: assets/build/shared.js:1
 #: src/components/AddArticleModal.js:205
 #: src/components/AddDocModal.js:242
 #: src/components/AddSectionModal.js:165
@@ -5716,11 +6665,11 @@ msgstr ""
 #: src/components/Migrations/Modals/MigrationSelectionModal.js:195
 #: src/components/PermissionSettingsDemo/index.js:31
 #: src/components/RestrictionModal.js:131
+#: src/components/shared/ConfirmDialog.js:76
 #: src/editor/AiDocWriterModal.js:523
 #: src/editor/AiDocWriterPreview.js:35
 #: src/faq/components/AddFaqForm.js:144
 #: src/faq/components/AddFaqGroupModal.js:295
-#: src/faq/components/FaqConfirmDialog.js:74
 #: src/faq/components/FaqItem.js:263
 msgid "Cancel"
 msgstr ""
@@ -6046,7 +6995,7 @@ msgstr ""
 
 #: assets/build/editor.js:1
 #: assets/build/index.js:1
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:138
 #: src/components/ProPreviews/AiDocWriterImageUploadPreview.js:9
 #: src/components/ProPreviews/common/UpgradeTooltip.js:9
@@ -6098,12 +7047,7 @@ msgid "Supports JPG, PNG, GIF up to 10MB"
 msgstr ""
 
 #: assets/build/faq.js:1
-#: src/faq/utils/toast.js:47
-msgid "Something went wrong. Please try again."
-msgstr ""
-
-#: assets/build/faq.js:1
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/AddArticleModal.js:81
 #: src/components/AddDocModal.js:88
 #: src/components/AddSectionModal.js:55
@@ -6192,7 +7136,7 @@ msgid "Failed to save FAQ group. Please try again."
 msgstr ""
 
 #: assets/build/faq.js:1
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/SaveButton.js:11
 #: src/faq/components/AddFaqGroupModal.js:303
 #: src/faq/components/FaqItem.js:271
@@ -6217,21 +7161,31 @@ msgstr ""
 
 #: assets/build/faq.js:1
 #: src/faq/components/EmptyFaq.js:66
-msgid "Get started by creating your first FAQ group"
+msgid "Get started by creating FAQs for your site"
 msgstr ""
 
 #: assets/build/faq.js:1
-#: src/faq/components/EmptyFaq.js:69
-msgid "Group your frequently asked questions so users can find answers quickly."
+#: assets/build/index.js:2
+#: assets/build/index.js:14
+#: src/components/Documentations/EmptyDocs.js:84
+#: src/components/Migrations/index.js:207
+#: src/faq/components/EmptyFaq.js:75
+msgid "Learn more "
 msgstr ""
 
 #: assets/build/faq.js:1
-#: src/faq/components/EmptyFaq.js:74
+#: src/faq/components/EmptyFaq.js:77
+msgid "how to manage FAQs"
+msgstr ""
+
+#: assets/build/faq.js:1
+#: src/faq/components/EmptyFaq.js:82
 msgid "Create a new FAQ group"
 msgstr ""
 
 #: assets/build/faq.js:1
-#: src/faq/components/FaqConfirmDialog.js:82
+#: assets/build/shared.js:1
+#: src/components/shared/ConfirmDialog.js:84
 msgid "Processing..."
 msgstr ""
 
@@ -6352,7 +7306,7 @@ msgid "Failed to create FAQ. Please try again."
 msgstr ""
 
 #: assets/build/faq.js:1
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/DocListing/DocSections.js:176
 #: src/components/DocListing/SectionArticles.js:179
 #: src/faq/components/AddFaqForm.js:153
@@ -6388,7 +7342,7 @@ msgid "Failed to save the FAQ. Please try again."
 msgstr ""
 
 #: assets/build/faq.js:1
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/PermissionSettingsDemo/index.js:39
 #: src/faq/components/FaqItem.js:272
 msgid "Save"
@@ -6426,7 +7380,7 @@ msgid "Are you sure you want to delete this FAQ? This action cannot be undone."
 msgstr ""
 
 #: assets/build/faq.js:1
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/DocActions.js:161
 #: src/components/DocListing/DocSections.js:241
 #: src/faq/components/FaqGroupRow.js:581
@@ -6537,8 +7491,8 @@ msgid "This will create a copy of this FAQ group along with all the FAQs inside 
 msgstr ""
 
 #: assets/build/faq.js:1
-#: assets/build/index.js:1
-#: src/components/ProPreviews/index.js:259
+#: assets/build/index.js:2
+#: src/components/ProPreviews/index.js:309
 #: src/faq/components/FaqGroupRow.js:561
 msgid "Duplicate"
 msgstr ""
@@ -6594,26 +7548,31 @@ msgid "The group was created but its position could not be saved."
 msgstr ""
 
 #: assets/build/index.js:1
+#: assets/build/upsell.js:1
 #: src/components/ProPreviews/common/UpgradeButton.js:5
 msgid "Go Pro – Up to 35% OFF! 🔥"
 msgstr ""
 
 #: assets/build/index.js:1
+#: assets/build/upsell.js:1
 #: src/components/ProPreviews/common/UpgradePopup.js:36
 msgid "Pop-up slider first image"
 msgstr ""
 
 #: assets/build/index.js:1
+#: assets/build/upsell.js:1
 #: src/components/ProPreviews/common/UpgradePopup.js:37
 msgid "Pop-up slider second image"
 msgstr ""
 
 #: assets/build/index.js:1
+#: assets/build/upsell.js:1
 #: src/components/ProPreviews/common/UpgradePopup.js:38
 msgid "Pop-up slider third image"
 msgstr ""
 
 #: assets/build/index.js:1
+#: assets/build/upsell.js:1
 #: src/components/ProPreviews/common/UpgradePopup.js:39
 msgid "Pop-up slider fourth image"
 msgstr ""
@@ -6652,8 +7611,9 @@ msgid "Who will have the ability to alter the settings of the plugin?"
 msgstr ""
 
 #: assets/build/index.js:1
-#: src/components/ProPreviews/index.js:45
-#: src/components/ProPreviews/index.js:250
+#: assets/build/index.js:2
+#: src/components/ProPreviews/index.js:47
+#: src/components/ProPreviews/index.js:300
 #: src/components/ProPreviews/PermissionSettings.js:38
 msgid "Permission Management"
 msgstr ""
@@ -6664,64 +7624,118 @@ msgid "Administrator"
 msgstr ""
 
 #: assets/build/index.js:1
-#: src/components/ProPreviews/ChangelogSettings.js:14
-msgid "Single changelog"
-msgstr ""
-
-#: assets/build/index.js:1
+#: assets/build/upsell.js:1
 #: src/components/ProPreviews/ChangelogSettings.js:15
-msgid "One timeline at /changelog with every update. Channels become filters."
+msgid "Released 12 August 2026"
 msgstr ""
 
 #: assets/build/index.js:1
-#: src/components/ProPreviews/ChangelogSettings.js:19
-msgid "Separate per channel"
-msgstr ""
-
-#: assets/build/index.js:1
-#: src/components/ProPreviews/ChangelogSettings.js:20
-msgid "Each channel is its own changelog at <base>/<channel>."
-msgstr ""
-
-#: assets/build/index.js:1
-#: src/components/ProPreviews/ChangelogSettings.js:26
-msgid "Fixes"
-msgstr ""
-
-#: assets/build/index.js:1
-#: src/components/ProPreviews/ChangelogSettings.js:27
-msgid "Improvements"
-msgstr ""
-
-#: assets/build/index.js:1
-#: src/components/ProPreviews/ChangelogSettings.js:28
+#: assets/build/upsell.js:1
+#: assets/build/upsell.js:2
+#: src/components/ProPreviews/ChangelogSettings.js:15
+#: src/components/ProPreviews/ChangelogSettings.js:98
 msgid "New feature"
 msgstr ""
 
 #: assets/build/index.js:1
-#: src/components/ProPreviews/ChangelogSettings.js:29
+#: assets/build/upsell.js:1
+#: src/components/ProPreviews/ChangelogSettings.js:16
+msgid "Released 29 July 2026"
+msgstr ""
+
+#: assets/build/index.js:1
+#: assets/build/upsell.js:1
+#: assets/build/upsell.js:2
+#: src/components/ProPreviews/ChangelogSettings.js:16
+#: src/components/ProPreviews/ChangelogSettings.js:96
+msgid "Fixes"
+msgstr ""
+
+#: assets/build/index.js:1
+#: assets/build/index.js:2
+#: assets/build/upsell.js:1
+#: src/components/ProPreviews/ChangelogSettings.js:16
+#: src/components/ProPreviews/ChangelogSettings.js:17
+#: src/components/Settings/ShortcodeSettings.js:157
+msgid "Free"
+msgstr ""
+
+#: assets/build/index.js:1
+#: assets/build/upsell.js:1
+#: src/components/ProPreviews/ChangelogSettings.js:17
+msgid "Released 15 July 2026"
+msgstr ""
+
+#: assets/build/index.js:1
+#: assets/build/upsell.js:1
+#: assets/build/upsell.js:2
+#: src/components/ProPreviews/ChangelogSettings.js:17
+#: src/components/ProPreviews/ChangelogSettings.js:97
+msgid "Improvements"
+msgstr ""
+
+#: assets/build/index.js:1
+#: assets/build/upsell.js:2
+#: src/components/ProPreviews/ChangelogSettings.js:84
+msgid "Single changelog"
+msgstr ""
+
+#: assets/build/index.js:1
+#: assets/build/upsell.js:2
+#: src/components/ProPreviews/ChangelogSettings.js:85
+msgid "One timeline at /changelog with every update. Channels become filters."
+msgstr ""
+
+#: assets/build/index.js:1
+#: assets/build/upsell.js:2
+#: src/components/ProPreviews/ChangelogSettings.js:89
+msgid "Separate per channel"
+msgstr ""
+
+#: assets/build/index.js:1
+#: assets/build/upsell.js:2
+#: src/components/ProPreviews/ChangelogSettings.js:90
+msgid "Each channel is its own changelog at <base>/<channel>."
+msgstr ""
+
+#: assets/build/index.js:1
+#: assets/build/upsell.js:2
+#: src/components/ProPreviews/ChangelogSettings.js:99
 msgid "New releases"
 msgstr ""
 
 #: assets/build/index.js:1
-#: src/components/ProPreviews/ChangelogSettings.js:45
+#: assets/build/index.js:2
+#: assets/build/upsell.js:2
+#: src/components/ProPreviews/ChangelogSettings.js:121
+#: src/components/ProPreviews/index.js:26
+#: src/components/Settings/ShortcodeSettings.js:116
+msgid "Changelog"
+msgstr ""
+
+#: assets/build/index.js:1
+#: assets/build/upsell.js:2
+#: src/components/ProPreviews/ChangelogSettings.js:130
 msgid "Display mode"
 msgstr ""
 
 #: assets/build/index.js:1
-#: src/components/ProPreviews/ChangelogSettings.js:65
+#: assets/build/upsell.js:2
+#: src/components/ProPreviews/ChangelogSettings.js:150
 msgid "URL base"
 msgstr ""
 
 #: assets/build/index.js:1
-#: src/components/ProPreviews/ChangelogSettings.js:72
+#: assets/build/upsell.js:2
+#: src/components/ProPreviews/ChangelogSettings.js:157
 msgid "Header banner"
 msgstr ""
 
 #: assets/build/index.js:1
-#: assets/build/index.js:13
+#: assets/build/index.js:14
+#: assets/build/upsell.js:2
 #: src/components/Migrations/Modals/MigrationContentMappingModal.js:15
-#: src/components/ProPreviews/ChangelogSettings.js:78
+#: src/components/ProPreviews/ChangelogSettings.js:163
 msgid "Categories"
 msgstr ""
 
@@ -6732,6 +7746,7 @@ msgid "Enable"
 msgstr ""
 
 #: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/ProPreviews/AiImageAnalysisPreview.js:74
 #: src/components/ProPreviews/AssistantWidgetPanels/AssistantSwitcher.js:73
 #: src/components/Switcher.js:70
@@ -6911,10 +7926,11 @@ msgid "A.I. Chatbot tab subtitle 2"
 msgstr ""
 
 #: assets/build/index.js:1
-#: assets/build/index.js:13
+#: assets/build/index.js:2
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:139
 #: src/components/ProPreviews/AssistantWidgetPanels/AssistantPanel.js:16
-#: src/components/ProPreviews/index.js:63
+#: src/components/ProPreviews/index.js:65
 msgid "Assistant Widget"
 msgstr ""
 
@@ -6930,9 +7946,10 @@ msgid "Explore tab helps keep all the crucial and indispensable information at t
 msgstr ""
 
 #: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/ProPreviews/AssistantWidgetPanels/AiChatPanel/index.js:11
 #: src/components/ProPreviews/AssistantWidgetPanels/PlacementPanel/PlacementSettings.js:5
-#: src/components/ProPreviews/index.js:82
+#: src/components/ProPreviews/index.js:84
 msgid "A.I. Chat"
 msgstr ""
 
@@ -7069,10 +8086,11 @@ msgid "Remove"
 msgstr ""
 
 #: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/ProPreviews/AssistantWidgetPanels/ExplorePanel/index.js:11
 #: src/components/ProPreviews/AssistantWidgetPanels/PlacementPanel/PlacementSettings.js:6
-#: src/components/ProPreviews/AssistantWidgetPanels/PreferencePanel/MessagePreview.js:67
-#: src/components/ProPreviews/index.js:91
+#: src/components/ProPreviews/AssistantWidgetPanels/PreferencePanel/MessagePreview.js:66
+#: src/components/ProPreviews/index.js:93
 msgid "Explore"
 msgstr ""
 
@@ -7162,6 +8180,7 @@ msgid "Cloudflare Turnstile"
 msgstr ""
 
 #: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/ProPreviews/AssistantWidgetPanels/MessagePanel/MessageSettings.js:85
 #: src/components/ProPreviews/AssistantWidgetPanels/MessagePanel/MessageSettings.js:119
 #: src/components/Settings/GeneralSettings.js:260
@@ -7204,10 +8223,11 @@ msgid "Messaging success text"
 msgstr ""
 
 #: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/ProPreviews/AssistantWidgetPanels/MessagePanel/index.js:11
 #: src/components/ProPreviews/AssistantWidgetPanels/PlacementPanel/PlacementSettings.js:7
-#: src/components/ProPreviews/AssistantWidgetPanels/PreferencePanel/MessagePreview.js:90
-#: src/components/ProPreviews/index.js:106
+#: src/components/ProPreviews/AssistantWidgetPanels/PreferencePanel/MessagePreview.js:89
+#: src/components/ProPreviews/index.js:108
 msgid "Messaging"
 msgstr ""
 
@@ -7283,32 +8303,27 @@ msgid "Activating & Deactivating WPUF Modules"
 msgstr ""
 
 #: assets/build/index.js:1
-#: src/components/ProPreviews/AssistantWidgetPanels/PreferencePanel/MessagePreview.js:44
+#: src/components/ProPreviews/AssistantWidgetPanels/PreferencePanel/MessagePreview.js:43
 msgid "A.I. Chatbot"
 msgstr ""
 
 #: assets/build/index.js:1
-#: src/components/ProPreviews/AssistantWidgetPanels/PreferencePanel/MessagePreview.js:190
+#: src/components/ProPreviews/AssistantWidgetPanels/PreferencePanel/MessagePreview.js:189
 msgid "Explore Feature"
 msgstr ""
 
 #: assets/build/index.js:1
-#: src/components/ProPreviews/AssistantWidgetPanels/PreferencePanel/MessagePreview.js:213
+#: src/components/ProPreviews/AssistantWidgetPanels/PreferencePanel/MessagePreview.js:212
 msgid "Search with keywords for quick answers"
 msgstr ""
 
 #: assets/build/index.js:1
-#: src/components/ProPreviews/AssistantWidgetPanels/PreferencePanel/MessagePreview.js:232
+#: src/components/ProPreviews/AssistantWidgetPanels/PreferencePanel/MessagePreview.js:234
 msgid "Search"
 msgstr ""
 
 #: assets/build/index.js:1
-#: src/components/ProPreviews/AssistantWidgetPanels/PreferencePanel/MessagePreview.js:272
-msgid "WP User Frontend… > Getting Started"
-msgstr ""
-
-#: assets/build/index.js:1
-#: src/components/ProPreviews/AssistantWidgetPanels/PreferencePanel/MessagePreview.js:281
+#: src/components/ProPreviews/AssistantWidgetPanels/PreferencePanel/MessagePreview.js:273
 msgid "Here you will find everything about WP User Frontend, what it offers and its"
 msgstr ""
 
@@ -7393,7 +8408,8 @@ msgid "Choose Color: "
 msgstr ""
 
 #: assets/build/index.js:1
-#: src/components/ProPreviews/index.js:170
+#: assets/build/index.js:2
+#: src/components/ProPreviews/index.js:196
 #: src/components/ProPreviews/SocialShareSettings.js:16
 msgid "Social Share"
 msgstr ""
@@ -7409,29 +8425,295 @@ msgid "Enable social sharing buttons on documentation articles"
 msgstr ""
 
 #: assets/build/index.js:1
-#: src/components/ProPreviews/index.js:121
+#: assets/build/index.js:2
+#: assets/build/upsell.js:1
+#: assets/build/upsell.js:2
+#: src/components/ProPreviews/GlossarySettings.js:18
+#: src/components/ProPreviews/GlossarySettings.js:212
+msgid "Cloudflare"
+msgstr ""
+
+#: assets/build/index.js:1
+#: assets/build/index.js:2
+#: assets/build/upsell.js:1
+#: assets/build/upsell.js:2
+#: src/components/ProPreviews/GlossarySettings.js:19
+#: src/components/ProPreviews/GlossarySettings.js:222
+msgid "A service that sits in front of your site to speed it up and keep it online."
+msgstr ""
+
+#: assets/build/index.js:1
+#: assets/build/upsell.js:1
+#: src/components/ProPreviews/GlossarySettings.js:20
+msgid "Learn more"
+msgstr ""
+
+#: assets/build/index.js:1
+#: assets/build/upsell.js:1
+#: src/components/ProPreviews/GlossarySettings.js:25
+msgid "DNS"
+msgstr ""
+
+#: assets/build/index.js:1
+#: assets/build/upsell.js:1
+#: src/components/ProPreviews/GlossarySettings.js:26
+msgid "The address book of the internet: it turns a domain name into a server address."
+msgstr ""
+
+#: assets/build/index.js:1
+#: assets/build/upsell.js:1
+#: src/components/ProPreviews/GlossarySettings.js:32
+msgid "SSL"
+msgstr ""
+
+#: assets/build/index.js:1
+#: assets/build/upsell.js:1
+#: src/components/ProPreviews/GlossarySettings.js:33
+msgid "The padlock in the address bar: it encrypts traffic between a reader and your site."
+msgstr ""
+
+#. translators: %d: number of articles mentioning the term.
+#: assets/build/index.js:2
+#: assets/build/upsell.js:2
+#: src/components/ProPreviews/GlossarySettings.js:78
+#, js-format
+msgid "%d Article"
+msgid_plural "%d Articles"
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/build/index.js:2
+#: assets/build/upsell.js:2
+#: src/components/ProPreviews/GlossarySettings.js:115
+msgid "Term color"
+msgstr ""
+
+#: assets/build/index.js:2
+#: assets/build/upsell.js:2
+#: src/components/ProPreviews/GlossarySettings.js:116
+msgid "Term hover color"
+msgstr ""
+
+#: assets/build/index.js:2
+#: assets/build/upsell.js:2
+#: src/components/ProPreviews/GlossarySettings.js:117
+msgid "Tooltip text color"
+msgstr ""
+
+#: assets/build/index.js:2
+#: assets/build/upsell.js:2
+#: src/components/ProPreviews/GlossarySettings.js:118
+msgid "Tooltip border color"
+msgstr ""
+
+#: assets/build/index.js:2
+#: assets/build/upsell.js:2
+#: src/components/ProPreviews/GlossarySettings.js:119
+msgid "Tooltip background"
+msgstr ""
+
+#: assets/build/index.js:2
+#: assets/build/upsell.js:2
+#: src/components/ProPreviews/GlossarySettings.js:120
+msgid "Tooltip link color"
+msgstr ""
+
+#: assets/build/index.js:2
+#: assets/build/upsell.js:2
+#: src/components/ProPreviews/GlossarySettings.js:124
+msgid "Glossary term font"
+msgstr ""
+
+#: assets/build/index.js:2
+#: assets/build/upsell.js:2
+#: src/components/ProPreviews/GlossarySettings.js:125
+msgid "Tooltip font"
+msgstr ""
+
+#: assets/build/index.js:2
+#: assets/build/upsell.js:2
+#: src/components/ProPreviews/GlossarySettings.js:147
+#: src/components/ProPreviews/index.js:184
+msgid "Glossary"
+msgstr ""
+
+#: assets/build/index.js:2
+#: assets/build/upsell.js:2
+#: src/components/ProPreviews/GlossarySettings.js:149
+msgid "Enable Glossary"
+msgstr ""
+
+#: assets/build/index.js:2
+#: assets/build/upsell.js:2
+#: src/components/ProPreviews/GlossarySettings.js:164
+msgid "Define a term once and weDocs marks it wherever it appears in your documentation, with a tooltip that explains it in place. These controls decide how the term and its tooltip look."
+msgstr ""
+
+#: assets/build/index.js:2
+#: assets/build/upsell.js:2
+#: src/components/ProPreviews/GlossarySettings.js:203
+msgid "Preview"
+msgstr ""
+
+#: assets/build/index.js:2
+#: assets/build/upsell.js:2
+#: src/components/ProPreviews/GlossarySettings.js:207
+msgid "Point your domain at our servers using"
+msgstr ""
+
+#: assets/build/index.js:2
+#: assets/build/upsell.js:2
+#: src/components/ProPreviews/GlossarySettings.js:214
+msgid "and the change goes live within minutes."
+msgstr ""
+
+#: assets/build/index.js:2
+#: assets/build/upsell.js:2
+#: src/components/ProPreviews/GlossarySettings.js:225
+msgid "Learn more →"
+msgstr ""
+
+#: assets/build/index.js:2
+#: src/components/ProPreviews/McpSettings.js:18
+msgid "Server status"
+msgstr ""
+
+#: assets/build/index.js:2
+#: src/components/ProPreviews/McpSettings.js:18
+#: src/components/ProPreviews/McpSettings.js:43
+msgid "Off"
+msgstr ""
+
+#: assets/build/index.js:2
+#: src/components/ProPreviews/McpSettings.js:19
+msgid "Registered tools"
+msgstr ""
+
+#: assets/build/index.js:2
+#: src/components/ProPreviews/McpSettings.js:20
+msgid "Connected apps"
+msgstr ""
+
+#: assets/build/index.js:2
+#: src/components/ProPreviews/McpSettings.js:21
+msgid "Last activity"
+msgstr ""
+
+#: assets/build/index.js:2
+#: src/components/ProPreviews/McpSettings.js:21
+msgid "Never"
+msgstr ""
+
+#: assets/build/index.js:2
+#: src/components/ProPreviews/McpSettings.js:25
+msgid "In Claude, open Settings > Connectors > Add custom connector."
+msgstr ""
+
+#: assets/build/index.js:2
+#: src/components/ProPreviews/McpSettings.js:26
+msgid "Paste the connector URL and give it a name, for example weDocs."
+msgstr ""
+
+#: assets/build/index.js:2
+#: src/components/ProPreviews/McpSettings.js:27
+msgid "Click Add, then approve access when Claude asks you to sign in."
+msgstr ""
+
+#: assets/build/index.js:2
+#: src/components/ProPreviews/McpSettings.js:31
+msgid "Whether this site is reachable over HTTPS, which hosted AI clients require."
+msgstr ""
+
+#: assets/build/index.js:2
+#: src/components/ProPreviews/McpSettings.js:32
+msgid "How many weDocs tools a connected client would be offered."
+msgstr ""
+
+#: assets/build/index.js:2
+#: src/components/ProPreviews/McpSettings.js:33
+msgid "Whether an unauthenticated request is refused with a proper sign-in challenge."
+msgstr ""
+
+#: assets/build/index.js:2
+#: src/components/ProPreviews/index.js:215
+#: src/components/ProPreviews/McpSettings.js:41
+msgid "MCP"
+msgstr ""
+
+#: assets/build/index.js:2
+#: src/components/ProPreviews/McpSettings.js:47
+msgid "Enable MCP access"
+msgstr ""
+
+#: assets/build/index.js:2
+#: src/components/ProPreviews/McpSettings.js:62
+msgid "Let AI assistants like Claude or ChatGPT generate your articles, tags, changelog, glossary or FAQs."
+msgstr ""
+
+#: assets/build/index.js:2
+#: src/components/ProPreviews/McpSettings.js:78
+msgid "Add weDocs to your client"
+msgstr ""
+
+#: assets/build/index.js:2
+#: src/components/ProPreviews/McpSettings.js:84
+msgid "Connector URL"
+msgstr ""
+
+#: assets/build/index.js:2
+#: src/components/ProPreviews/McpSettings.js:86
+msgid "Copy"
+msgstr ""
+
+#: assets/build/index.js:2
+#: src/components/ProPreviews/McpSettings.js:89
+msgid "Available with weDocs Pro"
+msgstr ""
+
+#: assets/build/index.js:2
+#: src/components/ProPreviews/McpSettings.js:92
+msgid "Claude"
+msgstr ""
+
+#: assets/build/index.js:2
+#: src/components/ProPreviews/McpSettings.js:101
+msgid "Connection health"
+msgstr ""
+
+#: assets/build/index.js:2
+#: src/components/ProPreviews/McpSettings.js:105
+msgid "With Pro, a connection test makes the real round trip from this server and reports:"
+msgstr ""
+
+#: assets/build/index.js:2
+#: src/components/ProPreviews/index.js:123
 msgid "Placement"
 msgstr ""
 
-#: assets/build/index.js:1
-#: src/components/ProPreviews/index.js:136
+#: assets/build/index.js:2
+#: src/components/ProPreviews/index.js:138
 msgid "Widget Preference"
 msgstr ""
 
-#: assets/build/index.js:1
-#: src/components/ProPreviews/index.js:153
+#: assets/build/index.js:2
+#: src/components/ProPreviews/index.js:155
 msgid "Layout & Styles"
 msgstr ""
 
-#: assets/build/index.js:1
-#: src/components/ProPreviews/index.js:266
+#: assets/build/index.js:2
+#: src/components/ProPreviews/index.js:175
+msgid "Doc Home"
+msgstr ""
+
+#: assets/build/index.js:2
+#: src/components/ProPreviews/index.js:316
 msgid "Restrict editing for admin only"
 msgstr ""
 
-#: assets/build/index.js:1
-#: assets/build/index.js:13
-#: src/components/Dashboard/index.js:232
-#: src/components/Dashboard/index.js:233
+#: assets/build/index.js:2
+#: assets/build/index.js:14
+#: src/components/Dashboard/index.js:273
+#: src/components/Dashboard/index.js:274
 #: src/components/DocActions.js:118
 #: src/components/DocListing/ArticleChildrens.js:147
 #: src/components/DocListing/DocSections.js:189
@@ -7440,7 +8722,7 @@ msgstr ""
 msgid "Edit"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/DocListing/ArticleChildrens.js:169
 #: src/components/DocListing/DocSections.js:215
 #: src/components/DocListing/ListingHeader.js:68
@@ -7448,7 +8730,7 @@ msgstr ""
 msgid "View on Web"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/AddArticleModal.js:215
 #: src/components/AddDocModal.js:252
 #: src/components/AddSectionModal.js:175
@@ -7461,1093 +8743,1089 @@ msgstr ""
 msgid "Draft"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/RestrictionModal.js:114
 msgid "Are you sure you want to delete this "
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/RestrictionModal.js:120
 msgid "Deleting it means it will be permanently lost, and you won't be able to retrieve it again."
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/RestrictionModal.js:21
 msgid " deleted!"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/RestrictionModal.js:22
 msgid " has been deleted successfully"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/RestrictionModal.js:138
 msgid "Removing..."
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/ConfirmationModal.js:146
 #: src/components/RestrictionModal.js:138
 msgid "I'm sure"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/AddArticleModal.js:169
 #: src/components/ComboBox.js:87
 #: src/components/DocListing/QuickEditModal.js:193
 msgid "Type an article name"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/AddSectionModal.js:139
 #: src/components/ComboBox.js:88
 msgid "Type a section name"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/ComboBox.js:170
 msgid "Type to write the name of new article"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/ComboBox.js:171
 msgid "Type to write the name of new section"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/DocListing/QuickEditModal.js:181
 msgid "Quickly edit important info of the article"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/DocListing/QuickEditModal.js:185
 msgid "Edit article details easily"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/DocListing/QuickEditModal.js:219
 msgid "Enter your slug here"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/DocListing/QuickEditModal.js:85
 msgid "Article has been drafted!"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/DocListing/QuickEditModal.js:85
 msgid "Article has been published!"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/DocListing/QuickEditModal.js:86
 msgid "The article has been drafted successfully"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/DocListing/QuickEditModal.js:86
 msgid "The article has been published successfully"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/DocListing/QuickEditModal.js:266
 #, js-format
 msgid "Updat%s"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/DocListing/QuickEditModal.js:280
 msgid "Update and Draft"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/DocListing/QuickEditModal.js:283
 msgid "Update and Publish"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/DocActions.js:107
 #: src/components/DocListing/ArticleChildrens.js:126
 #: src/components/DocListing/SectionArticles.js:210
 msgid "Quick Edit"
 msgstr ""
 
-#: assets/build/index.js:1
-#: assets/build/index.js:13
-#: src/components/Dashboard/index.js:242
-#: src/components/Dashboard/index.js:243
+#: assets/build/index.js:2
+#: assets/build/index.js:14
+#: src/components/Dashboard/index.js:283
+#: src/components/Dashboard/index.js:284
 #: src/components/DocActions.js:127
 msgid "View"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/DocActions.js:51
 msgid "Removed from vendor docs"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/DocActions.js:52
 msgid "Marked as vendor doc"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/DocActions.js:136
 msgid "Unmark as vendor doc"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/DocActions.js:136
 msgid "Mark as vendor doc"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/DocActions.js:144
 msgid "Publish Now"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/DocActions.js:144
 msgid "Switch to Draft"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/DocListing/ArticleChildrens.js:92
 msgid "Create Nested Article (Pro)"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/AddArticleModal.js:157
 msgid "Enter your article title"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/AddArticleModal.js:161
 msgid "Describe what the article is about"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/AddArticleModal.js:69
 msgid "New article added!"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/AddArticleModal.js:70
 msgid "New article has been added successfully"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/AddArticleModal.js:215
 #: src/components/AddDocModal.js:252
 #: src/components/AddSectionModal.js:175
 msgid "Publish"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/AddArticleModal.js:216
 #: src/components/AddDocModal.js:253
 #: src/components/AddSectionModal.js:176
 msgid "ing..."
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/AddArticleModal.js:228
 #: src/components/AddDocModal.js:265
 #: src/components/AddSectionModal.js:188
 msgid "Create and Draft"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/AddArticleModal.js:231
 #: src/components/AddDocModal.js:268
 #: src/components/AddSectionModal.js:191
 msgid "Create and Publish"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/DocListing/DocSections.js:316
 #: src/components/DocListing/ListingButtons.js:32
 #: src/components/Documentations/AddChildrens.js:27
 msgid "Add article"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/AddSectionModal.js:122
 msgid "Enter your section title"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/AddSectionModal.js:126
 msgid "Use concise section titles for better navigation"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/AddSectionModal.js:131
 msgid "E.g., Getting Started"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/AddSectionModal.js:43
 msgid "New section added!"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/AddSectionModal.js:44
 msgid "New section has been added successfully"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/DocListing/ListingButtons.js:24
 #: src/components/Documentations/AddChildrens.js:35
 msgid "Add section"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/SearchFilter.js:42
 msgid "💡 Feedback"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/SearchFilter.js:48
 #, js-format
 msgid "Search by %s"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/SearchFilter.js:49
 msgid "article name"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/SearchFilter.js:49
 msgid "document name"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/ConfirmationModal.js:126
 msgid "Are you sure?"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/ConfirmationModal.js:129
 msgid "We recommend backing up your database before upgrading to ensure your data is safe. Are you sure you want to run the upgrade now?"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Upgrade.js:22
 msgid "Wedocs Logo"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Upgrade.js:29
 msgid "weDocs Data Update Required"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Upgrade.js:49
 msgid "A database upgrade is required. If you don't upgrade, you may experience unexpected behaviour while using weDocs."
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/NotFound.js:25
 msgid "There’s Nothing here..."
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/NotFound.js:28
 msgid "...maybe the page you’re looking for is not found or never existed."
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/WedocsPromoNotice.js:50
 msgid "Dismiss this notice"
 msgstr ""
 
-#: assets/build/index.js:1
-#: assets/build/index.js:13
+#: assets/build/index.js:2
+#: assets/build/index.js:14
 #: src/components/DocListing/index.js:159
 #: src/components/Documentations/index.js:139
 #: src/components/Settings/index.js:135
 msgid "weDocs database has been updated successfully"
 msgstr ""
 
-#: assets/build/index.js:1
-#: assets/build/index.js:13
+#: assets/build/index.js:2
+#: assets/build/index.js:14
 #: src/components/DocListing/index.js:160
 #: src/components/Documentations/index.js:140
 #: src/components/Settings/index.js:136
 msgid "Database Updated!"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/DocListing/index.js:241
 msgid "No section or article found for this documentation"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/Menu.js:27
 msgid "AI Control"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/Menu.js:46
 #: src/components/Settings/ShortcodeSettings.js:307
 msgid "Shortcodes"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/SaveButton.js:11
 msgid "Save Settings"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/ListboxSelect.js:13
 msgid "Select an option"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/ListboxSelect.js:47
 msgid "Search a page…"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/ListboxSelect.js:66
 msgid "No page found."
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/SelectBox.js:65
 msgid "Page not found"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/ProPreviews/common/PreviewDropdown.js:56
 #: src/components/Settings/GeneralSettings.js:130
 msgid "Pro Feature"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/GeneralSettings.js:88
 msgid "weDocs Home"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/GeneralSettings.js:104
 msgid "Select the documentation Home page, where the shortcode [wedocs] "
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/GeneralSettings.js:114
 msgid "shortcode"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/GeneralSettings.js:116
 msgid " is used."
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/GeneralSettings.js:125
 msgid "Docs URL Structure"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/GeneralSettings.js:131
 #: src/components/Settings/GeneralSettings.js:136
 msgid "Control how documentation URLs and breadcrumbs will be structured"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/GeneralSettings.js:162
 msgid "Docs URL structure"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/GeneralSettings.js:166
 msgid "Before Doc"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/GeneralSettings.js:171
 msgid "After Doc"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/GeneralSettings.js:42
 #: src/components/Settings/GeneralSettings.js:60
 msgid "After Doc: "
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/GeneralSettings.js:43
 #: src/components/Settings/GeneralSettings.js:54
 msgid "Before Doc: "
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/GeneralSettings.js:191
 msgid "Changing this structure updates URLs and breadcrumbs for all docs. Previous URLs will automatically redirect (301)."
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/GeneralSettings.js:198
 msgid "Choose how doc URLs and breadcrumbs are structured — changing it updates all docs with automatic 301 redirects."
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/GeneralSettings.js:212
 msgid "Email Feedback on Article"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/GeneralSettings.js:216
 msgid "Invite readers to share their thoughts through an email feedback form"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/GeneralSettings.js:265
 msgid "Enter the email address where you would like to receive feedback"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/GeneralSettings.js:292
 msgid "Write your email address"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/GeneralSettings.js:314
 msgid "Enable searchbar on docs home"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/GeneralSettings.js:318
 msgid "Enable searchbar on docs homepage, applicable only for those using the [weDocs] shortcode"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/GeneralSettings.js:360
 msgid "Helpful Feedback on Article"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/GeneralSettings.js:364
 msgid "Enabling helpful feedback on your article allows readers to provide opinions on your content"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/GeneralSettings.js:406
 msgid "Allow Comments on Article"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/GeneralSettings.js:410
 msgid "Increase reader engagement by turning on comments"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/GeneralSettings.js:452
 msgid "Allow Article Printing"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/GeneralSettings.js:456
 msgid "Allow users to print articles directly from the website"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/GeneralSettings.js:498
 msgid "Show FAQ on Docs Home"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/GeneralSettings.js:502
 msgid "Display the FAQ section on the documentation home page where the [wedocs] shortcode is used"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/GeneralSettings.js:544
-msgid "Use Legacy Template"
+msgid "Single Doc Template"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/GeneralSettings.js:548
-msgid "Enable legacy PHP template system for single doc pages. Disable to use the new builder template."
+msgid "Which template renders a single doc page. Automatic detects the active theme; the others force Classic, Block or Elementor."
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
+#: src/components/Settings/GeneralSettings.js:593
+msgid "Automatic (Detect)"
+msgstr ""
+
+#: assets/build/index.js:2
+#: src/components/Settings/GeneralSettings.js:594
+msgid "Classic (PHP Template)"
+msgstr ""
+
+#: assets/build/index.js:2
+#: src/components/Settings/GeneralSettings.js:595
+msgid "Block (Block Theme Template)"
+msgstr ""
+
+#: assets/build/index.js:2
+#: src/components/Settings/GeneralSettings.js:596
+msgid "Elementor"
+msgstr ""
+
+#: assets/build/index.js:2
 #: src/components/ProPreviews/AiImageAnalysisPreview.js:23
 msgid "Enable image analysis"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/ProPreviews/AiImageAnalysisPreview.js:26
 msgid "Allow AI to analyze uploaded screenshots when generating documentation"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/ProPreviews/AiImageAnalysisPreview.js:81
 msgid "Allow AI to analyze uploaded screenshots when generating documentation. Useful for documenting UI flows, onboarding steps, and feature screenshots."
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/ProPreviews/AiImageAnalysisPreview.js:102
 msgid "Image analysis increases API token usage significantly."
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/AiSettings.js:378
 msgid "No providers available"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/AiSettings.js:408
 msgid "Loading models…"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/AiSettings.js:464
 msgid "No models available"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/AiSettings.js:479
 msgid "AI Control Settings"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/AiSettings.js:493
 msgid "Default AI Provider"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/AiSettings.js:497
 msgid "This provider will be used as the default for all AI features unless overridden"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/AiSettings.js:533
 msgid "This provider will be used as the default for all AI features unless overridden."
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/AiSettings.js:547
 msgid "API Key"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/AiSettings.js:551
 msgid "Enter your API key for the selected AI provider"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/AiSettings.js:578
 msgid "Enter your API key"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/AiSettings.js:589
 msgid "Current:"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/AiSettings.js:604
 msgid "AI Model"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/AiSettings.js:608
 msgid "Select the model for this AI provider"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/AiSettings.js:641
 msgid "Refresh model list"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/AiSettings.js:656
 msgid "Fetching available models…"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/AiSettings.js:657
 msgid "Select the model for this provider"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/AiSettings.js:693
 msgid "Maximum Image Size"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/AiSettings.js:697
 msgid "Maximum file size for AI image analysis uploads"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/AiSettings.js:749
 msgid "Set the maximum file size for image uploads. Minimum: 100KB, Maximum: 5MB (5120KB). Default: 1MB (1024KB)."
 msgstr ""
 
-#: assets/build/index.js:1
-#: assets/build/index.js:13
-#: src/components/Premium/index.js:339
-#: src/components/Settings/ShortcodeSettings.js:157
-msgid "Pro"
-msgstr ""
-
-#: assets/build/index.js:1
-#: src/components/Settings/ShortcodeSettings.js:157
-msgid "Free"
-msgstr ""
-
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/ShortcodeSettings.js:215
 #: src/components/Settings/ShortcodeSettings.js:216
 msgid "Copied"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/ShortcodeSettings.js:215
 #: src/components/Settings/ShortcodeSettings.js:216
 msgid "Copy shortcode"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/ShortcodeSettings.js:257
 msgid "Attributes"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/ShortcodeSettings.js:264
 msgid "Attribute"
 msgstr ""
 
-#: assets/build/index.js:1
-#: src/components/Settings/ShortcodeSettings.js:266
-msgid "Description"
-msgstr ""
-
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/ShortcodeSettings.js:277
 msgid "empty"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/ShortcodeSettings.js:15
 msgid "Documentation List"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/ShortcodeSettings.js:16
 msgid "Lists your documentation. Use this on the page you have set as the docs home."
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/ShortcodeSettings.js:26
 msgid "Number of columns to lay the docs out in. The Pro layout setting takes over when it is set."
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/ShortcodeSettings.js:34
 msgid "How many sections to show under each doc."
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/ShortcodeSettings.js:39
 msgid "Comma separated doc IDs to show. Leave as any to show all of them."
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/ShortcodeSettings.js:47
 msgid "Comma separated doc IDs to leave out. Ignored for any ID that include also names."
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/ShortcodeSettings.js:55
 msgid "Label for the link at the foot of each doc."
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/ShortcodeSettings.js:60
 msgid "Docs per page. Leave empty to show every doc on one page."
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/ShortcodeSettings.js:70
 msgid "FAQ Section"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/ShortcodeSettings.js:71
 msgid "Renders your FAQ groups as an accordion. Inactive groups and groups with no FAQs are skipped."
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/ShortcodeSettings.js:80
 msgid "Comma separated FAQ group slugs to show. Leave empty for all groups."
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/ShortcodeSettings.js:88
 msgid "FAQs to show per group. Use -1 for no limit."
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/ShortcodeSettings.js:96
 msgid "What to sort the FAQs by, for example menu_order, title or date."
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/ShortcodeSettings.js:104
 msgid "Sort direction, ASC or DESC."
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/ShortcodeSettings.js:117
 msgid "Embeds your changelog timeline on any page."
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/ShortcodeSettings.js:126
 msgid "Channel slug to show. Leave empty to show every channel."
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/ShortcodeSettings.js:134
 msgid "Show the channel switcher above the timeline."
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/ShortcodeSettings.js:314
 msgid "Paste any of these into a page or post. Every attribute is optional, so the shortcode on its own works too."
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/index.js:45
 msgid "Settings Data Saved!"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Settings/index.js:46
 msgid "Settings data has been saved successfully"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/AddDocModal.js:22
 msgid "Regular Doc"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/AddDocModal.js:23
 msgid "Dokan vendor doc"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/AddDocModal.js:154
 msgid "Enter your doc title"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/AddDocModal.js:157
 msgid "Start writing your doc from scratch"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/AddDocModal.js:164
 msgid "Type a title for your document"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/AddDocModal.js:192
 msgid "Visibility"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/AddDocModal.js:67
 msgid "New doc added!"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/AddDocModal.js:68
 msgid "New doc has been added successfully"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Documentations/EmptyDocs.js:75
 msgid "Get started by creating a new doc"
 msgstr ""
 
-#: assets/build/index.js:1
-#: assets/build/index.js:13
-#: src/components/Documentations/EmptyDocs.js:84
-#: src/components/Migrations/index.js:207
-msgid "Learn more "
-msgstr ""
-
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Documentations/EmptyDocs.js:86
 msgid "how to create a new doc"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Documentations/EmptyDocs.js:91
 msgid "Create a new doc"
 msgstr ""
 
-#: assets/build/index.js:1
+#: assets/build/index.js:2
 #: src/components/Documentations/ParentDocs.js:113
 msgid "Vendor Doc"
 msgstr ""
 
 #. translators: %d: Length of documentation sections
-#: assets/build/index.js:4
+#: assets/build/index.js:5
 #: src/components/Documentations/ParentDocs.js:175
 #, js-format
 msgid "%d Sections"
 msgstr ""
 
 #. translators: %d: Length of documentation articles
-#: assets/build/index.js:7
+#: assets/build/index.js:8
 #: src/components/Documentations/ParentDocs.js:202
 #, js-format
 msgid "%d Articles"
 msgstr ""
 
-#: assets/build/index.js:7
+#: assets/build/index.js:8
 #: src/components/Documentations/ParentDocs.js:232
 msgid "Add"
 msgstr ""
 
 #. translators: 1: first doc on page, 2: last doc on page, 3: total docs.
-#: assets/build/index.js:10
+#: assets/build/index.js:11
 #: src/components/Documentations/DocsPagination.js:57
 #, js-format
 msgid "Showing %1$d–%2$d of %3$d docs"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Documentations/index.js:159
 msgid "New doc"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Documentations/index.js:182
 msgid "Oops! It seems that your search did not match any existing documents. Please try again..."
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Migrations/Modals/MigrationProgressModal.js:52
 msgid "Migrating Docs..."
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Migrations/Modals/MigrationProgressModal.js:55
 msgid "Migrating existing docs from BetterDocs to weDocs"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Migrations/Modals/MigrationSelectionModal.js:15
 msgid "BetterDocs"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Migrations/Modals/MigrationSelectionModal.js:71
 msgid "Are you sure to migrate?"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Migrations/Modals/MigrationSelectionModal.js:74
 msgid "We want to make sure you have a successful migration experience to weDocs."
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Migrations/Modals/MigrationSelectionModal.js:85
 msgid "Migrate from:"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Migrations/Modals/MigrationSelectionModal.js:151
 msgid "loading…"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Migrations/Modals/MigrationSelectionModal.js:166
 msgid "Migration Notice: "
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Migrations/Modals/MigrationSelectionModal.js:167
 msgid "This will migrate all your docs to a Single Parent Doc. If you are a BetterDocs Pro user and using Knowledge Bases, migration for Pro users is coming soon."
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Migrations/Modals/MigrationSelectionModal.js:182
 msgid "Uncategorized Articles: "
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Migrations/Modals/MigrationSelectionModal.js:183
 msgid "Note: During the migration, articles under \"Uncategorized\" category won't be transferred. Please ensure to categorize articles appropriately before migrating."
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Migrations/Modals/MigrationSelectionModal.js:201
 msgid "Yes, I'm sure"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Migrations/Modals/MigrationContentMappingModal.js:15
 #: src/components/Migrations/Modals/MigrationContentMappingModal.js:16
 msgid "Section"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Migrations/Modals/MigrationContentMappingModal.js:16
 msgid "Subcategories"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Migrations/Modals/MigrationContentMappingModal.js:69
 msgid "BetterDocs to weDocs content mapping"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Migrations/Modals/MigrationContentMappingModal.js:72
 msgid "We want to make sure you have a seamless migration experience to weDocs"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Migrations/Modals/MigrationContentMappingModal.js:93
 msgid "No parent doc, only category & subcategory-based articles"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Migrations/Modals/MigrationContentMappingModal.js:121
 msgid "Articles under super-organized parent doc-section structure"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Migrations/Modals/MigrationContentMappingModal.js:146
 msgid "Created by weDocs"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Migrations/Modals/MigrationContentMappingModal.js:205
 msgid "Continue"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Migrations/index.js:197
 msgid "Migration has been successful"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Migrations/index.js:197
 msgid "Migrate existing docs from BetterDocs to weDocs"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Migrations/index.js:210
 msgid "All existing docs have been successfully migrated from BetterDocs to weDocs."
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Migrations/index.js:210
 msgid "how to migrate docs"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Migrations/index.js:231
 msgid "Already Migrated"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Migrations/index.js:247
 msgid "Start Migration"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Migrations/index.js:274
 msgid "Go back to Docs"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Migrations/index.js:294
 msgid "Migration not required"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/PermissionSettingsDemo/SettingsHeader.js:7
 msgid "Choose your privacy settings"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/PermissionSettingsDemo/SettingsHeader.js:10
 msgid "Control user management for this doc. You can make a doc for internal usage, allow certain user roles to write and edit a doc and more"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/PermissionSettingsDemo/PrivacySettings.js:17
 msgid "Viewing Privacy"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/PermissionSettingsDemo/PrivacySettings.js:34
 msgid "Public"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/PermissionSettingsDemo/PrivacySettings.js:36
 msgid "Everyone can see this doc"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/PermissionSettingsDemo/PrivacySettings.js:70
 msgid "Private"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/PermissionSettingsDemo/PrivacySettings.js:72
 msgid "Only logged-in users can see this doc"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/PermissionSettingsDemo/RoleManagementHeader.js:7
 msgid "Manage your team members"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/PermissionSettingsDemo/RoleManagementHeader.js:10
 msgid "Assign roles, control access levels, and collaborate seamlessly on documentations"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/PermissionSettingsDemo/RoleManagementSettings.js:18
 msgid "User role management"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/PermissionSettingsDemo/RoleManagementSettings.js:21
 msgid "Set your documentation role permissions"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/PermissionSettingsDemo/RoleManagementSettings.js:48
 msgid "As per Global Permission Settings"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/PermissionSettingsDemo/RoleManagementSettings.js:56
 msgid "Go to permission management setting"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/PermissionSettingsDemo/RoleManagementSettings.js:65
 msgid "Admin"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/PermissionSettingsDemo/RoleManagementSettings.js:69
 #: src/components/PermissionSettingsDemo/RoleManagementSettings.js:81
 #: src/components/PermissionSettingsDemo/RoleManagementSettings.js:93
@@ -8555,525 +9833,525 @@ msgstr ""
 msgid "Can edit"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/PermissionSettingsDemo/RoleManagementSettings.js:76
 msgid "Authors"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/PermissionSettingsDemo/RoleManagementSettings.js:80
 #: src/components/PermissionSettingsDemo/RoleManagementSettings.js:92
 #: src/components/PermissionSettingsDemo/RoleManagementSettings.js:104
 msgid "Can view"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/PermissionSettingsDemo/RoleManagementSettings.js:88
 msgid "Contributors"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/PermissionSettingsDemo/RoleManagementSettings.js:100
 msgid "Subscribers"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/PermissionSettingsDemo/BackToDocsPage.js:27
 msgid "Manage Docs"
 msgstr ""
 
-#: assets/build/index.js:13
-#: src/components/Dashboard/index.js:66
+#: assets/build/index.js:14
+#: src/components/Dashboard/index.js:118
 msgid "Could not load dashboard data."
 msgstr ""
 
-#: assets/build/index.js:13
-#: src/components/Dashboard/index.js:94
+#: assets/build/index.js:14
+#: src/components/Dashboard/index.js:135
 msgid "No data available."
 msgstr ""
 
-#: assets/build/index.js:13
-#: src/components/Dashboard/index.js:114
+#: assets/build/index.js:14
+#: src/components/Dashboard/index.js:155
 msgid "Total Docs"
 msgstr ""
 
-#: assets/build/index.js:13
-#: src/components/Dashboard/index.js:116
+#: assets/build/index.js:14
+#: src/components/Dashboard/index.js:157
 msgid "published"
 msgstr ""
 
-#: assets/build/index.js:13
-#: src/components/Dashboard/index.js:116
+#: assets/build/index.js:14
+#: src/components/Dashboard/index.js:157
 msgid "draft"
 msgstr ""
 
-#: assets/build/index.js:13
-#: src/components/Dashboard/index.js:122
+#: assets/build/index.js:14
+#: src/components/Dashboard/index.js:163
 msgid "contributor(s)"
 msgstr ""
 
-#: assets/build/index.js:13
-#: src/components/Dashboard/index.js:126
+#: assets/build/index.js:14
+#: src/components/Dashboard/index.js:167
 msgid "Total Views"
 msgstr ""
 
-#: assets/build/index.js:13
-#: src/components/Dashboard/index.js:128
+#: assets/build/index.js:14
+#: src/components/Dashboard/index.js:169
 msgid "across all docs"
 msgstr ""
 
-#: assets/build/index.js:13
-#: src/components/Dashboard/index.js:132
+#: assets/build/index.js:14
+#: src/components/Dashboard/index.js:173
 msgid "Helpful Rate"
 msgstr ""
 
-#: assets/build/index.js:13
-#: src/components/Dashboard/index.js:134
+#: assets/build/index.js:14
+#: src/components/Dashboard/index.js:175
 msgid "up"
 msgstr ""
 
-#: assets/build/index.js:13
-#: src/components/Dashboard/index.js:134
+#: assets/build/index.js:14
+#: src/components/Dashboard/index.js:175
 msgid "down"
 msgstr ""
 
-#: assets/build/index.js:13
-#: src/components/Dashboard/index.js:140
+#: assets/build/index.js:14
+#: src/components/Dashboard/index.js:181
 msgid "Popular Docs"
 msgstr ""
 
-#: assets/build/index.js:13
-#: src/components/Dashboard/index.js:163
+#: assets/build/index.js:14
+#: src/components/Dashboard/index.js:204
 msgid "No views recorded yet — they appear as visitors read your docs."
 msgstr ""
 
-#: assets/build/index.js:13
-#: src/components/Dashboard/index.js:168
+#: assets/build/index.js:14
+#: src/components/Dashboard/index.js:209
 msgid "Most Helpful Docs"
 msgstr ""
 
-#: assets/build/index.js:13
-#: src/components/Dashboard/index.js:194
+#: assets/build/index.js:14
+#: src/components/Dashboard/index.js:235
 msgid "No helpful votes yet."
 msgstr ""
 
-#: assets/build/index.js:13
-#: src/components/Dashboard/index.js:200
+#: assets/build/index.js:14
+#: src/components/Dashboard/index.js:241
 msgid "Recently Updated"
 msgstr ""
 
-#: assets/build/index.js:13
-#: src/components/Dashboard/index.js:207
+#: assets/build/index.js:14
+#: src/components/Dashboard/index.js:248
 msgid "Status"
 msgstr ""
 
-#: assets/build/index.js:13
-#: src/components/Dashboard/index.js:208
+#: assets/build/index.js:14
+#: src/components/Dashboard/index.js:249
 msgid "Views"
 msgstr ""
 
-#: assets/build/index.js:13
-#: src/components/Dashboard/index.js:209
+#: assets/build/index.js:14
+#: src/components/Dashboard/index.js:250
 msgid "Updated"
 msgstr ""
 
-#: assets/build/index.js:13
-#: src/components/Dashboard/index.js:256
+#: assets/build/index.js:14
+#: src/components/Dashboard/index.js:297
 msgid "No docs yet."
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:130
 msgid "Create and publish docs"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:131
 msgid "AI Doc Writer"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:132
 msgid "Frontend documentation display"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:133
 msgid "Access restrictions"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:134
 msgid "Frontend search"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:135
 msgid "Custom layouts"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:136
 msgid "Doc Duplication"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:137
 msgid "Priority support"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:145
 msgid "Public & Private Docs"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:146
 msgid "Create documentation for users and internal teams from one place. Control visibility with simple access rules."
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:154
 msgid "AI Chatbot Addon"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:155
 msgid "Let users get instant answers directly from your documentation. Add the AI chatbot as an optional add-on and reduce support tickets faster."
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:162
 msgid "Powerful Search"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:163
 msgid "Help users find answers in seconds. Search across titles and content."
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:170
 msgid "Role-Based Access Control"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:171
 msgid "Control who can view or manage specific documents. Perfect for internal and customer-facing docs."
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:178
 msgid "Nested Documentation Structure"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:179
 msgid "Organize content the way users think. Categories. Articles. Clear hierarchy upto 7 Layers."
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:186
 msgid "Floating Contact Form"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:187
 msgid "Let users reach out when the docs are not enough. Show a contact form without leaving the page."
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:194
 msgid "Cloudflare Turnstile Protection"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:195
 msgid "Protect your docs and forms from spam. No captchas. No user friction."
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:202
 msgid "Translation Ready"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:203
 msgid "Create docs for a global audience. Compatible with multilingual setups."
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:211
 msgid "Duplicator to clone docs"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:212
 msgid "Templates & doc styles"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:213
 msgid "7-layer hierarchical article"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:214
 msgid "Contributors visibility toggle"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:215
 msgid "Social sharing options"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:220
 msgid "Starter"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:222
 msgid "Everything you need for professional docs"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:226
 msgid "1 Site"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:230
 msgid "Professional"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:232
 msgid "Do more with weDocs using powerful advanced features"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:236
 msgid "5 Sites"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:240
 msgid "Business"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:241
 msgid "Most Popular"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:242
 msgid "The ultimate documentation toolkit for growing teams"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:246
 msgid "10 Sites"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:250
 msgid "Agency"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:251
 msgid "Best Valued"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:252
 msgid "Reach greater heights with docs across all client sites"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:256
 msgid "Unlimited Sites"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:269
 #: src/components/Premium/index.js:509
 msgid "Coupon:"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:280
 msgid "A Knowledgebase Built for Growing Products"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:284
 msgid "Secure your documentation with public and private access, role-based permissions, a floating contact form, and Cloudflare Turnstile spam protection."
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:290
 msgid "Upgrade to weDocs Pro for advanced control, and add the AI-powered chatbot when you need instant answers from your docs."
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:310
 msgid "Up to 25% Off"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:320
 msgid "Powerful Features Available Only in weDocs Pro"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:323
 msgid "You've started with Lite. Now unlock access restrictions, powerful frontend search, custom layouts, doc duplication, priority support, and more."
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:332
 msgid "Feature Area"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:336
 msgid "Lite"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:377
 msgid "AI Powered Features for Better Documentation"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:380
 msgid "Everything you need to build, manage, and grow your documentation on WordPress."
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:418
 msgid "Show all the Pro Features"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:426
 msgid "How to mark a doc as vendor docs"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:432
 msgid "Dokan Support for weDocs"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:435
 msgid "This feature lets marketplace owners create vendor-specific documentation to simplify onboarding, store management, policies, payments, and other resources."
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:471
 msgid "Learn More"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:480
 msgid "From the trusted team behind:"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:484
 msgid "Dokan, WP User Frontend, WP ERP, WP Project Manager, FlyWP, WP Hive, weMail, Appsero, weDocs, wePOS, and InboxWP logos"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:502
 msgid "Simple Pricing That Grows With You"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:505
 msgid "Get Upto"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:507
 msgid "off instantly using the"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:522
 msgid "Annual"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:531
 msgid "Lifetime"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:570
 msgid "/y"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:571
 msgid "/lifetime"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:592
 msgid "Get Started"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:629
 msgid "AI Chatbot Add-on"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:631
 msgid "is available on any plan for"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:633
 msgid "$7.99/month"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:636
 msgid "Not available as a lifetime purchase."
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:648
 msgid "Our Fair Refund Policy"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:651
 msgid "We guarantee 100% satisfaction with our help & support service. However, if our plugin still doesn't meet your needs, we'll happily provide full refund within 14 days of your purchase."
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:658
 msgid "Payment Options:"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:674
 msgid "14-day money back guarantee"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:691
 msgid "Build a Complete Knowledge Base with One Powerful Plugin"
 msgstr ""
 
-#: assets/build/index.js:13
+#: assets/build/index.js:14
 #: src/components/Premium/index.js:697
 msgid "Create docs, restrict access, add AI-powered answers, and support your users. Everything you need, all in one place."
 msgstr ""
@@ -9185,10 +10463,6 @@ msgstr ""
 
 #: src/blocks/components/TabSystem.js:9
 msgid "Setup"
-msgstr ""
-
-#: src/blocks/components/TabSystem.js:10
-msgid "Style"
 msgstr ""
 
 #: src/blocks/components/TypographyControl.js:55
