@@ -2,14 +2,14 @@
 # This file is distributed under the GPL2.
 msgid ""
 msgstr ""
-"Project-Id-Version: weDocs 2.6.0\n"
+"Project-Id-Version: weDocs 2.6.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wedocs-plugin\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-09-24T10:52:59+00:00\n"
+"POT-Creation-Date: 2026-10-19T11:39:13+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: wedocs\n"
@@ -47,7 +47,7 @@ msgstr ""
 #: includes/Elementor/Widgets/DocsBreadcrumb.php:75
 #: includes/Elementor/Widgets/DocsBreadcrumb.php:330
 #: includes/Elementor/Widgets/DocsBreadcrumb.php:549
-#: includes/functions.php:202
+#: includes/functions.php:277
 #: src/blocks/Breadcrumb/render.php:237
 #: assets/build/index.js:1
 #: src/components/ProPreviews/AssistantWidgetPanels/PreferencePanel/PreferenceSettings.js:33
@@ -82,7 +82,7 @@ msgstr ""
 #: templates/vendor-docs.php:92
 #: assets/build/block.js:1
 #: assets/build/blocks/DocsGrid/index.js:1
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/blocks/DocsGrid/edit.js:107
 #: src/components/Settings/ShortcodeSettings.js:54
 msgid "View Details"
@@ -90,7 +90,7 @@ msgstr ""
 
 #: assets/build/blocks/DocsGrid/render.php:369
 #: src/blocks/DocsGrid/render.php:369
-#: templates/shortcode.php:107
+#: templates/shortcode.php:120
 #: assets/build/block.js:1
 #: assets/build/blocks/DocsGrid/index.js:1
 #: src/blocks/DocsGrid/edit.js:200
@@ -107,8 +107,9 @@ msgstr ""
 #: src/blocks/HelpfulModal/render.php:252
 #: templates/single-docs.php:152
 #: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/DocListing/ArticleChildrens.js:236
-#: src/components/DocListing/SectionArticles.js:320
+#: src/components/DocListing/SectionArticles.js:333
 #, php-format,js-format
 msgid "Updated on %s"
 msgstr ""
@@ -269,7 +270,7 @@ msgstr ""
 
 #: includes/Admin.php:93
 #: includes/Admin.php:114
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:298
 #: src/components/Premium/index.js:704
 msgid "Upgrade to Pro"
@@ -285,7 +286,7 @@ msgstr ""
 #: includes/Admin/Menu.php:178
 #: includes/Dokan/VendorDashboard.php:65
 #: includes/Elementor/Widgets/DocsBreadcrumb.php:367
-#: includes/functions.php:163
+#: includes/functions.php:238
 msgid "Docs"
 msgstr ""
 
@@ -314,8 +315,8 @@ msgstr ""
 
 #: includes/Admin/ChangelogUpsell.php:96
 #: assets/build/index.js:1
-#: assets/build/index.js:2
-#: assets/build/index.js:14
+#: assets/build/index.js:3
+#: assets/build/index.js:15
 #: assets/build/upsell.js:1
 #: src/components/Premium/index.js:339
 #: src/components/ProPreviews/ChangelogSettings.js:15
@@ -352,7 +353,7 @@ msgid "FAQ"
 msgstr ""
 
 #: includes/Admin/Menu.php:173
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Dashboard/index.js:56
 #: src/components/Dashboard/index.js:148
 msgid "Dashboard"
@@ -398,7 +399,7 @@ msgid "Migration not available at this moment."
 msgstr ""
 
 #: includes/Admin/Migrate.php:214
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Migrations/Modals/MigrationContentMappingModal.js:11
 msgid "Untitled Docs"
 msgstr ""
@@ -423,7 +424,7 @@ msgstr ""
 
 #: includes/Ajax.php:201
 #: includes/Ajax.php:536
-#: includes/API/API.php:1287
+#: includes/API/API.php:1329
 msgid "Sorry, we have already recorded your feedback!"
 msgstr ""
 
@@ -488,7 +489,7 @@ msgstr ""
 
 #: includes/Ajax.php:734
 #: includes/Ajax.php:778
-#: includes/API/API.php:3013
+#: includes/API/API.php:3055
 msgid "Too many requests. Please try again later."
 msgstr ""
 
@@ -614,301 +615,301 @@ msgid "Attachment ID %d is not a valid image or does not exist."
 msgstr ""
 
 #: includes/API/API.php:549
-#: includes/API/API.php:812
-#: includes/API/API.php:840
-#: includes/API/API.php:905
+#: includes/API/API.php:854
+#: includes/API/API.php:882
+#: includes/API/API.php:947
 msgid "Unauthorized permission error"
 msgstr ""
 
-#: includes/API/API.php:808
-#: includes/API/API.php:835
-#: includes/API/API.php:1269
+#: includes/API/API.php:850
+#: includes/API/API.php:877
+#: includes/API/API.php:1311
 msgid "You are not currently logged in."
 msgstr ""
 
-#: includes/API/API.php:816
-#: includes/API/API.php:845
+#: includes/API/API.php:858
+#: includes/API/API.php:887
 msgid "Currently sortable status not given"
 msgstr ""
 
-#: includes/API/API.php:1162
+#: includes/API/API.php:1204
 msgid "The page number requested is larger than the number of pages available."
 msgstr ""
 
-#: includes/API/API.php:1248
+#: includes/API/API.php:1290
 msgid "No name given"
 msgstr ""
 
-#: includes/API/API.php:1252
+#: includes/API/API.php:1294
 msgid "No email given"
 msgstr ""
 
-#: includes/API/API.php:1278
+#: includes/API/API.php:1320
 msgid "Doc status not valid for update helpful data"
 msgstr ""
 
-#: includes/API/API.php:1321
-#: includes/API/API.php:1335
-#: includes/API/API.php:1344
-#: includes/API/API.php:1354
+#: includes/API/API.php:1363
+#: includes/API/API.php:1377
+#: includes/API/API.php:1386
+#: includes/API/API.php:1396
 msgid "Sorry, you are not allowed to view this documentation."
 msgstr ""
 
-#: includes/API/API.php:1399
+#: includes/API/API.php:1441
 msgid "You cannot delete the documentation resource."
 msgstr ""
 
-#: includes/API/API.php:1420
+#: includes/API/API.php:1462
 msgid "Invalid Documentation."
 msgstr ""
 
-#: includes/API/API.php:1464
+#: includes/API/API.php:1506
 msgid "You cannot see promotion notices."
 msgstr ""
 
-#: includes/API/API.php:1557
+#: includes/API/API.php:1599
 msgid "You do not have permission to generate AI content."
 msgstr ""
 
-#: includes/API/API.php:1579
-#: includes/API/API.php:1949
+#: includes/API/API.php:1621
+#: includes/API/API.php:1991
 msgid "AI image analysis is a pro feature. Please upgrade to weDocs Pro to use this feature."
 msgstr ""
 
-#: includes/API/API.php:1587
+#: includes/API/API.php:1629
 msgid "You do not have permission to upload images."
 msgstr ""
 
-#: includes/API/API.php:1595
+#: includes/API/API.php:1637
 msgid "You do not have permission to upload files."
 msgstr ""
 
-#: includes/API/API.php:1622
+#: includes/API/API.php:1664
 msgid "No image file provided."
 msgstr ""
 
-#: includes/API/API.php:1676
+#: includes/API/API.php:1718
 msgid "File type validation failed. The file may be corrupted or malicious."
 msgstr ""
 
-#: includes/API/API.php:1689
+#: includes/API/API.php:1731
 msgid "Could not determine file type."
 msgstr ""
 
-#: includes/API/API.php:1698
+#: includes/API/API.php:1740
 msgid "Only PNG, JPG, and WEBP images are allowed."
 msgstr ""
 
-#: includes/API/API.php:1708
+#: includes/API/API.php:1750
 msgid "File is not a valid image."
 msgstr ""
 
-#: includes/API/API.php:1717
+#: includes/API/API.php:1759
 msgid "Image dimensions are too large. Maximum 10000x10000 pixels."
 msgstr ""
 
 #. translators: %s: Maximum file size in MB or KB
-#: includes/API/API.php:1737
+#: includes/API/API.php:1779
 #, php-format
 msgid "Image must be under %s."
 msgstr ""
 
-#: includes/API/API.php:1923
+#: includes/API/API.php:1965
 msgid "Max tokens must be between 1 and 8000."
 msgstr ""
 
-#: includes/API/API.php:1931
+#: includes/API/API.php:1973
 msgid "Temperature must be between 0.0 and 2.0."
 msgstr ""
 
-#: includes/API/API.php:1940
+#: includes/API/API.php:1982
 msgid "Maximum 5 images allowed."
 msgstr ""
 
 #. translators: %d: attachment ID
-#: includes/API/API.php:1966
+#: includes/API/API.php:2008
 #, php-format
 msgid "Attachment ID %d not found."
 msgstr ""
 
 #. translators: %d: attachment ID
-#: includes/API/API.php:1979
+#: includes/API/API.php:2021
 #, php-format
 msgid "You do not have permission to analyze attachment ID %d."
 msgstr ""
 
-#: includes/API/API.php:1994
-#: includes/API/API.php:3067
+#: includes/API/API.php:2036
+#: includes/API/API.php:3109
 msgid "AI settings are not configured."
 msgstr ""
 
-#: includes/API/API.php:2008
-#: includes/API/API.php:3078
+#: includes/API/API.php:2050
+#: includes/API/API.php:3120
 msgid "AI provider is not configured or API key is missing."
 msgstr ""
 
-#: includes/API/API.php:2020
-#: includes/API/API.php:3089
+#: includes/API/API.php:2062
+#: includes/API/API.php:3131
 msgid "Invalid AI provider specified."
 msgstr ""
 
-#: includes/API/API.php:2030
-#: includes/API/API.php:3099
+#: includes/API/API.php:2072
+#: includes/API/API.php:3141
 msgid "AI model is not specified."
 msgstr ""
 
-#: includes/API/API.php:2042
+#: includes/API/API.php:2084
 msgid "Selected model does not support image analysis. Please select a vision-capable model."
 msgstr ""
 
-#: includes/API/API.php:2056
+#: includes/API/API.php:2098
 msgid "You are an expert documentation assistant. Generate detailed, comprehensive, and well-structured documentation using HTML tags (h2, h3, h4, p, ul, ol, strong, code, span class='highlight'). Adapt your tone and style to match the content type — technical, informational, policy, or general. Write thorough content with multiple paragraphs per section, aiming for depth and completeness. If screenshots are provided, use them to understand the context and write accurately — but never include image tags in your output. Only return the inner HTML content body, no document structure tags. Follow the user's instructions as the primary directive for what to generate."
 msgstr ""
 
-#: includes/API/API.php:2119
+#: includes/API/API.php:2161
 msgid "The request took too long to complete. Please try again with a shorter prompt."
 msgstr ""
 
-#: includes/API/API.php:2163
+#: includes/API/API.php:2205
 msgid "Unsupported AI provider"
 msgstr ""
 
-#: includes/API/API.php:2189
+#: includes/API/API.php:2231
 msgid "OpenAI API key is missing or invalid"
 msgstr ""
 
-#: includes/API/API.php:2268
-#: includes/API/API.php:2389
-#: includes/API/API.php:2502
+#: includes/API/API.php:2310
+#: includes/API/API.php:2431
+#: includes/API/API.php:2544
 msgid "The request took too long. Please try again with a shorter prompt or check your connection."
 msgstr ""
 
-#: includes/API/API.php:2271
+#: includes/API/API.php:2313
 #, php-format
 msgid "OpenAI API error: %s"
 msgstr ""
 
-#: includes/API/API.php:2290
+#: includes/API/API.php:2332
 msgid "Invalid OpenAI API response"
 msgstr ""
 
-#: includes/API/API.php:2316
+#: includes/API/API.php:2358
 msgid "Anthropic API key is missing or invalid"
 msgstr ""
 
-#: includes/API/API.php:2392
+#: includes/API/API.php:2434
 #, php-format
 msgid "Anthropic API error: %s"
 msgstr ""
 
-#: includes/API/API.php:2411
+#: includes/API/API.php:2453
 msgid "Invalid Anthropic API response"
 msgstr ""
 
-#: includes/API/API.php:2437
+#: includes/API/API.php:2479
 msgid "Google API key is missing or invalid"
 msgstr ""
 
-#: includes/API/API.php:2505
+#: includes/API/API.php:2547
 #, php-format
 msgid "Google API error: %s"
 msgstr ""
 
-#: includes/API/API.php:2514
+#: includes/API/API.php:2556
 msgid "Google API request failed"
 msgstr ""
 
-#: includes/API/API.php:2525
+#: includes/API/API.php:2567
 msgid "Invalid Google API response"
 msgstr ""
 
-#: includes/API/API.php:2541
+#: includes/API/API.php:2583
 #, php-format
 msgid "%s API request failed"
 msgstr ""
 
-#: includes/API/API.php:2546
-#: includes/API/API.php:2551
+#: includes/API/API.php:2588
+#: includes/API/API.php:2593
 #, php-format
 msgid "Invalid %s API key. Please check your API key in the AI settings."
 msgstr ""
 
-#: includes/API/API.php:2548
-#: includes/API/API.php:2553
+#: includes/API/API.php:2590
+#: includes/API/API.php:2595
 #, php-format
 msgid "Authentication failed. Please verify your %s API key is correct."
 msgstr ""
 
-#: includes/API/API.php:2555
+#: includes/API/API.php:2597
 msgid "Rate limit exceeded. Please wait a moment and try again."
 msgstr ""
 
-#: includes/API/API.php:2557
+#: includes/API/API.php:2599
 #, php-format
 msgid "%s service is temporarily unavailable. Please try again later."
 msgstr ""
 
-#: includes/API/API.php:2561
+#: includes/API/API.php:2603
 #, php-format
 msgid "%s API error: %s"
 msgstr ""
 
-#: includes/API/API.php:2589
+#: includes/API/API.php:2631
 msgid "Invalid AI provider."
 msgstr ""
 
-#: includes/API/API.php:2685
+#: includes/API/API.php:2727
 msgid "Dynamic model listing is not supported for this provider."
 msgstr ""
 
 #. translators: %d: HTTP status code
-#: includes/API/API.php:2721
+#: includes/API/API.php:2763
 #, php-format
 msgid "OpenAI API returned HTTP %d."
 msgstr ""
 
 #. translators: %d: HTTP status code
-#: includes/API/API.php:2804
+#: includes/API/API.php:2846
 #, php-format
 msgid "Anthropic API returned HTTP %d."
 msgstr ""
 
 #. translators: %d: HTTP status code
-#: includes/API/API.php:2857
+#: includes/API/API.php:2899
 #, php-format
 msgid "Google API returned HTTP %d."
 msgstr ""
 
-#: includes/API/API.php:2909
-#: includes/API/API.php:2939
-#: includes/API/API.php:2968
-#: includes/API/API.php:2998
-#: includes/API/API.php:3035
+#: includes/API/API.php:2951
+#: includes/API/API.php:2981
+#: includes/API/API.php:3010
+#: includes/API/API.php:3040
+#: includes/API/API.php:3077
 msgid "Invalid documentation post."
 msgstr ""
 
-#: includes/API/API.php:2948
+#: includes/API/API.php:2990
 msgid "Summary saved successfully."
 msgstr ""
 
-#: includes/API/API.php:2977
+#: includes/API/API.php:3019
 msgid "Summary deleted successfully."
 msgstr ""
 
-#: includes/API/API.php:3008
+#: includes/API/API.php:3050
 msgid "You are not allowed to generate this summary."
 msgstr ""
 
-#: includes/API/API.php:3047
+#: includes/API/API.php:3089
 msgid "Cannot generate summary for empty content."
 msgstr ""
 
-#: includes/API/API.php:3054
+#: includes/API/API.php:3096
 #, php-format
 msgid "Please create a concise summary (2-3 sentences, maximum 150 words) of the following documentation article titled \"%s\":\\n\\n%s"
 msgstr ""
 
-#: includes/API/API.php:3059
+#: includes/API/API.php:3101
 msgid "You are a technical documentation assistant. Create concise, accurate summaries that capture the key points of documentation articles. Keep summaries brief and to the point."
 msgstr ""
 
@@ -1055,9 +1056,9 @@ msgstr ""
 #: includes/Elementor/Widgets/DocNavigation.php:381
 #: includes/Elementor/Widgets/DocNavigation.php:650
 #: includes/Elementor/Widgets/DocsGrid.php:3072
-#: templates/shortcode.php:137
-#: templates/shortcode.php:141
-#: assets/build/index.js:11
+#: templates/shortcode.php:150
+#: templates/shortcode.php:154
+#: assets/build/index.js:12
 #: src/components/Documentations/DocsPagination.js:71
 msgid "Previous"
 msgstr ""
@@ -1070,9 +1071,9 @@ msgstr ""
 #: includes/Elementor/Widgets/DocNavigation.php:382
 #: includes/Elementor/Widgets/DocNavigation.php:651
 #: includes/Elementor/Widgets/DocsGrid.php:3078
-#: templates/shortcode.php:151
-#: templates/shortcode.php:155
-#: assets/build/index.js:14
+#: templates/shortcode.php:164
+#: templates/shortcode.php:168
+#: assets/build/index.js:15
 #: src/components/Documentations/DocsPagination.js:89
 msgid "Next"
 msgstr ""
@@ -1608,7 +1609,7 @@ msgstr ""
 #: assets/build/block.js:1
 #: assets/build/blocks/AdvanceContributors/index.js:1
 #: assets/build/blocks/Contributors/index.js:1
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/blocks/AdvanceContributors/edit-old.js:179
 #: src/blocks/AdvanceContributors/edit.js:372
 #: src/blocks/Contributors/edit-old.js:179
@@ -2403,7 +2404,7 @@ msgstr ""
 #: includes/Elementor/Widgets/DocsGrid.php:2073
 #: assets/build/block.js:1
 #: assets/build/blocks/DocNavigation/index.js:1
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/blocks/DocNavigation/edit.js:251
 #: src/components/PermissionSettingsDemo/RoleManagementSettings.js:49
 msgid "Custom"
@@ -2795,7 +2796,7 @@ msgid "Need More Help?"
 msgstr ""
 
 #: includes/Elementor/Widgets/NeedHelp.php:59
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/ShortcodeSettings.js:266
 msgid "Description"
 msgstr ""
@@ -3380,131 +3381,131 @@ msgstr ""
 msgid "Section: "
 msgstr ""
 
-#: includes/functions.php:418
+#: includes/functions.php:493
 msgid "Doc navigation"
 msgstr ""
 
-#: includes/functions.php:613
+#: includes/functions.php:688
 #, php-format
 msgid "[%1$s] New Doc Feedback: \"%2$s\""
 msgstr ""
 
-#: includes/functions.php:615
+#: includes/functions.php:690
 #, php-format
 msgid "New feedback on your doc \"%s\""
 msgstr ""
 
-#: includes/functions.php:616
+#: includes/functions.php:691
 #, php-format
 msgid "Author: %1$s (IP: %2$s)"
 msgstr ""
 
-#: includes/functions.php:617
+#: includes/functions.php:692
 #, php-format
 msgid "Email: %s"
 msgstr ""
 
-#: includes/functions.php:618
+#: includes/functions.php:693
 #, php-format
 msgid "Feedback: %s"
 msgstr ""
 
-#: includes/functions.php:619
+#: includes/functions.php:694
 #, php-format
 msgid "Doc Permalink: %s"
 msgstr ""
 
-#: includes/functions.php:620
+#: includes/functions.php:695
 #, php-format
 msgid "Edit Doc: %s"
 msgstr ""
 
-#: includes/functions.php:1155
+#: includes/functions.php:1234
 #: assets/build/index.js:1
 #: assets/build/upsell.js:1
 #: src/components/ProPreviews/common/UpgradePopup.js:44
 msgid "Upgrade to"
 msgstr ""
 
-#: includes/functions.php:1156
+#: includes/functions.php:1235
 #: assets/build/index.js:1
 #: assets/build/upsell.js:1
 #: src/components/ProPreviews/common/UpgradePopup.js:45
 msgid "to experience even more Powerful features 🎉"
 msgstr ""
 
-#: includes/functions.php:1159
+#: includes/functions.php:1238
 msgid "Role based permission management "
 msgstr ""
 
-#: includes/functions.php:1160
+#: includes/functions.php:1239
 msgid "or viewing, managing, and configuring permission settings."
 msgstr ""
 
-#: includes/functions.php:1163
+#: includes/functions.php:1242
 msgid "Arrange content automatically or manually "
 msgstr ""
 
-#: includes/functions.php:1164
+#: includes/functions.php:1243
 msgid "giving you full control over its presentation."
 msgstr ""
 
-#: includes/functions.php:1167
+#: includes/functions.php:1246
 msgid "Personalize messaging tab with custom titles "
 msgstr ""
 
-#: includes/functions.php:1168
+#: includes/functions.php:1247
 msgid "and messages for seamless communication."
 msgstr ""
 
 #. translators: Full sentence combining: Customize with design widgets, colors, and pre-built options for an appealing interface.
-#: includes/functions.php:1174
+#: includes/functions.php:1253
 #, php-format
 msgid "%1$s %2$s %3$s"
 msgstr ""
 
-#: includes/functions.php:1175
+#: includes/functions.php:1254
 msgid "Customize with"
 msgstr ""
 
-#: includes/functions.php:1176
+#: includes/functions.php:1255
 msgid "design widgets, colors, and pre-built options"
 msgstr ""
 
-#: includes/functions.php:1177
+#: includes/functions.php:1256
 msgid "for an appealing interface."
 msgstr ""
 
-#: includes/functions.php:1181
+#: includes/functions.php:1260
 msgid "Get assisted by A.I. Powered Chatbot "
 msgstr ""
 
-#: includes/functions.php:1182
+#: includes/functions.php:1261
 msgid "24/7 with updated information and support."
 msgstr ""
 
-#: includes/functions.php:1185
+#: includes/functions.php:1264
 #: assets/build/index.js:1
 #: assets/build/upsell.js:1
 #: src/components/ProPreviews/common/UpgradePopup.js:47
 msgid "Get weDocs Pro"
 msgstr ""
 
-#: includes/functions.php:1188
+#: includes/functions.php:1267
 #: assets/build/index.js:1
 #: assets/build/upsell.js:1
 #: src/components/ProPreviews/common/UpgradePopup.js:50
 msgid "10,000+ successful businesses"
 msgstr ""
 
-#: includes/functions.php:1189
+#: includes/functions.php:1268
 #: assets/build/index.js:1
 #: assets/build/upsell.js:1
 #: src/components/ProPreviews/common/UpgradePopup.js:51
 msgid "14 days no questions asked refund policy"
 msgstr ""
 
-#: includes/functions.php:1190
+#: includes/functions.php:1269
 #: assets/build/index.js:1
 #: assets/build/upsell.js:1
 #: src/components/ProPreviews/common/UpgradePopup.js:52
@@ -3522,7 +3523,7 @@ msgid "Doc"
 msgstr ""
 
 #: includes/Post_Types.php:47
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Migrations/Modals/MigrationContentMappingModal.js:140
 msgid "Parent Doc"
 msgstr ""
@@ -3747,8 +3748,8 @@ msgid "weDocs Document Search"
 msgstr ""
 
 #: includes/Widget.php:36
-#: assets/build/index.js:2
-#: assets/build/index.js:14
+#: assets/build/index.js:3
+#: assets/build/index.js:15
 #: src/components/BackToDocsPage.js:25
 #: src/components/Documentations/index.js:155
 #: src/components/PermissionSettingsDemo/BackToDocsPage.js:25
@@ -3758,7 +3759,7 @@ msgstr ""
 #: includes/Widget.php:47
 #: includes/Widget.php:48
 #: templates/doc-search-form.php:19
-#: templates/docs-sidebar.php:35
+#: templates/docs-sidebar.php:37
 #: templates/vendor-docs.php:29
 #: templates/vendor-single-doc.php:176
 msgctxt "label"
@@ -3821,7 +3822,7 @@ msgctxt "placeholder"
 msgid "Search for a topic or question"
 msgstr ""
 
-#: templates/docs-sidebar.php:36
+#: templates/docs-sidebar.php:38
 #: templates/vendor-docs.php:30
 #: templates/vendor-single-doc.php:177
 msgctxt "placeholder"
@@ -3849,8 +3850,8 @@ msgid "Frequently Asked Questions"
 msgstr ""
 
 #. translators: 1: current page, 2: total pages.
-#: templates/shortcode.php:146
-#: assets/build/index.js:14
+#: templates/shortcode.php:159
+#: assets/build/index.js:15
 #: src/components/Documentations/DocsPagination.js:77
 #, php-format,js-format
 msgid "Page %1$d of %2$d"
@@ -3870,7 +3871,7 @@ msgstr ""
 #: templates/vendor-single-doc.php:238
 #: assets/build/block.js:1
 #: assets/build/blocks/QuickSearch/index.js:1
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/blocks/QuickSearch/edit.js:41
 #: src/components/Dashboard/index.js:161
 #: src/components/Migrations/Modals/MigrationContentMappingModal.js:17
@@ -5055,7 +5056,7 @@ msgstr ""
 
 #: assets/build/block.js:1
 #: assets/build/blocks/DocsGrid/index.js:1
-#: assets/build/index.js:8
+#: assets/build/index.js:9
 #: src/blocks/DocsGrid/edit.js:500
 #: src/components/Documentations/DocsPagination.js:39
 msgid "Docs per page"
@@ -6198,7 +6199,7 @@ msgstr ""
 
 #: assets/build/block.js:1
 #: assets/build/blocks/TableOfContents/index.js:1
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/blocks/AdvanceContributors/edit-old.js:170
 #: src/blocks/Contributors/edit-old.js:170
 #: src/blocks/TableOfContents/Inspector.js:43
@@ -6363,7 +6364,7 @@ msgstr ""
 
 #: assets/build/blocks/AdvanceContributors/index.js:1
 #: assets/build/index.js:1
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/blocks/commonControls/ColorsControls.js:242
 #: src/blocks/commonControls/TypographyControls.js:82
 #: src/blocks/components/TypographyControl.js:58
@@ -6653,7 +6654,8 @@ msgstr ""
 #: assets/build/editor.js:1
 #: assets/build/faq.js:1
 #: assets/build/index.js:2
-#: assets/build/index.js:14
+#: assets/build/index.js:3
+#: assets/build/index.js:15
 #: assets/build/shared.js:1
 #: src/components/AddArticleModal.js:205
 #: src/components/AddDocModal.js:242
@@ -6995,7 +6997,7 @@ msgstr ""
 
 #: assets/build/editor.js:1
 #: assets/build/index.js:1
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:138
 #: src/components/ProPreviews/AiDocWriterImageUploadPreview.js:9
 #: src/components/ProPreviews/common/UpgradeTooltip.js:9
@@ -7048,6 +7050,7 @@ msgstr ""
 
 #: assets/build/faq.js:1
 #: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/AddArticleModal.js:81
 #: src/components/AddDocModal.js:88
 #: src/components/AddSectionModal.js:55
@@ -7136,7 +7139,7 @@ msgid "Failed to save FAQ group. Please try again."
 msgstr ""
 
 #: assets/build/faq.js:1
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/SaveButton.js:11
 #: src/faq/components/AddFaqGroupModal.js:303
 #: src/faq/components/FaqItem.js:271
@@ -7165,8 +7168,8 @@ msgid "Get started by creating FAQs for your site"
 msgstr ""
 
 #: assets/build/faq.js:1
-#: assets/build/index.js:2
-#: assets/build/index.js:14
+#: assets/build/index.js:3
+#: assets/build/index.js:15
 #: src/components/Documentations/EmptyDocs.js:84
 #: src/components/Migrations/index.js:207
 #: src/faq/components/EmptyFaq.js:75
@@ -7306,9 +7309,9 @@ msgid "Failed to create FAQ. Please try again."
 msgstr ""
 
 #: assets/build/faq.js:1
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/DocListing/DocSections.js:176
-#: src/components/DocListing/SectionArticles.js:179
+#: src/components/DocListing/SectionArticles.js:192
 #: src/faq/components/AddFaqForm.js:153
 msgid "Create"
 msgstr ""
@@ -7342,7 +7345,7 @@ msgid "Failed to save the FAQ. Please try again."
 msgstr ""
 
 #: assets/build/faq.js:1
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/PermissionSettingsDemo/index.js:39
 #: src/faq/components/FaqItem.js:272
 msgid "Save"
@@ -7381,6 +7384,7 @@ msgstr ""
 
 #: assets/build/faq.js:1
 #: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/DocActions.js:161
 #: src/components/DocListing/DocSections.js:241
 #: src/faq/components/FaqGroupRow.js:581
@@ -7652,7 +7656,7 @@ msgid "Fixes"
 msgstr ""
 
 #: assets/build/index.js:1
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: assets/build/upsell.js:1
 #: src/components/ProPreviews/ChangelogSettings.js:16
 #: src/components/ProPreviews/ChangelogSettings.js:17
@@ -7706,6 +7710,7 @@ msgstr ""
 
 #: assets/build/index.js:1
 #: assets/build/index.js:2
+#: assets/build/index.js:3
 #: assets/build/upsell.js:2
 #: src/components/ProPreviews/ChangelogSettings.js:121
 #: src/components/ProPreviews/index.js:26
@@ -7732,7 +7737,7 @@ msgid "Header banner"
 msgstr ""
 
 #: assets/build/index.js:1
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: assets/build/upsell.js:2
 #: src/components/Migrations/Modals/MigrationContentMappingModal.js:15
 #: src/components/ProPreviews/ChangelogSettings.js:163
@@ -7746,7 +7751,7 @@ msgid "Enable"
 msgstr ""
 
 #: assets/build/index.js:1
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/ProPreviews/AiImageAnalysisPreview.js:74
 #: src/components/ProPreviews/AssistantWidgetPanels/AssistantSwitcher.js:73
 #: src/components/Switcher.js:70
@@ -7927,7 +7932,7 @@ msgstr ""
 
 #: assets/build/index.js:1
 #: assets/build/index.js:2
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:139
 #: src/components/ProPreviews/AssistantWidgetPanels/AssistantPanel.js:16
 #: src/components/ProPreviews/index.js:65
@@ -8180,7 +8185,7 @@ msgid "Cloudflare Turnstile"
 msgstr ""
 
 #: assets/build/index.js:1
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/ProPreviews/AssistantWidgetPanels/MessagePanel/MessageSettings.js:85
 #: src/components/ProPreviews/AssistantWidgetPanels/MessagePanel/MessageSettings.js:119
 #: src/components/Settings/GeneralSettings.js:260
@@ -8711,26 +8716,29 @@ msgid "Restrict editing for admin only"
 msgstr ""
 
 #: assets/build/index.js:2
-#: assets/build/index.js:14
+#: assets/build/index.js:3
+#: assets/build/index.js:15
 #: src/components/Dashboard/index.js:273
 #: src/components/Dashboard/index.js:274
 #: src/components/DocActions.js:118
 #: src/components/DocListing/ArticleChildrens.js:147
 #: src/components/DocListing/DocSections.js:189
 #: src/components/DocListing/ListingHeader.js:44
-#: src/components/DocListing/SectionArticles.js:231
+#: src/components/DocListing/SectionArticles.js:244
 msgid "Edit"
 msgstr ""
 
 #: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/DocListing/ArticleChildrens.js:169
 #: src/components/DocListing/DocSections.js:215
 #: src/components/DocListing/ListingHeader.js:68
-#: src/components/DocListing/SectionArticles.js:253
+#: src/components/DocListing/SectionArticles.js:266
 msgid "View on Web"
 msgstr ""
 
 #: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/AddArticleModal.js:215
 #: src/components/AddDocModal.js:252
 #: src/components/AddSectionModal.js:175
@@ -8738,7 +8746,7 @@ msgstr ""
 #: src/components/DocListing/DocSections.js:165
 #: src/components/DocListing/ListingHeader.js:87
 #: src/components/DocListing/QuickEditModal.js:264
-#: src/components/DocListing/SectionArticles.js:168
+#: src/components/DocListing/SectionArticles.js:181
 #: src/components/Documentations/ParentDocs.js:124
 msgid "Draft"
 msgstr ""
@@ -8769,6 +8777,7 @@ msgid "Removing..."
 msgstr ""
 
 #: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/ConfirmationModal.js:146
 #: src/components/RestrictionModal.js:138
 msgid "I'm sure"
@@ -8782,6 +8791,7 @@ msgid "Type an article name"
 msgstr ""
 
 #: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/AddSectionModal.js:139
 #: src/components/ComboBox.js:88
 msgid "Type a section name"
@@ -8849,14 +8859,15 @@ msgid "Update and Publish"
 msgstr ""
 
 #: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/DocActions.js:107
 #: src/components/DocListing/ArticleChildrens.js:126
-#: src/components/DocListing/SectionArticles.js:210
+#: src/components/DocListing/SectionArticles.js:223
 msgid "Quick Edit"
 msgstr ""
 
 #: assets/build/index.js:2
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Dashboard/index.js:283
 #: src/components/Dashboard/index.js:284
 #: src/components/DocActions.js:127
@@ -8919,6 +8930,7 @@ msgid "New article has been added successfully"
 msgstr ""
 
 #: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/AddArticleModal.js:215
 #: src/components/AddDocModal.js:252
 #: src/components/AddSectionModal.js:175
@@ -8926,6 +8938,7 @@ msgid "Publish"
 msgstr ""
 
 #: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/AddArticleModal.js:216
 #: src/components/AddDocModal.js:253
 #: src/components/AddSectionModal.js:176
@@ -8933,6 +8946,7 @@ msgid "ing..."
 msgstr ""
 
 #: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/AddArticleModal.js:228
 #: src/components/AddDocModal.js:265
 #: src/components/AddSectionModal.js:188
@@ -8940,892 +8954,902 @@ msgid "Create and Draft"
 msgstr ""
 
 #: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/AddArticleModal.js:231
 #: src/components/AddDocModal.js:268
 #: src/components/AddSectionModal.js:191
 msgid "Create and Publish"
 msgstr ""
 
-#: assets/build/index.js:2
+#. translators: %d: number of sub-articles
+#: assets/build/index.js:3
+#: src/components/DocListing/SectionArticles.js:171
+#, js-format
+msgid "%d sub-article"
+msgid_plural "%d sub-articles"
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/build/index.js:3
 #: src/components/DocListing/DocSections.js:316
 #: src/components/DocListing/ListingButtons.js:32
 #: src/components/Documentations/AddChildrens.js:27
 msgid "Add article"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/AddSectionModal.js:122
 msgid "Enter your section title"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/AddSectionModal.js:126
 msgid "Use concise section titles for better navigation"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/AddSectionModal.js:131
 msgid "E.g., Getting Started"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/AddSectionModal.js:43
 msgid "New section added!"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/AddSectionModal.js:44
 msgid "New section has been added successfully"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/DocListing/ListingButtons.js:24
 #: src/components/Documentations/AddChildrens.js:35
 msgid "Add section"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/SearchFilter.js:42
 msgid "💡 Feedback"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/SearchFilter.js:48
 #, js-format
 msgid "Search by %s"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/SearchFilter.js:49
 msgid "article name"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/SearchFilter.js:49
 msgid "document name"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/ConfirmationModal.js:126
 msgid "Are you sure?"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/ConfirmationModal.js:129
 msgid "We recommend backing up your database before upgrading to ensure your data is safe. Are you sure you want to run the upgrade now?"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Upgrade.js:22
 msgid "Wedocs Logo"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Upgrade.js:29
 msgid "weDocs Data Update Required"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Upgrade.js:49
 msgid "A database upgrade is required. If you don't upgrade, you may experience unexpected behaviour while using weDocs."
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/NotFound.js:25
 msgid "There’s Nothing here..."
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/NotFound.js:28
 msgid "...maybe the page you’re looking for is not found or never existed."
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/WedocsPromoNotice.js:50
 msgid "Dismiss this notice"
 msgstr ""
 
-#: assets/build/index.js:2
-#: assets/build/index.js:14
+#: assets/build/index.js:3
+#: assets/build/index.js:15
 #: src/components/DocListing/index.js:159
 #: src/components/Documentations/index.js:139
 #: src/components/Settings/index.js:135
 msgid "weDocs database has been updated successfully"
 msgstr ""
 
-#: assets/build/index.js:2
-#: assets/build/index.js:14
+#: assets/build/index.js:3
+#: assets/build/index.js:15
 #: src/components/DocListing/index.js:160
 #: src/components/Documentations/index.js:140
 #: src/components/Settings/index.js:136
 msgid "Database Updated!"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/DocListing/index.js:241
 msgid "No section or article found for this documentation"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/Menu.js:27
 msgid "AI Control"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/Menu.js:46
 #: src/components/Settings/ShortcodeSettings.js:307
 msgid "Shortcodes"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/SaveButton.js:11
 msgid "Save Settings"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/ListboxSelect.js:13
 msgid "Select an option"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/ListboxSelect.js:47
 msgid "Search a page…"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/ListboxSelect.js:66
 msgid "No page found."
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/SelectBox.js:65
 msgid "Page not found"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/ProPreviews/common/PreviewDropdown.js:56
 #: src/components/Settings/GeneralSettings.js:130
 msgid "Pro Feature"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/GeneralSettings.js:88
 msgid "weDocs Home"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/GeneralSettings.js:104
 msgid "Select the documentation Home page, where the shortcode [wedocs] "
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/GeneralSettings.js:114
 msgid "shortcode"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/GeneralSettings.js:116
 msgid " is used."
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/GeneralSettings.js:125
 msgid "Docs URL Structure"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/GeneralSettings.js:131
 #: src/components/Settings/GeneralSettings.js:136
 msgid "Control how documentation URLs and breadcrumbs will be structured"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/GeneralSettings.js:162
 msgid "Docs URL structure"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/GeneralSettings.js:166
 msgid "Before Doc"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/GeneralSettings.js:171
 msgid "After Doc"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/GeneralSettings.js:42
 #: src/components/Settings/GeneralSettings.js:60
 msgid "After Doc: "
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/GeneralSettings.js:43
 #: src/components/Settings/GeneralSettings.js:54
 msgid "Before Doc: "
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/GeneralSettings.js:191
 msgid "Changing this structure updates URLs and breadcrumbs for all docs. Previous URLs will automatically redirect (301)."
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/GeneralSettings.js:198
 msgid "Choose how doc URLs and breadcrumbs are structured — changing it updates all docs with automatic 301 redirects."
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/GeneralSettings.js:212
 msgid "Email Feedback on Article"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/GeneralSettings.js:216
 msgid "Invite readers to share their thoughts through an email feedback form"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/GeneralSettings.js:265
 msgid "Enter the email address where you would like to receive feedback"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/GeneralSettings.js:292
 msgid "Write your email address"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/GeneralSettings.js:314
 msgid "Enable searchbar on docs home"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/GeneralSettings.js:318
 msgid "Enable searchbar on docs homepage, applicable only for those using the [weDocs] shortcode"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/GeneralSettings.js:360
 msgid "Helpful Feedback on Article"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/GeneralSettings.js:364
 msgid "Enabling helpful feedback on your article allows readers to provide opinions on your content"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/GeneralSettings.js:406
 msgid "Allow Comments on Article"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/GeneralSettings.js:410
 msgid "Increase reader engagement by turning on comments"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/GeneralSettings.js:452
 msgid "Allow Article Printing"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/GeneralSettings.js:456
 msgid "Allow users to print articles directly from the website"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/GeneralSettings.js:498
 msgid "Show FAQ on Docs Home"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/GeneralSettings.js:502
 msgid "Display the FAQ section on the documentation home page where the [wedocs] shortcode is used"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/GeneralSettings.js:544
 msgid "Single Doc Template"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/GeneralSettings.js:548
 msgid "Which template renders a single doc page. Automatic detects the active theme; the others force Classic, Block or Elementor."
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/GeneralSettings.js:593
 msgid "Automatic (Detect)"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/GeneralSettings.js:594
 msgid "Classic (PHP Template)"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/GeneralSettings.js:595
 msgid "Block (Block Theme Template)"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/GeneralSettings.js:596
 msgid "Elementor"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/ProPreviews/AiImageAnalysisPreview.js:23
 msgid "Enable image analysis"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/ProPreviews/AiImageAnalysisPreview.js:26
 msgid "Allow AI to analyze uploaded screenshots when generating documentation"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/ProPreviews/AiImageAnalysisPreview.js:81
 msgid "Allow AI to analyze uploaded screenshots when generating documentation. Useful for documenting UI flows, onboarding steps, and feature screenshots."
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/ProPreviews/AiImageAnalysisPreview.js:102
 msgid "Image analysis increases API token usage significantly."
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/AiSettings.js:378
 msgid "No providers available"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/AiSettings.js:408
 msgid "Loading models…"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/AiSettings.js:464
 msgid "No models available"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/AiSettings.js:479
 msgid "AI Control Settings"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/AiSettings.js:493
 msgid "Default AI Provider"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/AiSettings.js:497
 msgid "This provider will be used as the default for all AI features unless overridden"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/AiSettings.js:533
 msgid "This provider will be used as the default for all AI features unless overridden."
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/AiSettings.js:547
 msgid "API Key"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/AiSettings.js:551
 msgid "Enter your API key for the selected AI provider"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/AiSettings.js:578
 msgid "Enter your API key"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/AiSettings.js:589
 msgid "Current:"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/AiSettings.js:604
 msgid "AI Model"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/AiSettings.js:608
 msgid "Select the model for this AI provider"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/AiSettings.js:641
 msgid "Refresh model list"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/AiSettings.js:656
 msgid "Fetching available models…"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/AiSettings.js:657
 msgid "Select the model for this provider"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/AiSettings.js:693
 msgid "Maximum Image Size"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/AiSettings.js:697
 msgid "Maximum file size for AI image analysis uploads"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/AiSettings.js:749
 msgid "Set the maximum file size for image uploads. Minimum: 100KB, Maximum: 5MB (5120KB). Default: 1MB (1024KB)."
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/ShortcodeSettings.js:215
 #: src/components/Settings/ShortcodeSettings.js:216
 msgid "Copied"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/ShortcodeSettings.js:215
 #: src/components/Settings/ShortcodeSettings.js:216
 msgid "Copy shortcode"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/ShortcodeSettings.js:257
 msgid "Attributes"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/ShortcodeSettings.js:264
 msgid "Attribute"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/ShortcodeSettings.js:277
 msgid "empty"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/ShortcodeSettings.js:15
 msgid "Documentation List"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/ShortcodeSettings.js:16
 msgid "Lists your documentation. Use this on the page you have set as the docs home."
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/ShortcodeSettings.js:26
 msgid "Number of columns to lay the docs out in. The Pro layout setting takes over when it is set."
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/ShortcodeSettings.js:34
 msgid "How many sections to show under each doc."
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/ShortcodeSettings.js:39
 msgid "Comma separated doc IDs to show. Leave as any to show all of them."
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/ShortcodeSettings.js:47
 msgid "Comma separated doc IDs to leave out. Ignored for any ID that include also names."
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/ShortcodeSettings.js:55
 msgid "Label for the link at the foot of each doc."
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/ShortcodeSettings.js:60
 msgid "Docs per page. Leave empty to show every doc on one page."
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/ShortcodeSettings.js:70
 msgid "FAQ Section"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/ShortcodeSettings.js:71
 msgid "Renders your FAQ groups as an accordion. Inactive groups and groups with no FAQs are skipped."
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/ShortcodeSettings.js:80
 msgid "Comma separated FAQ group slugs to show. Leave empty for all groups."
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/ShortcodeSettings.js:88
 msgid "FAQs to show per group. Use -1 for no limit."
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/ShortcodeSettings.js:96
 msgid "What to sort the FAQs by, for example menu_order, title or date."
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/ShortcodeSettings.js:104
 msgid "Sort direction, ASC or DESC."
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/ShortcodeSettings.js:117
 msgid "Embeds your changelog timeline on any page."
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/ShortcodeSettings.js:126
 msgid "Channel slug to show. Leave empty to show every channel."
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/ShortcodeSettings.js:134
 msgid "Show the channel switcher above the timeline."
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/ShortcodeSettings.js:314
 msgid "Paste any of these into a page or post. Every attribute is optional, so the shortcode on its own works too."
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/index.js:45
 msgid "Settings Data Saved!"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Settings/index.js:46
 msgid "Settings data has been saved successfully"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/AddDocModal.js:22
 msgid "Regular Doc"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/AddDocModal.js:23
 msgid "Dokan vendor doc"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/AddDocModal.js:154
 msgid "Enter your doc title"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/AddDocModal.js:157
 msgid "Start writing your doc from scratch"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/AddDocModal.js:164
 msgid "Type a title for your document"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/AddDocModal.js:192
 msgid "Visibility"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/AddDocModal.js:67
 msgid "New doc added!"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/AddDocModal.js:68
 msgid "New doc has been added successfully"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Documentations/EmptyDocs.js:75
 msgid "Get started by creating a new doc"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Documentations/EmptyDocs.js:86
 msgid "how to create a new doc"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Documentations/EmptyDocs.js:91
 msgid "Create a new doc"
 msgstr ""
 
-#: assets/build/index.js:2
+#: assets/build/index.js:3
 #: src/components/Documentations/ParentDocs.js:113
 msgid "Vendor Doc"
 msgstr ""
 
 #. translators: %d: Length of documentation sections
-#: assets/build/index.js:5
+#: assets/build/index.js:6
 #: src/components/Documentations/ParentDocs.js:175
 #, js-format
 msgid "%d Sections"
 msgstr ""
 
 #. translators: %d: Length of documentation articles
-#: assets/build/index.js:8
+#: assets/build/index.js:9
 #: src/components/Documentations/ParentDocs.js:202
 #, js-format
 msgid "%d Articles"
 msgstr ""
 
-#: assets/build/index.js:8
+#: assets/build/index.js:9
 #: src/components/Documentations/ParentDocs.js:232
 msgid "Add"
 msgstr ""
 
 #. translators: 1: first doc on page, 2: last doc on page, 3: total docs.
-#: assets/build/index.js:11
+#: assets/build/index.js:12
 #: src/components/Documentations/DocsPagination.js:57
 #, js-format
 msgid "Showing %1$d–%2$d of %3$d docs"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Documentations/index.js:159
 msgid "New doc"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Documentations/index.js:182
 msgid "Oops! It seems that your search did not match any existing documents. Please try again..."
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Migrations/Modals/MigrationProgressModal.js:52
 msgid "Migrating Docs..."
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Migrations/Modals/MigrationProgressModal.js:55
 msgid "Migrating existing docs from BetterDocs to weDocs"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Migrations/Modals/MigrationSelectionModal.js:15
 msgid "BetterDocs"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Migrations/Modals/MigrationSelectionModal.js:71
 msgid "Are you sure to migrate?"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Migrations/Modals/MigrationSelectionModal.js:74
 msgid "We want to make sure you have a successful migration experience to weDocs."
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Migrations/Modals/MigrationSelectionModal.js:85
 msgid "Migrate from:"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Migrations/Modals/MigrationSelectionModal.js:151
 msgid "loading…"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Migrations/Modals/MigrationSelectionModal.js:166
 msgid "Migration Notice: "
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Migrations/Modals/MigrationSelectionModal.js:167
 msgid "This will migrate all your docs to a Single Parent Doc. If you are a BetterDocs Pro user and using Knowledge Bases, migration for Pro users is coming soon."
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Migrations/Modals/MigrationSelectionModal.js:182
 msgid "Uncategorized Articles: "
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Migrations/Modals/MigrationSelectionModal.js:183
 msgid "Note: During the migration, articles under \"Uncategorized\" category won't be transferred. Please ensure to categorize articles appropriately before migrating."
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Migrations/Modals/MigrationSelectionModal.js:201
 msgid "Yes, I'm sure"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Migrations/Modals/MigrationContentMappingModal.js:15
 #: src/components/Migrations/Modals/MigrationContentMappingModal.js:16
 msgid "Section"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Migrations/Modals/MigrationContentMappingModal.js:16
 msgid "Subcategories"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Migrations/Modals/MigrationContentMappingModal.js:69
 msgid "BetterDocs to weDocs content mapping"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Migrations/Modals/MigrationContentMappingModal.js:72
 msgid "We want to make sure you have a seamless migration experience to weDocs"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Migrations/Modals/MigrationContentMappingModal.js:93
 msgid "No parent doc, only category & subcategory-based articles"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Migrations/Modals/MigrationContentMappingModal.js:121
 msgid "Articles under super-organized parent doc-section structure"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Migrations/Modals/MigrationContentMappingModal.js:146
 msgid "Created by weDocs"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Migrations/Modals/MigrationContentMappingModal.js:205
 msgid "Continue"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Migrations/index.js:197
 msgid "Migration has been successful"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Migrations/index.js:197
 msgid "Migrate existing docs from BetterDocs to weDocs"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Migrations/index.js:210
 msgid "All existing docs have been successfully migrated from BetterDocs to weDocs."
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Migrations/index.js:210
 msgid "how to migrate docs"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Migrations/index.js:231
 msgid "Already Migrated"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Migrations/index.js:247
 msgid "Start Migration"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Migrations/index.js:274
 msgid "Go back to Docs"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Migrations/index.js:294
 msgid "Migration not required"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/PermissionSettingsDemo/SettingsHeader.js:7
 msgid "Choose your privacy settings"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/PermissionSettingsDemo/SettingsHeader.js:10
 msgid "Control user management for this doc. You can make a doc for internal usage, allow certain user roles to write and edit a doc and more"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/PermissionSettingsDemo/PrivacySettings.js:17
 msgid "Viewing Privacy"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/PermissionSettingsDemo/PrivacySettings.js:34
 msgid "Public"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/PermissionSettingsDemo/PrivacySettings.js:36
 msgid "Everyone can see this doc"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/PermissionSettingsDemo/PrivacySettings.js:70
 msgid "Private"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/PermissionSettingsDemo/PrivacySettings.js:72
 msgid "Only logged-in users can see this doc"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/PermissionSettingsDemo/RoleManagementHeader.js:7
 msgid "Manage your team members"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/PermissionSettingsDemo/RoleManagementHeader.js:10
 msgid "Assign roles, control access levels, and collaborate seamlessly on documentations"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/PermissionSettingsDemo/RoleManagementSettings.js:18
 msgid "User role management"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/PermissionSettingsDemo/RoleManagementSettings.js:21
 msgid "Set your documentation role permissions"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/PermissionSettingsDemo/RoleManagementSettings.js:48
 msgid "As per Global Permission Settings"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/PermissionSettingsDemo/RoleManagementSettings.js:56
 msgid "Go to permission management setting"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/PermissionSettingsDemo/RoleManagementSettings.js:65
 msgid "Admin"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/PermissionSettingsDemo/RoleManagementSettings.js:69
 #: src/components/PermissionSettingsDemo/RoleManagementSettings.js:81
 #: src/components/PermissionSettingsDemo/RoleManagementSettings.js:93
@@ -9833,525 +9857,525 @@ msgstr ""
 msgid "Can edit"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/PermissionSettingsDemo/RoleManagementSettings.js:76
 msgid "Authors"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/PermissionSettingsDemo/RoleManagementSettings.js:80
 #: src/components/PermissionSettingsDemo/RoleManagementSettings.js:92
 #: src/components/PermissionSettingsDemo/RoleManagementSettings.js:104
 msgid "Can view"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/PermissionSettingsDemo/RoleManagementSettings.js:88
 msgid "Contributors"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/PermissionSettingsDemo/RoleManagementSettings.js:100
 msgid "Subscribers"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/PermissionSettingsDemo/BackToDocsPage.js:27
 msgid "Manage Docs"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Dashboard/index.js:118
 msgid "Could not load dashboard data."
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Dashboard/index.js:135
 msgid "No data available."
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Dashboard/index.js:155
 msgid "Total Docs"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Dashboard/index.js:157
 msgid "published"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Dashboard/index.js:157
 msgid "draft"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Dashboard/index.js:163
 msgid "contributor(s)"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Dashboard/index.js:167
 msgid "Total Views"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Dashboard/index.js:169
 msgid "across all docs"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Dashboard/index.js:173
 msgid "Helpful Rate"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Dashboard/index.js:175
 msgid "up"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Dashboard/index.js:175
 msgid "down"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Dashboard/index.js:181
 msgid "Popular Docs"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Dashboard/index.js:204
 msgid "No views recorded yet — they appear as visitors read your docs."
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Dashboard/index.js:209
 msgid "Most Helpful Docs"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Dashboard/index.js:235
 msgid "No helpful votes yet."
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Dashboard/index.js:241
 msgid "Recently Updated"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Dashboard/index.js:248
 msgid "Status"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Dashboard/index.js:249
 msgid "Views"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Dashboard/index.js:250
 msgid "Updated"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Dashboard/index.js:297
 msgid "No docs yet."
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:130
 msgid "Create and publish docs"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:131
 msgid "AI Doc Writer"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:132
 msgid "Frontend documentation display"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:133
 msgid "Access restrictions"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:134
 msgid "Frontend search"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:135
 msgid "Custom layouts"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:136
 msgid "Doc Duplication"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:137
 msgid "Priority support"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:145
 msgid "Public & Private Docs"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:146
 msgid "Create documentation for users and internal teams from one place. Control visibility with simple access rules."
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:154
 msgid "AI Chatbot Addon"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:155
 msgid "Let users get instant answers directly from your documentation. Add the AI chatbot as an optional add-on and reduce support tickets faster."
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:162
 msgid "Powerful Search"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:163
 msgid "Help users find answers in seconds. Search across titles and content."
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:170
 msgid "Role-Based Access Control"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:171
 msgid "Control who can view or manage specific documents. Perfect for internal and customer-facing docs."
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:178
 msgid "Nested Documentation Structure"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:179
 msgid "Organize content the way users think. Categories. Articles. Clear hierarchy upto 7 Layers."
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:186
 msgid "Floating Contact Form"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:187
 msgid "Let users reach out when the docs are not enough. Show a contact form without leaving the page."
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:194
 msgid "Cloudflare Turnstile Protection"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:195
 msgid "Protect your docs and forms from spam. No captchas. No user friction."
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:202
 msgid "Translation Ready"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:203
 msgid "Create docs for a global audience. Compatible with multilingual setups."
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:211
 msgid "Duplicator to clone docs"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:212
 msgid "Templates & doc styles"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:213
 msgid "7-layer hierarchical article"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:214
 msgid "Contributors visibility toggle"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:215
 msgid "Social sharing options"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:220
 msgid "Starter"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:222
 msgid "Everything you need for professional docs"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:226
 msgid "1 Site"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:230
 msgid "Professional"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:232
 msgid "Do more with weDocs using powerful advanced features"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:236
 msgid "5 Sites"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:240
 msgid "Business"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:241
 msgid "Most Popular"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:242
 msgid "The ultimate documentation toolkit for growing teams"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:246
 msgid "10 Sites"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:250
 msgid "Agency"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:251
 msgid "Best Valued"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:252
 msgid "Reach greater heights with docs across all client sites"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:256
 msgid "Unlimited Sites"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:269
 #: src/components/Premium/index.js:509
 msgid "Coupon:"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:280
 msgid "A Knowledgebase Built for Growing Products"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:284
 msgid "Secure your documentation with public and private access, role-based permissions, a floating contact form, and Cloudflare Turnstile spam protection."
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:290
 msgid "Upgrade to weDocs Pro for advanced control, and add the AI-powered chatbot when you need instant answers from your docs."
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:310
 msgid "Up to 25% Off"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:320
 msgid "Powerful Features Available Only in weDocs Pro"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:323
 msgid "You've started with Lite. Now unlock access restrictions, powerful frontend search, custom layouts, doc duplication, priority support, and more."
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:332
 msgid "Feature Area"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:336
 msgid "Lite"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:377
 msgid "AI Powered Features for Better Documentation"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:380
 msgid "Everything you need to build, manage, and grow your documentation on WordPress."
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:418
 msgid "Show all the Pro Features"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:426
 msgid "How to mark a doc as vendor docs"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:432
 msgid "Dokan Support for weDocs"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:435
 msgid "This feature lets marketplace owners create vendor-specific documentation to simplify onboarding, store management, policies, payments, and other resources."
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:471
 msgid "Learn More"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:480
 msgid "From the trusted team behind:"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:484
 msgid "Dokan, WP User Frontend, WP ERP, WP Project Manager, FlyWP, WP Hive, weMail, Appsero, weDocs, wePOS, and InboxWP logos"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:502
 msgid "Simple Pricing That Grows With You"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:505
 msgid "Get Upto"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:507
 msgid "off instantly using the"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:522
 msgid "Annual"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:531
 msgid "Lifetime"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:570
 msgid "/y"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:571
 msgid "/lifetime"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:592
 msgid "Get Started"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:629
 msgid "AI Chatbot Add-on"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:631
 msgid "is available on any plan for"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:633
 msgid "$7.99/month"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:636
 msgid "Not available as a lifetime purchase."
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:648
 msgid "Our Fair Refund Policy"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:651
 msgid "We guarantee 100% satisfaction with our help & support service. However, if our plugin still doesn't meet your needs, we'll happily provide full refund within 14 days of your purchase."
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:658
 msgid "Payment Options:"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:674
 msgid "14-day money back guarantee"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:691
 msgid "Build a Complete Knowledge Base with One Powerful Plugin"
 msgstr ""
 
-#: assets/build/index.js:14
+#: assets/build/index.js:15
 #: src/components/Premium/index.js:697
 msgid "Create docs, restrict access, add AI-powered answers, and support your users. Everything you need, all in one place."
 msgstr ""
